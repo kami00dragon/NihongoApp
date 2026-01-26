@@ -1,0 +1,9931 @@
+{
+  "N5": [
+    {
+      "kanji": "一",
+      "onyomi": [
+        "いち"
+      ],
+      "kunyomi": [
+        "ひと"
+      ],
+      "meaning": "uno"
+    },
+    {
+      "kanji": "二",
+      "onyomi": [
+        "に"
+      ],
+      "kunyomi": [
+        "ふた"
+      ],
+      "meaning": "dos"
+    },
+    {
+      "kanji": "三",
+      "onyomi": [
+        "さん"
+      ],
+      "kunyomi": [
+        "みつ"
+      ],
+      "meaning": "tres"
+    },
+    {
+      "kanji": "四",
+      "onyomi": [
+        "よん"
+      ],
+      "kunyomi": [
+        "よ",
+        "よつ"
+      ],
+      "meaning": "cuatro"
+    },
+    {
+      "kanji": "五",
+      "onyomi": [
+        "ご"
+      ],
+      "kunyomi": [
+        "いつ"
+      ],
+      "meaning": "cinco"
+    },
+    {
+      "kanji": "六",
+      "onyomi": [
+        "ろく"
+      ],
+      "kunyomi": [
+        "むつ"
+      ],
+      "meaning": "seis"
+    },
+    {
+      "kanji": "七",
+      "onyomi": [
+        "しち",
+        "なな"
+      ],
+      "kunyomi": [
+        "なな"
+      ],
+      "meaning": "siete"
+    },
+    {
+      "kanji": "八",
+      "onyomi": [
+        "はち"
+      ],
+      "kunyomi": [
+        "やつ"
+      ],
+      "meaning": "ocho"
+    },
+    {
+      "kanji": "九",
+      "onyomi": [
+        "きゅう",
+        "く"
+      ],
+      "kunyomi": [
+        "ここの"
+      ],
+      "meaning": "nueve"
+    },
+    {
+      "kanji": "十",
+      "onyomi": [
+        "じゅう"
+      ],
+      "kunyomi": [
+        "とお"
+      ],
+      "meaning": "diez"
+    },
+    {
+      "kanji": "日",
+      "onyomi": [
+        "にち",
+        "じつ"
+      ],
+      "kunyomi": [
+        "ひ",
+        "か"
+      ],
+      "meaning": "día, sol"
+    },
+    {
+      "kanji": "月",
+      "onyomi": [
+        "げつ",
+        "がつ"
+      ],
+      "kunyomi": [
+        "つき"
+      ],
+      "meaning": "mes, luna"
+    },
+    {
+      "kanji": "火",
+      "onyomi": [
+        "か"
+      ],
+      "kunyomi": [
+        "ひ"
+      ],
+      "meaning": "fuego"
+    },
+    {
+      "kanji": "水",
+      "onyomi": [
+        "すい"
+      ],
+      "kunyomi": [
+        "みず"
+      ],
+      "meaning": "agua"
+    },
+    {
+      "kanji": "木",
+      "onyomi": [
+        "もく"
+      ],
+      "kunyomi": [
+        "き"
+      ],
+      "meaning": "árbol, madera"
+    },
+    {
+      "kanji": "金",
+      "onyomi": [
+        "きん"
+      ],
+      "kunyomi": [
+        "かね"
+      ],
+      "meaning": "oro, dinero"
+    },
+    {
+      "kanji": "土",
+      "onyomi": [
+        "ど",
+        "と"
+      ],
+      "kunyomi": [
+        "つち"
+      ],
+      "meaning": "tierra, suelo"
+    },
+    {
+      "kanji": "人",
+      "onyomi": [
+        "じん",
+        "にん"
+      ],
+      "kunyomi": [
+        "ひと"
+      ],
+      "meaning": "persona"
+    },
+    {
+      "kanji": "大",
+      "onyomi": [
+        "だい",
+        "たい"
+      ],
+      "kunyomi": [
+        "おお"
+      ],
+      "meaning": "grande"
+    },
+    {
+      "kanji": "小",
+      "onyomi": [
+        "しょう"
+      ],
+      "kunyomi": [
+        "ちい",
+        "こ"
+      ],
+      "meaning": "pequeño"
+    },
+    {
+      "kanji": "中",
+      "onyomi": [
+        "ちゅう"
+      ],
+      "kunyomi": [
+        "なか"
+      ],
+      "meaning": "medio, dentro"
+    },
+    {
+      "kanji": "本",
+      "onyomi": [
+        "ほん"
+      ],
+      "kunyomi": [
+        "もと"
+      ],
+      "meaning": "libro, origen"
+    },
+    {
+      "kanji": "川",
+      "onyomi": [
+        "せん"
+      ],
+      "kunyomi": [
+        "かわ"
+      ],
+      "meaning": "río"
+    },
+    {
+      "kanji": "山",
+      "onyomi": [
+        "さん"
+      ],
+      "kunyomi": [
+        "やま"
+      ],
+      "meaning": "montaña"
+    },
+    {
+      "kanji": "田",
+      "onyomi": [
+        "でん"
+      ],
+      "kunyomi": [
+        "た"
+      ],
+      "meaning": "campo de arroz"
+    },
+    {
+      "kanji": "空",
+      "onyomi": [
+        "くう"
+      ],
+      "kunyomi": [
+        "そら",
+        "あく"
+      ],
+      "meaning": "cielo, vacío"
+    },
+    {
+      "kanji": "雨",
+      "onyomi": [
+        "う"
+      ],
+      "kunyomi": [
+        "あめ"
+      ],
+      "meaning": "lluvia"
+    },
+    {
+      "kanji": "円",
+      "onyomi": [
+        "えん"
+      ],
+      "kunyomi": [
+        "まる"
+      ],
+      "meaning": "yen, círculo"
+    },
+    {
+      "kanji": "白",
+      "onyomi": [
+        "はく",
+        "びゃく"
+      ],
+      "kunyomi": [
+        "しろ",
+        "しろい"
+      ],
+      "meaning": "blanco"
+    },
+    {
+      "kanji": "黒",
+      "onyomi": [
+        "こく"
+      ],
+      "kunyomi": [
+        "くろ",
+        "くろい"
+      ],
+      "meaning": "negro"
+    },
+    {
+      "kanji": "青",
+      "onyomi": [
+        "せい",
+        "しょう"
+      ],
+      "kunyomi": [
+        "あお",
+        "あおい"
+      ],
+      "meaning": "azul, verde"
+    },
+    {
+      "kanji": "赤",
+      "onyomi": [
+        "せき",
+        "しゃく"
+      ],
+      "kunyomi": [
+        "あか",
+        "あかい"
+      ],
+      "meaning": "rojo"
+    },
+    {
+      "kanji": "年",
+      "onyomi": [
+        "ねん"
+      ],
+      "kunyomi": [
+        "とし"
+      ],
+      "meaning": "año"
+    },
+    {
+      "kanji": "時",
+      "onyomi": [
+        "じ"
+      ],
+      "kunyomi": [
+        "とき"
+      ],
+      "meaning": "tiempo, hora"
+    },
+    {
+      "kanji": "午",
+      "onyomi": [
+        "ご"
+      ],
+      "kunyomi": [
+        "うま"
+      ],
+      "meaning": "mediodía, caballo"
+    },
+    {
+      "kanji": "前",
+      "onyomi": [
+        "ぜん"
+      ],
+      "kunyomi": [
+        "まえ"
+      ],
+      "meaning": "antes, frente"
+    },
+    {
+      "kanji": "後",
+      "onyomi": [
+        "ご",
+        "こう"
+      ],
+      "kunyomi": [
+        "あと",
+        "のち"
+      ],
+      "meaning": "después, atrás"
+    },
+    {
+      "kanji": "今",
+      "onyomi": [
+        "こん"
+      ],
+      "kunyomi": [
+        "いま"
+      ],
+      "meaning": "ahora"
+    },
+    {
+      "kanji": "行",
+      "onyomi": [
+        "こう",
+        "ぎょう"
+      ],
+      "kunyomi": [
+        "い",
+        "ゆ",
+        "おこな"
+      ],
+      "meaning": "ir, hacer"
+    },
+    {
+      "kanji": "来",
+      "onyomi": [
+        "らい"
+      ],
+      "kunyomi": [
+        "く",
+        "きた"
+      ],
+      "meaning": "venir"
+    },
+    {
+      "kanji": "帰",
+      "onyomi": [
+        "き"
+      ],
+      "kunyomi": [
+        "かえ"
+      ],
+      "meaning": "regresar"
+    },
+    {
+      "kanji": "食",
+      "onyomi": [
+        "しょく"
+      ],
+      "kunyomi": [
+        "た"
+      ],
+      "meaning": "comer"
+    },
+    {
+      "kanji": "飲",
+      "onyomi": [
+        "いん"
+      ],
+      "kunyomi": [
+        "の"
+      ],
+      "meaning": "beber"
+    },
+    {
+      "kanji": "見",
+      "onyomi": [
+        "けん"
+      ],
+      "kunyomi": [
+        "み"
+      ],
+      "meaning": "ver"
+    },
+    {
+      "kanji": "聞",
+      "onyomi": [
+        "ぶん",
+        "もん"
+      ],
+      "kunyomi": [
+        "き"
+      ],
+      "meaning": "oír, preguntar"
+    },
+    {
+      "kanji": "話",
+      "onyomi": [
+        "わ"
+      ],
+      "kunyomi": [
+        "はな"
+      ],
+      "meaning": "hablar, historia"
+    },
+    {
+      "kanji": "読",
+      "onyomi": [
+        "とく",
+        "どく"
+      ],
+      "kunyomi": [
+        "よ"
+      ],
+      "meaning": "leer"
+    },
+    {
+      "kanji": "書",
+      "onyomi": [
+        "しょ"
+      ],
+      "kunyomi": [
+        "か"
+      ],
+      "meaning": "escribir"
+    },
+    {
+      "kanji": "語",
+      "onyomi": [
+        "ご"
+      ],
+      "kunyomi": [
+        "かた"
+      ],
+      "meaning": "idioma, palabra"
+    },
+    {
+      "kanji": "学校",
+      "onyomi": [
+        "がっこう"
+      ],
+      "kunyomi": [],
+      "meaning": "escuela"
+    },
+    {
+      "kanji": "学生",
+      "onyomi": [
+        "がくせい"
+      ],
+      "kunyomi": [],
+      "meaning": "estudiante"
+    },
+    {
+      "kanji": "先生",
+      "onyomi": [
+        "せんせい"
+      ],
+      "kunyomi": [],
+      "meaning": "profesor"
+    },
+    {
+      "kanji": "友",
+      "onyomi": [
+        "ゆう"
+      ],
+      "kunyomi": [
+        "とも"
+      ],
+      "meaning": "amigo"
+    },
+    {
+      "kanji": "父",
+      "onyomi": [
+        "ふ"
+      ],
+      "kunyomi": [
+        "ちち"
+      ],
+      "meaning": "padre"
+    },
+    {
+      "kanji": "母",
+      "onyomi": [
+        "ぼ"
+      ],
+      "kunyomi": [
+        "はは"
+      ],
+      "meaning": "madre"
+    },
+    {
+      "kanji": "男",
+      "onyomi": [
+        "だん",
+        "なん"
+      ],
+      "kunyomi": [
+        "おとこ"
+      ],
+      "meaning": "hombre"
+    },
+    {
+      "kanji": "女",
+      "onyomi": [
+        "じょ",
+        "にょ"
+      ],
+      "kunyomi": [
+        "おんな"
+      ],
+      "meaning": "mujer"
+    },
+    {
+      "kanji": "車",
+      "onyomi": [
+        "しゃ"
+      ],
+      "kunyomi": [
+        "くるま"
+      ],
+      "meaning": "coche"
+    },
+    {
+      "kanji": "切手",
+      "onyomi": [
+        "きって"
+      ],
+      "kunyomi": [],
+      "meaning": "sello"
+    },
+    {
+      "kanji": "電車",
+      "onyomi": [
+        "でんしゃ"
+      ],
+      "kunyomi": [],
+      "meaning": "tren"
+    },
+    {
+      "kanji": "新聞",
+      "onyomi": [
+        "しんぶん"
+      ],
+      "kunyomi": [],
+      "meaning": "periódico"
+    },
+    {
+      "kanji": "手紙",
+      "onyomi": [
+        "てがみ"
+      ],
+      "kunyomi": [],
+      "meaning": "carta"
+    },
+    {
+      "kanji": "名前",
+      "onyomi": [
+        "なまえ"
+      ],
+      "kunyomi": [],
+      "meaning": "nombre"
+    },
+    {
+      "kanji": "国",
+      "onyomi": [
+        "こく"
+      ],
+      "kunyomi": [
+        "くに"
+      ],
+      "meaning": "país"
+    },
+    {
+      "kanji": "何",
+      "onyomi": [
+        "か"
+      ],
+      "kunyomi": [
+        "なに"
+      ],
+      "meaning": "qué"
+    },
+    {
+      "kanji": "私",
+      "onyomi": [
+        "わたし"
+      ],
+      "kunyomi": [
+        "わたし"
+      ],
+      "meaning": "yo"
+    },
+    {
+      "kanji": "彼",
+      "onyomi": [
+        "かれ"
+      ],
+      "kunyomi": [
+        "かれ"
+      ],
+      "meaning": "él"
+    },
+    {
+      "kanji": "彼女",
+      "onyomi": [
+        "かのじょ"
+      ],
+      "kunyomi": [],
+      "meaning": "ella"
+    },
+    {
+      "kanji": "上",
+      "onyomi": [
+        "じょう"
+      ],
+      "kunyomi": [
+        "うえ"
+      ],
+      "meaning": "arriba"
+    },
+    {
+      "kanji": "下",
+      "onyomi": [
+        "か",
+        "げ"
+      ],
+      "kunyomi": [
+        "した",
+        "もと"
+      ],
+      "meaning": "abajo"
+    },
+    {
+      "kanji": "左",
+      "onyomi": [
+        "さ"
+      ],
+      "kunyomi": [
+        "ひだり"
+      ],
+      "meaning": "izquierda"
+    },
+    {
+      "kanji": "右",
+      "onyomi": [
+        "う",
+        "ゆう"
+      ],
+      "kunyomi": [
+        "みぎ"
+      ],
+      "meaning": "derecha"
+    },
+    {
+      "kanji": "東",
+      "onyomi": [
+        "とう"
+      ],
+      "kunyomi": [
+        "ひがし"
+      ],
+      "meaning": "este"
+    },
+    {
+      "kanji": "西",
+      "onyomi": [
+        "せい",
+        "さい"
+      ],
+      "kunyomi": [
+        "にし"
+      ],
+      "meaning": "oeste"
+    },
+    {
+      "kanji": "南",
+      "onyomi": [
+        "なん"
+      ],
+      "kunyomi": [
+        "みなみ"
+      ],
+      "meaning": "sur"
+    },
+    {
+      "kanji": "北",
+      "onyomi": [
+        "ほく"
+      ],
+      "kunyomi": [
+        "きた"
+      ],
+      "meaning": "norte"
+    },
+    {
+      "kanji": "早",
+      "onyomi": [
+        "そう"
+      ],
+      "kunyomi": [
+        "はや"
+      ],
+      "meaning": "temprano, rápido"
+    },
+    {
+      "kanji": "遅",
+      "onyomi": [
+        "ち"
+      ],
+      "kunyomi": [
+        "おそ"
+      ],
+      "meaning": "tarde, lento"
+    },
+    {
+      "kanji": "外",
+      "onyomi": [
+        "がい"
+      ],
+      "kunyomi": [
+        "そと",
+        "ほか"
+      ],
+      "meaning": "fuera"
+    },
+    {
+      "kanji": "内",
+      "onyomi": [
+        "ない"
+      ],
+      "kunyomi": [
+        "うち"
+      ],
+      "meaning": "dentro"
+    },
+    {
+      "kanji": "高",
+      "onyomi": [
+        "こう"
+      ],
+      "kunyomi": [
+        "たか"
+      ],
+      "meaning": "alto, caro"
+    },
+    {
+      "kanji": "安",
+      "onyomi": [
+        "あん"
+      ],
+      "kunyomi": [
+        "やす"
+      ],
+      "meaning": "barato, seguro"
+    },
+    {
+      "kanji": "多",
+      "onyomi": [
+        "た"
+      ],
+      "kunyomi": [
+        "おお"
+      ],
+      "meaning": "mucho"
+    },
+    {
+      "kanji": "少",
+      "onyomi": [
+        "しょう"
+      ],
+      "kunyomi": [
+        "すこ",
+        "すく"
+      ],
+      "meaning": "poco"
+    },
+    {
+      "kanji": "好",
+      "onyomi": [
+        "こう"
+      ],
+      "kunyomi": [
+        "す",
+        "この"
+      ],
+      "meaning": "gustar, bueno"
+    },
+    {
+      "kanji": "悪",
+      "onyomi": [
+        "あく",
+        "お"
+      ],
+      "kunyomi": [
+        "わる"
+      ],
+      "meaning": "malo"
+    },
+    {
+      "kanji": "長",
+      "onyomi": [
+        "ちょう"
+      ],
+      "kunyomi": [
+        "なが"
+      ],
+      "meaning": "largo, jefe"
+    },
+    {
+      "kanji": "短",
+      "onyomi": [
+        "たん"
+      ],
+      "kunyomi": [
+        "みじか"
+      ],
+      "meaning": "corto"
+    },
+    {
+      "kanji": "古",
+      "onyomi": [
+        "こ"
+      ],
+      "kunyomi": [
+        "ふる"
+      ],
+      "meaning": "antiguo"
+    },
+    {
+      "kanji": "勉強",
+      "onyomi": [
+        "べんきょう"
+      ],
+      "kunyomi": [],
+      "meaning": "estudiar"
+    },
+    {
+      "kanji": "仕事",
+      "onyomi": [
+        "しごと"
+      ],
+      "kunyomi": [],
+      "meaning": "trabajo"
+    },
+    {
+      "kanji": "店",
+      "onyomi": [
+        "てん"
+      ],
+      "kunyomi": [
+        "みせ"
+      ],
+      "meaning": "tienda"
+    },
+    {
+      "kanji": "買",
+      "onyomi": [
+        "ばい"
+      ],
+      "kunyomi": [
+        "か"
+      ],
+      "meaning": "comprar"
+    },
+    {
+      "kanji": "売",
+      "onyomi": [
+        "ばい"
+      ],
+      "kunyomi": [
+        "う"
+      ],
+      "meaning": "vender"
+    },
+    {
+      "kanji": "朝",
+      "onyomi": [
+        "ちょう"
+      ],
+      "kunyomi": [
+        "あさ"
+      ],
+      "meaning": "mañana"
+    },
+    {
+      "kanji": "昼",
+      "onyomi": [
+        "ちゅう"
+      ],
+      "kunyomi": [
+        "ひる"
+      ],
+      "meaning": "mediodía"
+    },
+    {
+      "kanji": "晩",
+      "onyomi": [
+        "ばん"
+      ],
+      "kunyomi": [
+        "ばん"
+      ],
+      "meaning": "noche"
+    },
+    {
+      "kanji": "休",
+      "onyomi": [
+        "きゅう"
+      ],
+      "kunyomi": [
+        "やす"
+      ],
+      "meaning": "descansar"
+    },
+    {
+      "kanji": "毎日",
+      "onyomi": [
+        "まいにち"
+      ],
+      "kunyomi": [],
+      "meaning": "cada día"
+    },
+    {
+      "kanji": "週",
+      "onyomi": [
+        "しゅう"
+      ],
+      "kunyomi": [],
+      "meaning": "semana"
+    },
+    {
+      "kanji": "月曜日",
+      "onyomi": [
+        "げつようび"
+      ],
+      "kunyomi": [],
+      "meaning": "lunes"
+    },
+    {
+      "kanji": "火曜日",
+      "onyomi": [
+        "かようび"
+      ],
+      "kunyomi": [],
+      "meaning": "martes"
+    },
+    {
+      "kanji": "水曜日",
+      "onyomi": [
+        "すいようび"
+      ],
+      "kunyomi": [],
+      "meaning": "miércoles"
+    },
+    {
+      "kanji": "木曜日",
+      "onyomi": [
+        "もくようび"
+      ],
+      "kunyomi": [],
+      "meaning": "jueves"
+    },
+    {
+      "kanji": "金曜日",
+      "onyomi": [
+        "きんようび"
+      ],
+      "kunyomi": [],
+      "meaning": "viernes"
+    },
+    {
+      "kanji": "土曜日",
+      "onyomi": [
+        "どようび"
+      ],
+      "kunyomi": [],
+      "meaning": "sábado"
+    },
+    {
+      "kanji": "日曜日",
+      "onyomi": [
+        "にちようび"
+      ],
+      "kunyomi": [],
+      "meaning": "domingo"
+    },
+    {
+      "kanji": "休み",
+      "onyomi": [
+        "やすみ"
+      ],
+      "kunyomi": [],
+      "meaning": "día libre"
+    },
+    {
+      "kanji": "家族",
+      "onyomi": [
+        "かぞく"
+      ],
+      "kunyomi": [],
+      "meaning": "familia"
+    },
+    {
+      "kanji": "花",
+      "onyomi": [
+        "か"
+      ],
+      "kunyomi": [
+        "はな"
+      ],
+      "meaning": "flor"
+    },
+    {
+      "kanji": "猫",
+      "onyomi": [
+        "びょう"
+      ],
+      "kunyomi": [
+        "ねこ"
+      ],
+      "meaning": "gato"
+    },
+    {
+      "kanji": "犬",
+      "onyomi": [
+        "けん"
+      ],
+      "kunyomi": [
+        "いぬ"
+      ],
+      "meaning": "perro"
+    },
+    {
+      "kanji": "鳥",
+      "onyomi": [
+        "ちょう"
+      ],
+      "kunyomi": [
+        "とり"
+      ],
+      "meaning": "pájaro"
+    },
+    {
+      "kanji": "魚",
+      "onyomi": [
+        "ぎょ"
+      ],
+      "kunyomi": [
+        "さかな",
+        "うお"
+      ],
+      "meaning": "pescado"
+    },
+    {
+      "kanji": "肉",
+      "onyomi": [
+        "にく"
+      ],
+      "kunyomi": [
+        "にく"
+      ],
+      "meaning": "carne"
+    },
+    {
+      "kanji": "野菜",
+      "onyomi": [
+        "やさい"
+      ],
+      "kunyomi": [],
+      "meaning": "verduras"
+    },
+    {
+      "kanji": "果物",
+      "onyomi": [
+        "くだもの"
+      ],
+      "kunyomi": [],
+      "meaning": "fruta"
+    },
+    {
+      "kanji": "飲み物",
+      "onyomi": [
+        "のみもの"
+      ],
+      "kunyomi": [],
+      "meaning": "bebida"
+    },
+    {
+      "kanji": "食べ物",
+      "onyomi": [
+        "たべもの"
+      ],
+      "kunyomi": [],
+      "meaning": "comida"
+    },
+    {
+      "kanji": "お米",
+      "onyomi": [
+        "おこめ"
+      ],
+      "kunyomi": [
+        "こめ"
+      ],
+      "meaning": "arroz"
+    },
+    {
+      "kanji": "パン",
+      "onyomi": [
+        "パン"
+      ],
+      "kunyomi": [],
+      "meaning": "pan"
+    },
+    {
+      "kanji": "卵",
+      "onyomi": [
+        "らん",
+        "たまご"
+      ],
+      "kunyomi": [
+        "たまご"
+      ],
+      "meaning": "huevo"
+    },
+    {
+      "kanji": "牛乳",
+      "onyomi": [
+        "ぎゅうにゅう"
+      ],
+      "kunyomi": [],
+      "meaning": "leche"
+    },
+    {
+      "kanji": "お茶",
+      "onyomi": [
+        "おちゃ"
+      ],
+      "kunyomi": [],
+      "meaning": "té"
+    },
+    {
+      "kanji": "先週",
+      "onyomi": [
+        "せんしゅう"
+      ],
+      "kunyomi": [],
+      "meaning": "la semana pasada"
+    },
+    {
+      "kanji": "来週",
+      "onyomi": [
+        "らいしゅう"
+      ],
+      "kunyomi": [],
+      "meaning": "la próxima semana"
+    },
+    {
+      "kanji": "今週",
+      "onyomi": [
+        "こんしゅう"
+      ],
+      "kunyomi": [],
+      "meaning": "esta semana"
+    }
+  ],
+  "N4": [
+    {
+      "kanji": "力",
+      "onyomi": [
+        "りょく",
+        "りき"
+      ],
+      "kunyomi": [
+        "ちから"
+      ],
+      "meaning": "poder, fuerza"
+    },
+    {
+      "kanji": "元",
+      "onyomi": [
+        "げん",
+        "がん"
+      ],
+      "kunyomi": [
+        "もと"
+      ],
+      "meaning": "origen, yuan"
+    },
+    {
+      "kanji": "分",
+      "onyomi": [
+        "ふん",
+        "ぶん"
+      ],
+      "kunyomi": [
+        "わ"
+      ],
+      "meaning": "minuto, dividir"
+    },
+    {
+      "kanji": "広",
+      "onyomi": [
+        "こう"
+      ],
+      "kunyomi": [
+        "ひろ"
+      ],
+      "meaning": "amplio, ancho"
+    },
+    {
+      "kanji": "方",
+      "onyomi": [
+        "ほう"
+      ],
+      "kunyomi": [
+        "かた"
+      ],
+      "meaning": "dirección, forma"
+    },
+    {
+      "kanji": "化",
+      "onyomi": [
+        "か",
+        "け"
+      ],
+      "kunyomi": [
+        "ば",
+        "か"
+      ],
+      "meaning": "cambio"
+    },
+    {
+      "kanji": "建",
+      "onyomi": [
+        "けん",
+        "こん"
+      ],
+      "kunyomi": [
+        "た",
+        "たて"
+      ],
+      "meaning": "construir"
+    },
+    {
+      "kanji": "考",
+      "onyomi": [
+        "こう"
+      ],
+      "kunyomi": [
+        "かんが"
+      ],
+      "meaning": "pensar, considerar"
+    },
+    {
+      "kanji": "作",
+      "onyomi": [
+        "さく",
+        "さ"
+      ],
+      "kunyomi": [
+        "つく"
+      ],
+      "meaning": "hacer, crear"
+    },
+    {
+      "kanji": "使",
+      "onyomi": [
+        "し"
+      ],
+      "kunyomi": [
+        "つか"
+      ],
+      "meaning": "usar"
+    },
+    {
+      "kanji": "近",
+      "onyomi": [
+        "きん"
+      ],
+      "kunyomi": [
+        "ちか"
+      ],
+      "meaning": "cercano"
+    },
+    {
+      "kanji": "住",
+      "onyomi": [
+        "じゅう"
+      ],
+      "kunyomi": [
+        "す"
+      ],
+      "meaning": "vivir"
+    },
+    {
+      "kanji": "明",
+      "onyomi": [
+        "めい",
+        "みょう"
+      ],
+      "kunyomi": [
+        "あか",
+        "あき"
+      ],
+      "meaning": "brillante, claro"
+    },
+    {
+      "kanji": "暗",
+      "onyomi": [
+        "あん"
+      ],
+      "kunyomi": [
+        "くら"
+      ],
+      "meaning": "oscuro"
+    },
+    {
+      "kanji": "重",
+      "onyomi": [
+        "じゅう",
+        "ちょう"
+      ],
+      "kunyomi": [
+        "おも"
+      ],
+      "meaning": "pesado, importante"
+    },
+    {
+      "kanji": "楽",
+      "onyomi": [
+        "がく",
+        "らく"
+      ],
+      "kunyomi": [
+        "たの"
+      ],
+      "meaning": "música, fácil, divertido"
+    },
+    {
+      "kanji": "歩",
+      "onyomi": [
+        "ほ",
+        "ぶ"
+      ],
+      "kunyomi": [
+        "ある"
+      ],
+      "meaning": "caminar"
+    },
+    {
+      "kanji": "走",
+      "onyomi": [
+        "そう"
+      ],
+      "kunyomi": [
+        "はし"
+      ],
+      "meaning": "correr"
+    },
+    {
+      "kanji": "止",
+      "onyomi": [
+        "し"
+      ],
+      "kunyomi": [
+        "と",
+        "とど"
+      ],
+      "meaning": "detener"
+    },
+    {
+      "kanji": "始",
+      "onyomi": [
+        "し"
+      ],
+      "kunyomi": [
+        "はじ"
+      ],
+      "meaning": "comenzar"
+    },
+    {
+      "kanji": "終",
+      "onyomi": [
+        "しゅう"
+      ],
+      "kunyomi": [
+        "お"
+      ],
+      "meaning": "terminar"
+    },
+    {
+      "kanji": "思",
+      "onyomi": [
+        "し"
+      ],
+      "kunyomi": [
+        "おも"
+      ],
+      "meaning": "pensar"
+    },
+    {
+      "kanji": "知",
+      "onyomi": [
+        "ち"
+      ],
+      "kunyomi": [
+        "し"
+      ],
+      "meaning": "saber, conocer"
+    },
+    {
+      "kanji": "教",
+      "onyomi": [
+        "きょう"
+      ],
+      "kunyomi": [
+        "おし"
+      ],
+      "meaning": "enseñar"
+    },
+    {
+      "kanji": "会",
+      "onyomi": [
+        "かい"
+      ],
+      "kunyomi": [
+        "あ"
+      ],
+      "meaning": "reunión, encontrar"
+    },
+    {
+      "kanji": "結婚",
+      "onyomi": [
+        "けっこん"
+      ],
+      "kunyomi": [],
+      "meaning": "casarse"
+    },
+    {
+      "kanji": "病院",
+      "onyomi": [
+        "びょういん"
+      ],
+      "kunyomi": [],
+      "meaning": "hospital"
+    },
+    {
+      "kanji": "薬",
+      "onyomi": [
+        "やく"
+      ],
+      "kunyomi": [
+        "くすり"
+      ],
+      "meaning": "medicina"
+    },
+    {
+      "kanji": "体",
+      "onyomi": [
+        "たい",
+        "てい"
+      ],
+      "kunyomi": [
+        "からだ"
+      ],
+      "meaning": "cuerpo"
+    },
+    {
+      "kanji": "頭",
+      "onyomi": [
+        "とう",
+        "ず"
+      ],
+      "kunyomi": [
+        "あたま"
+      ],
+      "meaning": "cabeza"
+    },
+    {
+      "kanji": "目",
+      "onyomi": [
+        "もく",
+        "ぼく"
+      ],
+      "kunyomi": [
+        "め"
+      ],
+      "meaning": "ojo"
+    },
+    {
+      "kanji": "耳",
+      "onyomi": [
+        "じ"
+      ],
+      "kunyomi": [
+        "みみ"
+      ],
+      "meaning": "oreja"
+    },
+    {
+      "kanji": "鼻",
+      "onyomi": [
+        "び"
+      ],
+      "kunyomi": [
+        "はな"
+      ],
+      "meaning": "nariz"
+    },
+    {
+      "kanji": "口",
+      "onyomi": [
+        "こう",
+        "く"
+      ],
+      "kunyomi": [
+        "くち"
+      ],
+      "meaning": "boca"
+    },
+    {
+      "kanji": "手",
+      "onyomi": [
+        "しゅ",
+        "ず"
+      ],
+      "kunyomi": [
+        "て"
+      ],
+      "meaning": "mano"
+    },
+    {
+      "kanji": "足",
+      "onyomi": [
+        "そく"
+      ],
+      "kunyomi": [
+        "あし"
+      ],
+      "meaning": "pie, pierna"
+    },
+    {
+      "kanji": "指",
+      "onyomi": [
+        "し"
+      ],
+      "kunyomi": [
+        "ゆび"
+      ],
+      "meaning": "dedo"
+    },
+    {
+      "kanji": "顔",
+      "onyomi": [
+        "がん"
+      ],
+      "kunyomi": [
+        "かお"
+      ],
+      "meaning": "cara"
+    },
+    {
+      "kanji": "髪",
+      "onyomi": [
+        "はつ"
+      ],
+      "kunyomi": [
+        "かみ"
+      ],
+      "meaning": "cabello"
+    },
+    {
+      "kanji": "首",
+      "onyomi": [
+        "しゅ"
+      ],
+      "kunyomi": [
+        "くび"
+      ],
+      "meaning": "cuello"
+    },
+    {
+      "kanji": "心",
+      "onyomi": [
+        "しん"
+      ],
+      "kunyomi": [
+        "こころ"
+      ],
+      "meaning": "corazón, mente"
+    },
+    {
+      "kanji": "気",
+      "onyomi": [
+        "き",
+        "け"
+      ],
+      "kunyomi": [
+        "き"
+      ],
+      "meaning": "espíritu, energía"
+    },
+    {
+      "kanji": "大切",
+      "onyomi": [
+        "たいせつ"
+      ],
+      "kunyomi": [],
+      "meaning": "importante"
+    },
+    {
+      "kanji": "有名",
+      "onyomi": [
+        "ゆうめい"
+      ],
+      "kunyomi": [],
+      "meaning": "famoso"
+    },
+    {
+      "kanji": "便利",
+      "onyomi": [
+        "べんり"
+      ],
+      "kunyomi": [],
+      "meaning": "conveniente"
+    },
+    {
+      "kanji": "不便",
+      "onyomi": [
+        "ふべん"
+      ],
+      "kunyomi": [],
+      "meaning": "inconveniente"
+    },
+    {
+      "kanji": "静か",
+      "onyomi": [
+        "しずか"
+      ],
+      "kunyomi": [],
+      "meaning": "tranquilo"
+    },
+    {
+      "kanji": "賑やか",
+      "onyomi": [
+        "にぎやか"
+      ],
+      "kunyomi": [],
+      "meaning": "animado"
+    },
+    {
+      "kanji": "簡単",
+      "onyomi": [
+        "かんたん"
+      ],
+      "kunyomi": [],
+      "meaning": "simple"
+    },
+    {
+      "kanji": "複雑",
+      "onyomi": [
+        "ふくざつ"
+      ],
+      "kunyomi": [],
+      "meaning": "complejo"
+    },
+    {
+      "kanji": "危険",
+      "onyomi": [
+        "きけん"
+      ],
+      "kunyomi": [],
+      "meaning": "peligroso"
+    },
+    {
+      "kanji": "安全",
+      "onyomi": [
+        "あんぜん"
+      ],
+      "kunyomi": [],
+      "meaning": "seguro"
+    },
+    {
+      "kanji": "健康",
+      "onyomi": [
+        "けんこう"
+      ],
+      "kunyomi": [],
+      "meaning": "salud"
+    },
+    {
+      "kanji": "親切",
+      "onyomi": [
+        "しんせつ"
+      ],
+      "kunyomi": [],
+      "meaning": "amable"
+    },
+    {
+      "kanji": "元気",
+      "onyomi": [
+        "げんき"
+      ],
+      "kunyomi": [],
+      "meaning": "energético"
+    },
+    {
+      "kanji": "暇",
+      "onyomi": [
+        "ひま"
+      ],
+      "kunyomi": [],
+      "meaning": "tiempo libre"
+    },
+    {
+      "kanji": "忙しい",
+      "onyomi": [
+        "いそがしい"
+      ],
+      "kunyomi": [],
+      "meaning": "ocupado"
+    },
+    {
+      "kanji": "暖かい",
+      "onyomi": [
+        "あたたかい"
+      ],
+      "kunyomi": [],
+      "meaning": "cálido"
+    },
+    {
+      "kanji": "涼しい",
+      "onyomi": [
+        "すずしい"
+      ],
+      "kunyomi": [],
+      "meaning": "fresco"
+    },
+    {
+      "kanji": "暑い",
+      "onyomi": [
+        "あつい"
+      ],
+      "kunyomi": [],
+      "meaning": "caluroso"
+    },
+    {
+      "kanji": "寒い",
+      "onyomi": [
+        "さむい"
+      ],
+      "kunyomi": [],
+      "meaning": "frío"
+    },
+    {
+      "kanji": "甘い",
+      "onyomi": [
+        "あまい"
+      ],
+      "kunyomi": [],
+      "meaning": "dulce"
+    },
+    {
+      "kanji": "辛い",
+      "onyomi": [
+        "からい",
+        "つらい"
+      ],
+      "kunyomi": [],
+      "meaning": "picante"
+    },
+    {
+      "kanji": "苦い",
+      "onyomi": [
+        "にがい"
+      ],
+      "kunyomi": [],
+      "meaning": "amargo"
+    },
+    {
+      "kanji": "美しい",
+      "onyomi": [
+        "うつくしい"
+      ],
+      "kunyomi": [],
+      "meaning": "hermoso"
+    },
+    {
+      "kanji": "若い",
+      "onyomi": [
+        "わかい"
+      ],
+      "kunyomi": [],
+      "meaning": "joven"
+    },
+    {
+      "kanji": "古い",
+      "onyomi": [
+        "ふるい"
+      ],
+      "kunyomi": [],
+      "meaning": "viejo"
+    },
+    {
+      "kanji": "易しい",
+      "onyomi": [
+        "やさしい"
+      ],
+      "kunyomi": [],
+      "meaning": "fácil"
+    },
+    {
+      "kanji": "難しい",
+      "onyomi": [
+        "むずかしい"
+      ],
+      "kunyomi": [],
+      "meaning": "difícil"
+    },
+    {
+      "kanji": "多い",
+      "onyomi": [
+        "おおい"
+      ],
+      "kunyomi": [],
+      "meaning": "mucho"
+    },
+    {
+      "kanji": "少ない",
+      "onyomi": [
+        "すくない"
+      ],
+      "kunyomi": [],
+      "meaning": "poco"
+    },
+    {
+      "kanji": "大きい",
+      "onyomi": [
+        "おおきい"
+      ],
+      "kunyomi": [],
+      "meaning": "grande"
+    },
+    {
+      "kanji": "小さい",
+      "onyomi": [
+        "ちいさい"
+      ],
+      "kunyomi": [],
+      "meaning": "pequeño"
+    },
+    {
+      "kanji": "高い",
+      "onyomi": [
+        "たかい"
+      ],
+      "kunyomi": [],
+      "meaning": "alto, caro"
+    },
+    {
+      "kanji": "安い",
+      "onyomi": [
+        "やすい"
+      ],
+      "kunyomi": [],
+      "meaning": "barato"
+    },
+    {
+      "kanji": "広い",
+      "onyomi": [
+        "ひろい"
+      ],
+      "kunyomi": [],
+      "meaning": "amplio"
+    },
+    {
+      "kanji": "狭い",
+      "onyomi": [
+        "せまい"
+      ],
+      "kunyomi": [],
+      "meaning": "estrecho"
+    },
+    {
+      "kanji": "長い",
+      "onyomi": [
+        "ながい"
+      ],
+      "kunyomi": [],
+      "meaning": "largo"
+    },
+    {
+      "kanji": "短い",
+      "onyomi": [
+        "みじかい"
+      ],
+      "kunyomi": [],
+      "meaning": "corto"
+    },
+    {
+      "kanji": "重い",
+      "onyomi": [
+        "おもい"
+      ],
+      "kunyomi": [],
+      "meaning": "pesado"
+    },
+    {
+      "kanji": "軽い",
+      "onyomi": [
+        "かるい"
+      ],
+      "kunyomi": [],
+      "meaning": "ligero"
+    },
+    {
+      "kanji": "強い",
+      "onyomi": [
+        "つよい"
+      ],
+      "kunyomi": [],
+      "meaning": "fuerte"
+    },
+    {
+      "kanji": "弱い",
+      "onyomi": [
+        "よわい"
+      ],
+      "kunyomi": [],
+      "meaning": "débil"
+    },
+    {
+      "kanji": "厚い",
+      "onyomi": [
+        "あつい"
+      ],
+      "kunyomi": [],
+      "meaning": "grueso"
+    },
+    {
+      "kanji": "薄い",
+      "onyomi": [
+        "うすい"
+      ],
+      "kunyomi": [],
+      "meaning": "delgado"
+    },
+    {
+      "kanji": "速い",
+      "onyomi": [
+        "はやい"
+      ],
+      "kunyomi": [],
+      "meaning": "rápido"
+    },
+    {
+      "kanji": "遅い",
+      "onyomi": [
+        "おそい"
+      ],
+      "kunyomi": [],
+      "meaning": "lento"
+    },
+    {
+      "kanji": "早い",
+      "onyomi": [
+        "はやい"
+      ],
+      "kunyomi": [],
+      "meaning": "temprano"
+    },
+    {
+      "kanji": "近い",
+      "onyomi": [
+        "ちかい"
+      ],
+      "kunyomi": [],
+      "meaning": "cercano"
+    },
+    {
+      "kanji": "遠い",
+      "onyomi": [
+        "とおい"
+      ],
+      "kunyomi": [],
+      "meaning": "lejos"
+    },
+    {
+      "kanji": "良い",
+      "onyomi": [
+        "よい",
+        "いい"
+      ],
+      "kunyomi": [],
+      "meaning": "bueno"
+    },
+    {
+      "kanji": "悪い",
+      "onyomi": [
+        "わるい"
+      ],
+      "kunyomi": [],
+      "meaning": "malo"
+    },
+    {
+      "kanji": "面白い",
+      "onyomi": [
+        "おもしろい"
+      ],
+      "kunyomi": [],
+      "meaning": "interesante"
+    },
+    {
+      "kanji": "おかしい",
+      "onyomi": [
+        "おかしい"
+      ],
+      "kunyomi": [],
+      "meaning": "extraño"
+    },
+    {
+      "kanji": "苦しい",
+      "onyomi": [
+        "くるしい"
+      ],
+      "kunyomi": [],
+      "meaning": "difícil"
+    },
+    {
+      "kanji": "優しい",
+      "onyomi": [
+        "やさしい"
+      ],
+      "kunyomi": [],
+      "meaning": "amable"
+    },
+    {
+      "kanji": "強",
+      "onyomi": [
+        "きょう",
+        "ごう"
+      ],
+      "kunyomi": [
+        "つよ",
+        "し"
+      ],
+      "meaning": "fuerte"
+    },
+    {
+      "kanji": "弱",
+      "onyomi": [
+        "じゃく"
+      ],
+      "kunyomi": [
+        "よわ"
+      ],
+      "meaning": "débil"
+    },
+    {
+      "kanji": "速",
+      "onyomi": [
+        "そく"
+      ],
+      "kunyomi": [
+        "はや"
+      ],
+      "meaning": "rápido"
+    },
+    {
+      "kanji": "遅",
+      "onyomi": [
+        "ち"
+      ],
+      "kunyomi": [
+        "おそ"
+      ],
+      "meaning": "lento"
+    },
+    {
+      "kanji": "近",
+      "onyomi": [
+        "きん"
+      ],
+      "kunyomi": [
+        "ちか"
+      ],
+      "meaning": "cerca"
+    },
+    {
+      "kanji": "遠",
+      "onyomi": [
+        "えん"
+      ],
+      "kunyomi": [
+        "とお"
+      ],
+      "meaning": "lejos"
+    },
+    {
+      "kanji": "良",
+      "onyomi": [
+        "りょう"
+      ],
+      "kunyomi": [
+        "よ"
+      ],
+      "meaning": "bueno"
+    },
+    {
+      "kanji": "悪",
+      "onyomi": [
+        "あく",
+        "お"
+      ],
+      "kunyomi": [
+        "わる"
+      ],
+      "meaning": "malo"
+    },
+    {
+      "kanji": "重",
+      "onyomi": [
+        "じゅう"
+      ],
+      "kunyomi": [
+        "おも",
+        "かさ"
+      ],
+      "meaning": "pesado"
+    },
+    {
+      "kanji": "軽",
+      "onyomi": [
+        "けい"
+      ],
+      "kunyomi": [
+        "かる",
+        "かろ"
+      ],
+      "meaning": "ligero"
+    },
+    {
+      "kanji": "安",
+      "onyomi": [
+        "あん"
+      ],
+      "kunyomi": [
+        "やす"
+      ],
+      "meaning": "barato"
+    },
+    {
+      "kanji": "危",
+      "onyomi": [
+        "き"
+      ],
+      "kunyomi": [
+        "あや"
+      ],
+      "meaning": "peligroso"
+    },
+    {
+      "kanji": "楽",
+      "onyomi": [
+        "がく",
+        "らく"
+      ],
+      "kunyomi": [
+        "たの"
+      ],
+      "meaning": "divertido"
+    },
+    {
+      "kanji": "美",
+      "onyomi": [
+        "び"
+      ],
+      "kunyomi": [
+        "うつく"
+      ],
+      "meaning": "hermoso"
+    },
+    {
+      "kanji": "新",
+      "onyomi": [
+        "しん"
+      ],
+      "kunyomi": [
+        "あたら",
+        "にい"
+      ],
+      "meaning": "nuevo"
+    },
+    {
+      "kanji": "古",
+      "onyomi": [
+        "こ"
+      ],
+      "kunyomi": [
+        "ふる"
+      ],
+      "meaning": "viejo"
+    },
+    {
+      "kanji": "高",
+      "onyomi": [
+        "こう"
+      ],
+      "kunyomi": [
+        "たか"
+      ],
+      "meaning": "alto"
+    },
+    {
+      "kanji": "低",
+      "onyomi": [
+        "てい"
+      ],
+      "kunyomi": [
+        "ひく",
+        "もど"
+      ],
+      "meaning": "bajo"
+    },
+    {
+      "kanji": "明",
+      "onyomi": [
+        "めい",
+        "みょう"
+      ],
+      "kunyomi": [
+        "あか",
+        "あき"
+      ],
+      "meaning": "brillante"
+    },
+    {
+      "kanji": "暗",
+      "onyomi": [
+        "あん"
+      ],
+      "kunyomi": [
+        "くら"
+      ],
+      "meaning": "oscuro"
+    },
+    {
+      "kanji": "広",
+      "onyomi": [
+        "こう"
+      ],
+      "kunyomi": [
+        "ひろ"
+      ],
+      "meaning": "ancho"
+    },
+    {
+      "kanji": "狭",
+      "onyomi": [
+        "きょう"
+      ],
+      "kunyomi": [
+        "せま",
+        "はざ"
+      ],
+      "meaning": "estrecho"
+    },
+    {
+      "kanji": "長",
+      "onyomi": [
+        "ちょう"
+      ],
+      "kunyomi": [
+        "なが"
+      ],
+      "meaning": "largo"
+    },
+    {
+      "kanji": "短",
+      "onyomi": [
+        "たん"
+      ],
+      "kunyomi": [
+        "みじか"
+      ],
+      "meaning": "corto"
+    },
+    {
+      "kanji": "若",
+      "onyomi": [
+        "じゃく",
+        "にゃく"
+      ],
+      "kunyomi": [
+        "わか"
+      ],
+      "meaning": "joven"
+    },
+    {
+      "kanji": "静",
+      "onyomi": [
+        "せい",
+        "じょう"
+      ],
+      "kunyomi": [
+        "しず"
+      ],
+      "meaning": "tranquilo"
+    },
+    {
+      "kanji": "賑",
+      "onyomi": [
+        "しん"
+      ],
+      "kunyomi": [
+        "にぎ"
+      ],
+      "meaning": "animado"
+    },
+    {
+      "kanji": "親",
+      "onyomi": [
+        "しん"
+      ],
+      "kunyomi": [
+        "おや",
+        "した"
+      ],
+      "meaning": "padre"
+    },
+    {
+      "kanji": "切",
+      "onyomi": [
+        "せつ",
+        "さい"
+      ],
+      "kunyomi": [
+        "き"
+      ],
+      "meaning": "cortar"
+    },
+    {
+      "kanji": "便利",
+      "onyomi": [
+        "べんり"
+      ],
+      "kunyomi": [],
+      "meaning": "conveniente"
+    },
+    {
+      "kanji": "不便",
+      "onyomi": [
+        "ふべん"
+      ],
+      "kunyomi": [],
+      "meaning": "inconveniente"
+    },
+    {
+      "kanji": "簡単",
+      "onyomi": [
+        "かんたん"
+      ],
+      "kunyomi": [],
+      "meaning": "simple"
+    },
+    {
+      "kanji": "複雑",
+      "onyomi": [
+        "ふくざつ"
+      ],
+      "kunyomi": [],
+      "meaning": "complejo"
+    },
+    {
+      "kanji": "健康",
+      "onyomi": [
+        "けんこう"
+      ],
+      "kunyomi": [],
+      "meaning": "salud"
+    },
+    {
+      "kanji": "安全",
+      "onyomi": [
+        "あんぜん"
+      ],
+      "kunyomi": [],
+      "meaning": "seguro"
+    },
+    {
+      "kanji": "危険",
+      "onyomi": [
+        "きけん"
+      ],
+      "kunyomi": [],
+      "meaning": "peligroso"
+    },
+    {
+      "kanji": "面白",
+      "onyomi": [
+        "おもしろ"
+      ],
+      "kunyomi": [],
+      "meaning": "interesante"
+    },
+    {
+      "kanji": "元気",
+      "onyomi": [
+        "げんき"
+      ],
+      "kunyomi": [],
+      "meaning": "energético"
+    },
+    {
+      "kanji": "大切",
+      "onyomi": [
+        "たいせつ"
+      ],
+      "kunyomi": [],
+      "meaning": "importante"
+    },
+    {
+      "kanji": "親切",
+      "onyomi": [
+        "しんせつ"
+      ],
+      "kunyomi": [],
+      "meaning": "amable"
+    },
+    {
+      "kanji": "有名",
+      "onyomi": [
+        "ゆうめい"
+      ],
+      "kunyomi": [],
+      "meaning": "famoso"
+    },
+    {
+      "kanji": "暖",
+      "onyomi": [
+        "だん",
+        "のん"
+      ],
+      "kunyomi": [
+        "あたた"
+      ],
+      "meaning": "calentar"
+    },
+    {
+      "kanji": "涼",
+      "onyomi": [
+        "りょう"
+      ],
+      "kunyomi": [
+        "すず"
+      ],
+      "meaning": "refrescar"
+    },
+    {
+      "kanji": "暑",
+      "onyomi": [
+        "しょ"
+      ],
+      "kunyomi": [
+        "あつ"
+      ],
+      "meaning": "caluroso"
+    },
+    {
+      "kanji": "寒",
+      "onyomi": [
+        "かん"
+      ],
+      "kunyomi": [
+        "さむ"
+      ],
+      "meaning": "frío"
+    },
+    {
+      "kanji": "甘",
+      "onyomi": [
+        "かん"
+      ],
+      "kunyomi": [
+        "あま"
+      ],
+      "meaning": "dulce"
+    },
+    {
+      "kanji": "辛",
+      "onyomi": [
+        "しん"
+      ],
+      "kunyomi": [
+        "から",
+        "つら"
+      ],
+      "meaning": "picante"
+    },
+    {
+      "kanji": "苦",
+      "onyomi": [
+        "く"
+      ],
+      "kunyomi": [
+        "にが",
+        "くる"
+      ],
+      "meaning": "amargo"
+    },
+    {
+      "kanji": "塩",
+      "onyomi": [
+        "えん"
+      ],
+      "kunyomi": [
+        "しお"
+      ],
+      "meaning": "sal"
+    },
+    {
+      "kanji": "優",
+      "onyomi": [
+        "ゆう"
+      ],
+      "kunyomi": [
+        "やさ",
+        "すぐ"
+      ],
+      "meaning": "excelente"
+    }
+  ],
+  "N3": [
+    {
+      "kanji": "界",
+      "onyomi": [
+        "かい"
+      ],
+      "kunyomi": [],
+      "meaning": "mundo"
+    },
+    {
+      "kanji": "育",
+      "onyomi": [
+        "いく"
+      ],
+      "kunyomi": [
+        "そだ"
+      ],
+      "meaning": "criar"
+    },
+    {
+      "kanji": "工",
+      "onyomi": [
+        "こう"
+      ],
+      "kunyomi": [],
+      "meaning": "ingeniería"
+    },
+    {
+      "kanji": "商",
+      "onyomi": [
+        "しょう"
+      ],
+      "kunyomi": [
+        "あきな"
+      ],
+      "meaning": "comercio"
+    },
+    {
+      "kanji": "港",
+      "onyomi": [
+        "こう"
+      ],
+      "kunyomi": [
+        "みなと"
+      ],
+      "meaning": "puerto"
+    },
+    {
+      "kanji": "連",
+      "onyomi": [
+        "れん"
+      ],
+      "kunyomi": [
+        "つら"
+      ],
+      "meaning": "conectar"
+    },
+    {
+      "kanji": "伝",
+      "onyomi": [
+        "でん"
+      ],
+      "kunyomi": [
+        "つた"
+      ],
+      "meaning": "transmitir"
+    },
+    {
+      "kanji": "演",
+      "onyomi": [
+        "えん"
+      ],
+      "kunyomi": [],
+      "meaning": "actuar"
+    },
+    {
+      "kanji": "選",
+      "onyomi": [
+        "せん"
+      ],
+      "kunyomi": [
+        "えら"
+      ],
+      "meaning": "elegir"
+    },
+    {
+      "kanji": "決",
+      "onyomi": [
+        "けつ"
+      ],
+      "kunyomi": [
+        "き"
+      ],
+      "meaning": "decidir"
+    },
+    {
+      "kanji": "完",
+      "onyomi": [
+        "かん"
+      ],
+      "kunyomi": [],
+      "meaning": "completo"
+    },
+    {
+      "kanji": "全",
+      "onyomi": [
+        "ぜん"
+      ],
+      "kunyomi": [
+        "まった"
+      ],
+      "meaning": "todo"
+    },
+    {
+      "kanji": "半",
+      "onyomi": [
+        "はん"
+      ],
+      "kunyomi": [
+        "なか"
+      ],
+      "meaning": "mitad"
+    },
+    {
+      "kanji": "別",
+      "onyomi": [
+        "べつ"
+      ],
+      "kunyomi": [
+        "わか"
+      ],
+      "meaning": "separado"
+    },
+    {
+      "kanji": "各",
+      "onyomi": [
+        "かく"
+      ],
+      "kunyomi": [
+        "おのおの"
+      ],
+      "meaning": "cada"
+    },
+    {
+      "kanji": "通",
+      "onyomi": [
+        "つう"
+      ],
+      "kunyomi": [
+        "とお",
+        "かよ"
+      ],
+      "meaning": "pasar"
+    },
+    {
+      "kanji": "道",
+      "onyomi": [
+        "どう",
+        "とう"
+      ],
+      "kunyomi": [
+        "みち"
+      ],
+      "meaning": "camino"
+    },
+    {
+      "kanji": "路",
+      "onyomi": [
+        "ろ"
+      ],
+      "kunyomi": [
+        "じ"
+      ],
+      "meaning": "camino"
+    },
+    {
+      "kanji": "境",
+      "onyomi": [
+        "きょう"
+      ],
+      "kunyomi": [
+        "さか"
+      ],
+      "meaning": "frontera"
+    },
+    {
+      "kanji": "辺",
+      "onyomi": [
+        "へん",
+        "ぺん"
+      ],
+      "kunyomi": [
+        "あた"
+      ],
+      "meaning": "alrededor"
+    },
+    {
+      "kanji": "側",
+      "onyomi": [
+        "そく"
+      ],
+      "kunyomi": [
+        "がわ"
+      ],
+      "meaning": "lado"
+    },
+    {
+      "kanji": "周",
+      "onyomi": [
+        "しゅう"
+      ],
+      "kunyomi": [
+        "まわ"
+      ],
+      "meaning": "alrededor"
+    },
+    {
+      "kanji": "央",
+      "onyomi": [
+        "おう"
+      ],
+      "kunyomi": [],
+      "meaning": "centro"
+    },
+    {
+      "kanji": "心",
+      "onyomi": [
+        "しん"
+      ],
+      "kunyomi": [
+        "こころ"
+      ],
+      "meaning": "corazón"
+    },
+    {
+      "kanji": "感",
+      "onyomi": [
+        "かん"
+      ],
+      "kunyomi": [],
+      "meaning": "sentir"
+    },
+    {
+      "kanji": "情",
+      "onyomi": [
+        "じょう",
+        "せい"
+      ],
+      "kunyomi": [
+        "なさ"
+      ],
+      "meaning": "sentimiento"
+    },
+    {
+      "kanji": "意",
+      "onyomi": [
+        "い"
+      ],
+      "kunyomi": [],
+      "meaning": "intención"
+    },
+    {
+      "kanji": "思",
+      "onyomi": [
+        "し"
+      ],
+      "kunyomi": [
+        "おも"
+      ],
+      "meaning": "pensar"
+    },
+    {
+      "kanji": "記",
+      "onyomi": [
+        "き"
+      ],
+      "kunyomi": [
+        "しる"
+      ],
+      "meaning": "registro"
+    },
+    {
+      "kanji": "憶",
+      "onyomi": [
+        "おく"
+      ],
+      "kunyomi": [],
+      "meaning": "memoria"
+    },
+    {
+      "kanji": "憲",
+      "onyomi": [
+        "けん"
+      ],
+      "kunyomi": [],
+      "meaning": "constitución"
+    },
+    {
+      "kanji": "成",
+      "onyomi": [
+        "せい",
+        "じょう"
+      ],
+      "kunyomi": [
+        "な"
+      ],
+      "meaning": "convertirse"
+    },
+    {
+      "kanji": "功",
+      "onyomi": [
+        "こう"
+      ],
+      "kunyomi": [
+        "いさお"
+      ],
+      "meaning": "mérito"
+    },
+    {
+      "kanji": "敗",
+      "onyomi": [
+        "はい"
+      ],
+      "kunyomi": [
+        "やぶ"
+      ],
+      "meaning": "derrota"
+    },
+    {
+      "kanji": "勝",
+      "onyomi": [
+        "しょう"
+      ],
+      "kunyomi": [
+        "か",
+        "まさ"
+      ],
+      "meaning": "victoria"
+    },
+    {
+      "kanji": "負",
+      "onyomi": [
+        "ふ"
+      ],
+      "kunyomi": [
+        "ま"
+      ],
+      "meaning": "perder"
+    },
+    {
+      "kanji": "戦",
+      "onyomi": [
+        "せん"
+      ],
+      "kunyomi": [
+        "いくさ"
+      ],
+      "meaning": "guerra"
+    },
+    {
+      "kanji": "争",
+      "onyomi": [
+        "そう"
+      ],
+      "kunyomi": [
+        "あらそ"
+      ],
+      "meaning": "disputa"
+    },
+    {
+      "kanji": "況",
+      "onyomi": [
+        "きょう"
+      ],
+      "kunyomi": [],
+      "meaning": "situación"
+    },
+    {
+      "kanji": "状",
+      "onyomi": [
+        "じょう"
+      ],
+      "kunyomi": [],
+      "meaning": "condición"
+    },
+    {
+      "kanji": "様",
+      "onyomi": [
+        "よう",
+        "ざま"
+      ],
+      "kunyomi": [
+        "さま"
+      ],
+      "meaning": "apariencia"
+    },
+    {
+      "kanji": "態",
+      "onyomi": [
+        "たい"
+      ],
+      "kunyomi": [],
+      "meaning": "actitud"
+    },
+    {
+      "kanji": "変",
+      "onyomi": [
+        "へん"
+      ],
+      "kunyomi": [
+        "か",
+        "ふ"
+      ],
+      "meaning": "cambio"
+    },
+    {
+      "kanji": "化",
+      "onyomi": [
+        "か",
+        "け"
+      ],
+      "kunyomi": [
+        "ば",
+        "か"
+      ],
+      "meaning": "cambio"
+    },
+    {
+      "kanji": "現",
+      "onyomi": [
+        "げん"
+      ],
+      "kunyomi": [
+        "あらわ"
+      ],
+      "meaning": "aparecer"
+    },
+    {
+      "kanji": "表",
+      "onyomi": [
+        "ひょう"
+      ],
+      "kunyomi": [
+        "おもて",
+        "あらわ"
+      ],
+      "meaning": "superficie"
+    },
+    {
+      "kanji": "装",
+      "onyomi": [
+        "そう"
+      ],
+      "kunyomi": [
+        "よそ"
+      ],
+      "meaning": "equipar"
+    },
+    {
+      "kanji": "復",
+      "onyomi": [
+        "ふく"
+      ],
+      "kunyomi": [],
+      "meaning": "recuperar"
+    },
+    {
+      "kanji": "直",
+      "onyomi": [
+        "じき",
+        "ちょく"
+      ],
+      "kunyomi": [
+        "なお",
+        "ただ"
+      ],
+      "meaning": "directo"
+    },
+    {
+      "kanji": "曲",
+      "onyomi": [
+        "きょく"
+      ],
+      "kunyomi": [
+        "ま"
+      ],
+      "meaning": "curva"
+    },
+    {
+      "kanji": "円",
+      "onyomi": [
+        "えん"
+      ],
+      "kunyomi": [
+        "まど"
+      ],
+      "meaning": "círculo"
+    },
+    {
+      "kanji": "角",
+      "onyomi": [
+        "かく"
+      ],
+      "kunyomi": [
+        "かど",
+        "つの"
+      ],
+      "meaning": "esquina"
+    },
+    {
+      "kanji": "線",
+      "onyomi": [
+        "せん"
+      ],
+      "kunyomi": [],
+      "meaning": "línea"
+    },
+    {
+      "kanji": "点",
+      "onyomi": [
+        "てん"
+      ],
+      "kunyomi": [],
+      "meaning": "punto"
+    },
+    {
+      "kanji": "面",
+      "onyomi": [
+        "めん"
+      ],
+      "kunyomi": [
+        "つら"
+      ],
+      "meaning": "cara"
+    },
+    {
+      "kanji": "体",
+      "onyomi": [
+        "たい",
+        "てい"
+      ],
+      "kunyomi": [
+        "からだ"
+      ],
+      "meaning": "cuerpo"
+    },
+    {
+      "kanji": "形",
+      "onyomi": [
+        "けい",
+        "ぎょう"
+      ],
+      "kunyomi": [
+        "かた",
+        "かち"
+      ],
+      "meaning": "forma"
+    },
+    {
+      "kanji": "質",
+      "onyomi": [
+        "しつ",
+        "しち"
+      ],
+      "kunyomi": [
+        "たち"
+      ],
+      "meaning": "calidad"
+    },
+    {
+      "kanji": "量",
+      "onyomi": [
+        "りょう"
+      ],
+      "kunyomi": [],
+      "meaning": "cantidad"
+    },
+    {
+      "kanji": "重",
+      "onyomi": [
+        "じゅう",
+        "ちょう"
+      ],
+      "kunyomi": [
+        "おも",
+        "かさ"
+      ],
+      "meaning": "pesado"
+    },
+    {
+      "kanji": "軽",
+      "onyomi": [
+        "けい"
+      ],
+      "kunyomi": [
+        "かる"
+      ],
+      "meaning": "ligero"
+    },
+    {
+      "kanji": "速",
+      "onyomi": [
+        "そく"
+      ],
+      "kunyomi": [
+        "はや"
+      ],
+      "meaning": "rápido"
+    },
+    {
+      "kanji": "遅",
+      "onyomi": [
+        "ち"
+      ],
+      "kunyomi": [
+        "おそ"
+      ],
+      "meaning": "lento"
+    },
+    {
+      "kanji": "早",
+      "onyomi": [
+        "そう"
+      ],
+      "kunyomi": [
+        "はや"
+      ],
+      "meaning": "temprano"
+    },
+    {
+      "kanji": "並",
+      "onyomi": [
+        "へい",
+        "なみ"
+      ],
+      "kunyomi": [
+        "なら"
+      ],
+      "meaning": "paralelo"
+    },
+    {
+      "kanji": "列",
+      "onyomi": [
+        "れつ"
+      ],
+      "kunyomi": [],
+      "meaning": "fila"
+    },
+    {
+      "kanji": "層",
+      "onyomi": [
+        "そう"
+      ],
+      "kunyomi": [],
+      "meaning": "capa"
+    },
+    {
+      "kanji": "部",
+      "onyomi": [
+        "ぶ"
+      ],
+      "kunyomi": [],
+      "meaning": "parte"
+    },
+    {
+      "kanji": "門",
+      "onyomi": [
+        "もん"
+      ],
+      "kunyomi": [
+        "かど"
+      ],
+      "meaning": "puerta"
+    },
+    {
+      "kanji": "戸",
+      "onyomi": [
+        "こ"
+      ],
+      "kunyomi": [
+        "と"
+      ],
+      "meaning": "puerta"
+    },
+    {
+      "kanji": "室",
+      "onyomi": [
+        "しつ"
+      ],
+      "kunyomi": [
+        "むろ"
+      ],
+      "meaning": "habitación"
+    },
+    {
+      "kanji": "屋",
+      "onyomi": [
+        "おく"
+      ],
+      "kunyomi": [
+        "や"
+      ],
+      "meaning": "habitación"
+    },
+    {
+      "kanji": "家",
+      "onyomi": [
+        "か",
+        "け"
+      ],
+      "kunyomi": [
+        "いえ",
+        "や"
+      ],
+      "meaning": "casa"
+    },
+    {
+      "kanji": "庫",
+      "onyomi": [
+        "こ",
+        "く"
+      ],
+      "kunyomi": [],
+      "meaning": "almacén"
+    },
+    {
+      "kanji": "院",
+      "onyomi": [
+        "いん"
+      ],
+      "kunyomi": [],
+      "meaning": "institución"
+    },
+    {
+      "kanji": "所",
+      "onyomi": [
+        "しょ"
+      ],
+      "kunyomi": [
+        "ところ"
+      ],
+      "meaning": "lugar"
+    },
+    {
+      "kanji": "場",
+      "onyomi": [
+        "じょう",
+        "ば"
+      ],
+      "kunyomi": [
+        "ば"
+      ],
+      "meaning": "lugar"
+    },
+    {
+      "kanji": "地",
+      "onyomi": [
+        "ち",
+        "じ"
+      ],
+      "kunyomi": [],
+      "meaning": "tierra"
+    },
+    {
+      "kanji": "域",
+      "onyomi": [
+        "いき"
+      ],
+      "kunyomi": [],
+      "meaning": "región"
+    },
+    {
+      "kanji": "国",
+      "onyomi": [
+        "こく"
+      ],
+      "kunyomi": [
+        "くに"
+      ],
+      "meaning": "país"
+    },
+    {
+      "kanji": "郷",
+      "onyomi": [
+        "きょう",
+        "ごう"
+      ],
+      "kunyomi": [
+        "さと"
+      ],
+      "meaning": "pueblo"
+    },
+    {
+      "kanji": "都",
+      "onyomi": [
+        "と",
+        "つ"
+      ],
+      "kunyomi": [
+        "みやこ"
+      ],
+      "meaning": "capital"
+    },
+    {
+      "kanji": "市",
+      "onyomi": [
+        "し"
+      ],
+      "kunyomi": [
+        "いち"
+      ],
+      "meaning": "ciudad"
+    },
+    {
+      "kanji": "町",
+      "onyomi": [
+        "ちょう"
+      ],
+      "kunyomi": [
+        "まち"
+      ],
+      "meaning": "pueblo"
+    },
+    {
+      "kanji": "村",
+      "onyomi": [
+        "そん"
+      ],
+      "kunyomi": [
+        "むら"
+      ],
+      "meaning": "aldea"
+    },
+    {
+      "kanji": "区",
+      "onyomi": [
+        "く"
+      ],
+      "kunyomi": [],
+      "meaning": "distrito"
+    },
+    {
+      "kanji": "街",
+      "onyomi": [
+        "がい",
+        "かい"
+      ],
+      "kunyomi": [
+        "まち"
+      ],
+      "meaning": "calle"
+    },
+    {
+      "kanji": "路",
+      "onyomi": [
+        "ろ"
+      ],
+      "kunyomi": [
+        "じ"
+      ],
+      "meaning": "camino"
+    },
+    {
+      "kanji": "道",
+      "onyomi": [
+        "どう",
+        "とう"
+      ],
+      "kunyomi": [
+        "みち"
+      ],
+      "meaning": "camino"
+    },
+    {
+      "kanji": "駅",
+      "onyomi": [
+        "えき"
+      ],
+      "kunyomi": [],
+      "meaning": "estación"
+    },
+    {
+      "kanji": "橋",
+      "onyomi": [
+        "きょう"
+      ],
+      "kunyomi": [
+        "はし"
+      ],
+      "meaning": "puente"
+    },
+    {
+      "kanji": "階",
+      "onyomi": [
+        "かい"
+      ],
+      "kunyomi": [],
+      "meaning": "piso"
+    },
+    {
+      "kanji": "建",
+      "onyomi": [
+        "けん",
+        "こん"
+      ],
+      "kunyomi": [
+        "た",
+        "たて"
+      ],
+      "meaning": "construir"
+    },
+    {
+      "kanji": "造",
+      "onyomi": [
+        "ぞう"
+      ],
+      "kunyomi": [
+        "つく"
+      ],
+      "meaning": "hacer"
+    },
+    {
+      "kanji": "構",
+      "onyomi": [
+        "こう"
+      ],
+      "kunyomi": [
+        "かま"
+      ],
+      "meaning": "estructura"
+    },
+    {
+      "kanji": "組",
+      "onyomi": [
+        "そ"
+      ],
+      "kunyomi": [
+        "くみ"
+      ],
+      "meaning": "grupo"
+    },
+    {
+      "kanji": "集",
+      "onyomi": [
+        "しゅう"
+      ],
+      "kunyomi": [
+        "あつ",
+        "つど"
+      ],
+      "meaning": "reunir"
+    },
+    {
+      "kanji": "合",
+      "onyomi": [
+        "ごう",
+        "がっ"
+      ],
+      "kunyomi": [
+        "あ"
+      ],
+      "meaning": "unir"
+    },
+    {
+      "kanji": "総",
+      "onyomi": [
+        "そう"
+      ],
+      "kunyomi": [],
+      "meaning": "general"
+    },
+    {
+      "kanji": "結",
+      "onyomi": [
+        "けつ"
+      ],
+      "kunyomi": [
+        "むす"
+      ],
+      "meaning": "atar"
+    },
+    {
+      "kanji": "解",
+      "onyomi": [
+        "かい",
+        "げ"
+      ],
+      "kunyomi": [
+        "と"
+      ],
+      "meaning": "resolver"
+    },
+    {
+      "kanji": "説",
+      "onyomi": [
+        "せつ",
+        "ぜつ"
+      ],
+      "kunyomi": [
+        "と"
+      ],
+      "meaning": "explicación"
+    },
+    {
+      "kanji": "話",
+      "onyomi": [
+        "わ"
+      ],
+      "kunyomi": [
+        "はな"
+      ],
+      "meaning": "hablar"
+    },
+    {
+      "kanji": "語",
+      "onyomi": [
+        "ご"
+      ],
+      "kunyomi": [
+        "かた"
+      ],
+      "meaning": "idioma"
+    },
+    {
+      "kanji": "聞",
+      "onyomi": [
+        "ぶん",
+        "もん"
+      ],
+      "kunyomi": [
+        "き"
+      ],
+      "meaning": "oír"
+    },
+    {
+      "kanji": "読",
+      "onyomi": [
+        "とく",
+        "どく"
+      ],
+      "kunyomi": [
+        "よ"
+      ],
+      "meaning": "leer"
+    },
+    {
+      "kanji": "書",
+      "onyomi": [
+        "しょ"
+      ],
+      "kunyomi": [
+        "か"
+      ],
+      "meaning": "escribir"
+    },
+    {
+      "kanji": "記",
+      "onyomi": [
+        "き"
+      ],
+      "kunyomi": [
+        "しる"
+      ],
+      "meaning": "registro"
+    },
+    {
+      "kanji": "録",
+      "onyomi": [
+        "ろく"
+      ],
+      "kunyomi": [],
+      "meaning": "grabación"
+    },
+    {
+      "kanji": "学",
+      "onyomi": [
+        "がく"
+      ],
+      "kunyomi": [
+        "まな"
+      ],
+      "meaning": "estudiar"
+    },
+    {
+      "kanji": "習",
+      "onyomi": [
+        "しゅう"
+      ],
+      "kunyomi": [
+        "なら"
+      ],
+      "meaning": "aprender"
+    },
+    {
+      "kanji": "教",
+      "onyomi": [
+        "きょう"
+      ],
+      "kunyomi": [
+        "おし"
+      ],
+      "meaning": "enseñar"
+    },
+    {
+      "kanji": "育",
+      "onyomi": [
+        "いく"
+      ],
+      "kunyomi": [
+        "そだ"
+      ],
+      "meaning": "criar"
+    },
+    {
+      "kanji": "練",
+      "onyomi": [
+        "れん"
+      ],
+      "kunyomi": [
+        "ね"
+      ],
+      "meaning": "practicar"
+    },
+    {
+      "kanji": "験",
+      "onyomi": [
+        "けん",
+        "げん"
+      ],
+      "kunyomi": [],
+      "meaning": "prueba"
+    },
+    {
+      "kanji": "試",
+      "onyomi": [
+        "し"
+      ],
+      "kunyomi": [
+        "こころ"
+      ],
+      "meaning": "examen"
+    },
+    {
+      "kanji": "問",
+      "onyomi": [
+        "もん"
+      ],
+      "kunyomi": [
+        "と",
+        "とう"
+      ],
+      "meaning": "pregunta"
+    },
+    {
+      "kanji": "答",
+      "onyomi": [
+        "とう"
+      ],
+      "kunyomi": [
+        "こた"
+      ],
+      "meaning": "respuesta"
+    },
+    {
+      "kanji": "題",
+      "onyomi": [
+        "だい"
+      ],
+      "kunyomi": [],
+      "meaning": "tema"
+    },
+    {
+      "kanji": "用",
+      "onyomi": [
+        "よう"
+      ],
+      "kunyomi": [
+        "もち"
+      ],
+      "meaning": "uso"
+    },
+    {
+      "kanji": "備",
+      "onyomi": [
+        "び"
+      ],
+      "kunyomi": [
+        "そな"
+      ],
+      "meaning": "preparar"
+    },
+    {
+      "kanji": "供",
+      "onyomi": [
+        "きょう",
+        "く"
+      ],
+      "kunyomi": [
+        "とも"
+      ],
+      "meaning": "suministrar"
+    },
+    {
+      "kanji": "給",
+      "onyomi": [
+        "きゅう"
+      ],
+      "kunyomi": [],
+      "meaning": "salario"
+    },
+    {
+      "kanji": "料",
+      "onyomi": [
+        "りょう"
+      ],
+      "kunyomi": [],
+      "meaning": "material"
+    },
+    {
+      "kanji": "費",
+      "onyomi": [
+        "ひ"
+      ],
+      "kunyomi": [],
+      "meaning": "coste"
+    },
+    {
+      "kanji": "額",
+      "onyomi": [
+        "がく"
+      ],
+      "kunyomi": [
+        "ひたい"
+      ],
+      "meaning": "cantidad"
+    },
+    {
+      "kanji": "価",
+      "onyomi": [
+        "か"
+      ],
+      "kunyomi": [
+        "あたい"
+      ],
+      "meaning": "valor"
+    },
+    {
+      "kanji": "税",
+      "onyomi": [
+        "ぜい"
+      ],
+      "kunyomi": [],
+      "meaning": "impuesto"
+    },
+    {
+      "kanji": "金",
+      "onyomi": [
+        "きん"
+      ],
+      "kunyomi": [
+        "かね"
+      ],
+      "meaning": "dinero"
+    },
+    {
+      "kanji": "銀",
+      "onyomi": [
+        "ぎん"
+      ],
+      "kunyomi": [],
+      "meaning": "plata"
+    },
+    {
+      "kanji": "銅",
+      "onyomi": [
+        "どう"
+      ],
+      "kunyomi": [
+        "あか"
+      ],
+      "meaning": "cobre"
+    },
+    {
+      "kanji": "鉄",
+      "onyomi": [
+        "てつ"
+      ],
+      "kunyomi": [],
+      "meaning": "hierro"
+    },
+    {
+      "kanji": "鋼",
+      "onyomi": [
+        "こう"
+      ],
+      "kunyomi": [],
+      "meaning": "acero"
+    },
+    {
+      "kanji": "財",
+      "onyomi": [
+        "ざい"
+      ],
+      "kunyomi": [],
+      "meaning": "fortuna"
+    },
+    {
+      "kanji": "富",
+      "onyomi": [
+        "ふ"
+      ],
+      "kunyomi": [
+        "と"
+      ],
+      "meaning": "riqueza"
+    },
+    {
+      "kanji": "貧",
+      "onyomi": [
+        "ひん",
+        "びん"
+      ],
+      "kunyomi": [
+        "まず"
+      ],
+      "meaning": "pobre"
+    },
+    {
+      "kanji": "豊",
+      "onyomi": [
+        "ほう",
+        "ぶ"
+      ],
+      "kunyomi": [
+        "ゆた"
+      ],
+      "meaning": "rico"
+    },
+    {
+      "kanji": "善",
+      "onyomi": [
+        "ぜん"
+      ],
+      "kunyomi": [
+        "よ"
+      ],
+      "meaning": "bueno"
+    },
+    {
+      "kanji": "悪",
+      "onyomi": [
+        "あく",
+        "お"
+      ],
+      "kunyomi": [
+        "わる"
+      ],
+      "meaning": "malo"
+    },
+    {
+      "kanji": "正",
+      "onyomi": [
+        "せい",
+        "しょう"
+      ],
+      "kunyomi": [
+        "ただ",
+        "まさ"
+      ],
+      "meaning": "correcto"
+    },
+    {
+      "kanji": "誤",
+      "onyomi": [
+        "ご"
+      ],
+      "kunyomi": [
+        "あやま"
+      ],
+      "meaning": "error"
+    },
+    {
+      "kanji": "真",
+      "onyomi": [
+        "しん"
+      ],
+      "kunyomi": [
+        "ま"
+      ],
+      "meaning": "verdad"
+    },
+    {
+      "kanji": "偽",
+      "onyomi": [
+        "ぎ"
+      ],
+      "kunyomi": [
+        "にせ"
+      ],
+      "meaning": "falso"
+    },
+    {
+      "kanji": "虚",
+      "onyomi": [
+        "きょ",
+        "こ"
+      ],
+      "kunyomi": [
+        "むな"
+      ],
+      "meaning": "vacío"
+    },
+    {
+      "kanji": "実",
+      "onyomi": [
+        "じつ"
+      ],
+      "kunyomi": [
+        "み"
+      ],
+      "meaning": "realidad"
+    },
+    {
+      "kanji": "理",
+      "onyomi": [
+        "り"
+      ],
+      "kunyomi": [],
+      "meaning": "razón"
+    },
+    {
+      "kanji": "論",
+      "onyomi": [
+        "ろん"
+      ],
+      "kunyomi": [],
+      "meaning": "teoría"
+    },
+    {
+      "kanji": "究",
+      "onyomi": [
+        "きゅう"
+      ],
+      "kunyomi": [
+        "きわ"
+      ],
+      "meaning": "investigar"
+    },
+    {
+      "kanji": "果",
+      "onyomi": [
+        "か"
+      ],
+      "kunyomi": [
+        "はた"
+      ],
+      "meaning": "fruta"
+    },
+    {
+      "kanji": "然",
+      "onyomi": [
+        "ぜん",
+        "ねん"
+      ],
+      "kunyomi": [],
+      "meaning": "así"
+    },
+    {
+      "kanji": "当",
+      "onyomi": [
+        "とう"
+      ],
+      "kunyomi": [
+        "あ"
+      ],
+      "meaning": "apropiado"
+    },
+    {
+      "kanji": "必",
+      "onyomi": [
+        "ひつ"
+      ],
+      "kunyomi": [
+        "かな"
+      ],
+      "meaning": "necesario"
+    },
+    {
+      "kanji": "定",
+      "onyomi": [
+        "てい",
+        "じょう"
+      ],
+      "kunyomi": [
+        "さだ"
+      ],
+      "meaning": "fijar"
+    },
+    {
+      "kanji": "決",
+      "onyomi": [
+        "けつ"
+      ],
+      "kunyomi": [
+        "き"
+      ],
+      "meaning": "decidir"
+    },
+    {
+      "kanji": "約",
+      "onyomi": [
+        "やく"
+      ],
+      "kunyomi": [],
+      "meaning": "promesa"
+    },
+    {
+      "kanji": "束",
+      "onyomi": [
+        "そく"
+      ],
+      "kunyomi": [
+        "たば"
+      ],
+      "meaning": "atar"
+    },
+    {
+      "kanji": "頼",
+      "onyomi": [
+        "らい"
+      ],
+      "kunyomi": [
+        "たの"
+      ],
+      "meaning": "confiar"
+    },
+    {
+      "kanji": "任",
+      "onyomi": [
+        "にん"
+      ],
+      "kunyomi": [
+        "まか"
+      ],
+      "meaning": "responsabilidad"
+    },
+    {
+      "kanji": "務",
+      "onyomi": [
+        "む"
+      ],
+      "kunyomi": [
+        "つと"
+      ],
+      "meaning": "tarea"
+    },
+    {
+      "kanji": "勤",
+      "onyomi": [
+        "きん",
+        "ごん"
+      ],
+      "kunyomi": [
+        "つと"
+      ],
+      "meaning": "trabajar"
+    },
+    {
+      "kanji": "努",
+      "onyomi": [
+        "ど"
+      ],
+      "kunyomi": [
+        "つと"
+      ],
+      "meaning": "esforzarse"
+    },
+    {
+      "kanji": "助",
+      "onyomi": [
+        "じょ"
+      ],
+      "kunyomi": [
+        "たす",
+        "すけ"
+      ],
+      "meaning": "ayudar"
+    },
+    {
+      "kanji": "協",
+      "onyomi": [
+        "きょう"
+      ],
+      "kunyomi": [],
+      "meaning": "cooperar"
+    },
+    {
+      "kanji": "確",
+      "onyomi": [
+        "かく"
+      ],
+      "kunyomi": [
+        "たし"
+      ],
+      "meaning": "seguro"
+    },
+    {
+      "kanji": "保",
+      "onyomi": [
+        "ほ"
+      ],
+      "kunyomi": [
+        "たも"
+      ],
+      "meaning": "proteger"
+    },
+    {
+      "kanji": "守",
+      "onyomi": [
+        "しゅ",
+        "す"
+      ],
+      "kunyomi": [
+        "まも"
+      ],
+      "meaning": "proteger"
+    },
+    {
+      "kanji": "待",
+      "onyomi": [
+        "たい"
+      ],
+      "kunyomi": [
+        "ま"
+      ],
+      "meaning": "esperar"
+    },
+    {
+      "kanji": "望",
+      "onyomi": [
+        "ぼう",
+        "もう"
+      ],
+      "kunyomi": [
+        "のぞ"
+      ],
+      "meaning": "esperanza"
+    },
+    {
+      "kanji": "求",
+      "onyomi": [
+        "きゅう",
+        "ぐ"
+      ],
+      "kunyomi": [
+        "もと"
+      ],
+      "meaning": "buscar"
+    },
+    {
+      "kanji": "願",
+      "onyomi": [
+        "がん"
+      ],
+      "kunyomi": [
+        "ねが"
+      ],
+      "meaning": "deseo"
+    },
+    {
+      "kanji": "欲",
+      "onyomi": [
+        "よく"
+      ],
+      "kunyomi": [
+        "ほ"
+      ],
+      "meaning": "deseo"
+    },
+    {
+      "kanji": "夢",
+      "onyomi": [
+        "む"
+      ],
+      "kunyomi": [
+        "ゆめ"
+      ],
+      "meaning": "sueño"
+    },
+    {
+      "kanji": "希望",
+      "onyomi": [
+        "きぼう"
+      ],
+      "kunyomi": [],
+      "meaning": "esperanza"
+    },
+    {
+      "kanji": "期待",
+      "onyomi": [
+        "きたい"
+      ],
+      "kunyomi": [],
+      "meaning": "expectativa"
+    },
+    {
+      "kanji": "計画",
+      "onyomi": [
+        "けいかく"
+      ],
+      "kunyomi": [],
+      "meaning": "plan"
+    },
+    {
+      "kanji": "計",
+      "onyomi": [
+        "けい"
+      ],
+      "kunyomi": [
+        "はか"
+      ],
+      "meaning": "calcular"
+    },
+    {
+      "kanji": "画",
+      "onyomi": [
+        "が",
+        "かく"
+      ],
+      "kunyomi": [
+        "えが"
+      ],
+      "meaning": "plan"
+    },
+    {
+      "kanji": "目標",
+      "onyomi": [
+        "もくひょう"
+      ],
+      "kunyomi": [],
+      "meaning": "objetivo"
+    },
+    {
+      "kanji": "目",
+      "onyomi": [
+        "もく",
+        "ぼく"
+      ],
+      "kunyomi": [
+        "め"
+      ],
+      "meaning": "ojo"
+    },
+    {
+      "kanji": "標",
+      "onyomi": [
+        "ひょう"
+      ],
+      "kunyomi": [],
+      "meaning": "estándar"
+    },
+    {
+      "kanji": "達成",
+      "onyomi": [
+        "たっせい"
+      ],
+      "kunyomi": [],
+      "meaning": "logro"
+    },
+    {
+      "kanji": "達",
+      "onyomi": [
+        "たつ"
+      ],
+      "kunyomi": [],
+      "meaning": "alcanzar"
+    },
+    {
+      "kanji": "成",
+      "onyomi": [
+        "せい"
+      ],
+      "kunyomi": [
+        "な"
+      ],
+      "meaning": "lograr"
+    },
+    {
+      "kanji": "成功",
+      "onyomi": [
+        "せいこう"
+      ],
+      "kunyomi": [],
+      "meaning": "éxito"
+    },
+    {
+      "kanji": "失敗",
+      "onyomi": [
+        "しっぱい"
+      ],
+      "kunyomi": [],
+      "meaning": "fracaso"
+    },
+    {
+      "kanji": "失",
+      "onyomi": [
+        "しつ"
+      ],
+      "kunyomi": [
+        "うしな"
+      ],
+      "meaning": "perder"
+    },
+    {
+      "kanji": "機会",
+      "onyomi": [
+        "きかい"
+      ],
+      "kunyomi": [],
+      "meaning": "oportunidad"
+    },
+    {
+      "kanji": "機",
+      "onyomi": [
+        "き"
+      ],
+      "kunyomi": [
+        "はた"
+      ],
+      "meaning": "máquina"
+    },
+    {
+      "kanji": "会",
+      "onyomi": [
+        "かい"
+      ],
+      "kunyomi": [
+        "あ"
+      ],
+      "meaning": "reunión"
+    },
+    {
+      "kanji": "可能性",
+      "onyomi": [
+        "かのうせい"
+      ],
+      "kunyomi": [],
+      "meaning": "posibilidad"
+    },
+    {
+      "kanji": "可能",
+      "onyomi": [
+        "かのう"
+      ],
+      "kunyomi": [],
+      "meaning": "posible"
+    },
+    {
+      "kanji": "問題",
+      "onyomi": [
+        "もんだい"
+      ],
+      "kunyomi": [],
+      "meaning": "problema"
+    },
+    {
+      "kanji": "解決",
+      "onyomi": [
+        "かいけつ"
+      ],
+      "kunyomi": [],
+      "meaning": "solución"
+    },
+    {
+      "kanji": "解",
+      "onyomi": [
+        "かい"
+      ],
+      "kunyomi": [
+        "と"
+      ],
+      "meaning": "resolver"
+    },
+    {
+      "kanji": "決",
+      "onyomi": [
+        "けつ"
+      ],
+      "kunyomi": [
+        "き"
+      ],
+      "meaning": "decidir"
+    },
+    {
+      "kanji": "意見",
+      "onyomi": [
+        "いけん"
+      ],
+      "kunyomi": [],
+      "meaning": "opinión"
+    },
+    {
+      "kanji": "意",
+      "onyomi": [
+        "い"
+      ],
+      "kunyomi": [],
+      "meaning": "significado"
+    },
+    {
+      "kanji": "見",
+      "onyomi": [
+        "けん"
+      ],
+      "kunyomi": [
+        "み"
+      ],
+      "meaning": "ver"
+    },
+    {
+      "kanji": "経済",
+      "onyomi": [
+        "けいざい"
+      ],
+      "kunyomi": [],
+      "meaning": "economía"
+    },
+    {
+      "kanji": "経",
+      "onyomi": [
+        "けい",
+        "きょう"
+      ],
+      "kunyomi": [
+        "へ",
+        "た"
+      ],
+      "meaning": "pasar"
+    },
+    {
+      "kanji": "済",
+      "onyomi": [
+        "さい"
+      ],
+      "kunyomi": [
+        "す"
+      ],
+      "meaning": "terminar"
+    },
+    {
+      "kanji": "発展",
+      "onyomi": [
+        "はってん"
+      ],
+      "kunyomi": [],
+      "meaning": "desarrollo"
+    },
+    {
+      "kanji": "発",
+      "onyomi": [
+        "はつ",
+        "ほつ"
+      ],
+      "kunyomi": [],
+      "meaning": "desarrollar"
+    },
+    {
+      "kanji": "展",
+      "onyomi": [
+        "てん"
+      ],
+      "kunyomi": [],
+      "meaning": "desarrollar"
+    },
+    {
+      "kanji": "技術",
+      "onyomi": [
+        "ぎじゅつ"
+      ],
+      "kunyomi": [],
+      "meaning": "tecnología"
+    },
+    {
+      "kanji": "技",
+      "onyomi": [
+        "ぎ"
+      ],
+      "kunyomi": [
+        "わざ"
+      ],
+      "meaning": "habilidad"
+    },
+    {
+      "kanji": "術",
+      "onyomi": [
+        "じゅつ"
+      ],
+      "kunyomi": [],
+      "meaning": "técnica"
+    },
+    {
+      "kanji": "文化",
+      "onyomi": [
+        "ぶんか"
+      ],
+      "kunyomi": [],
+      "meaning": "cultura"
+    },
+    {
+      "kanji": "文",
+      "onyomi": [
+        "ぶん",
+        "もん"
+      ],
+      "kunyomi": [
+        "ふみ"
+      ],
+      "meaning": "escritura"
+    },
+    {
+      "kanji": "化",
+      "onyomi": [
+        "か"
+      ],
+      "kunyomi": [
+        "ば"
+      ],
+      "meaning": "cambio"
+    },
+    {
+      "kanji": "社会",
+      "onyomi": [
+        "しゃかい"
+      ],
+      "kunyomi": [],
+      "meaning": "sociedad"
+    },
+    {
+      "kanji": "社",
+      "onyomi": [
+        "しゃ"
+      ],
+      "kunyomi": [
+        "やしろ"
+      ],
+      "meaning": "empresa"
+    },
+    {
+      "kanji": "会",
+      "onyomi": [
+        "かい"
+      ],
+      "kunyomi": [
+        "あ"
+      ],
+      "meaning": "asociación"
+    },
+    {
+      "kanji": "生活",
+      "onyomi": [
+        "せいかつ"
+      ],
+      "kunyomi": [],
+      "meaning": "vida"
+    },
+    {
+      "kanji": "生",
+      "onyomi": [
+        "せい",
+        "しょう"
+      ],
+      "kunyomi": [
+        "い",
+        "う",
+        "なま"
+      ],
+      "meaning": "vida"
+    },
+    {
+      "kanji": "活",
+      "onyomi": [
+        "かつ"
+      ],
+      "kunyomi": [],
+      "meaning": "vivo"
+    },
+    {
+      "kanji": "環境",
+      "onyomi": [
+        "かんきょう"
+      ],
+      "kunyomi": [],
+      "meaning": "ambiente"
+    },
+    {
+      "kanji": "環",
+      "onyomi": [
+        "かん"
+      ],
+      "kunyomi": [
+        "わ"
+      ],
+      "meaning": "círculo"
+    },
+    {
+      "kanji": "境",
+      "onyomi": [
+        "きょう"
+      ],
+      "kunyomi": [
+        "さか"
+      ],
+      "meaning": "límite"
+    },
+    {
+      "kanji": "自然",
+      "onyomi": [
+        "しぜん"
+      ],
+      "kunyomi": [],
+      "meaning": "naturaleza"
+    },
+    {
+      "kanji": "自",
+      "onyomi": [
+        "じ",
+        "し"
+      ],
+      "kunyomi": [
+        "みずか"
+      ],
+      "meaning": "uno mismo"
+    },
+    {
+      "kanji": "然",
+      "onyomi": [
+        "ぜん",
+        "ねん"
+      ],
+      "kunyomi": [],
+      "meaning": "natural"
+    },
+    {
+      "kanji": "歴史",
+      "onyomi": [
+        "れきし"
+      ],
+      "kunyomi": [],
+      "meaning": "historia"
+    },
+    {
+      "kanji": "歴",
+      "onyomi": [
+        "れき"
+      ],
+      "kunyomi": [],
+      "meaning": "historia"
+    },
+    {
+      "kanji": "史",
+      "onyomi": [
+        "し"
+      ],
+      "kunyomi": [],
+      "meaning": "historia"
+    },
+    {
+      "kanji": "時代",
+      "onyomi": [
+        "じだい"
+      ],
+      "kunyomi": [],
+      "meaning": "época"
+    },
+    {
+      "kanji": "時",
+      "onyomi": [
+        "じ"
+      ],
+      "kunyomi": [
+        "とき"
+      ],
+      "meaning": "tiempo"
+    },
+    {
+      "kanji": "代",
+      "onyomi": [
+        "だい",
+        "たい"
+      ],
+      "kunyomi": [
+        "か",
+        "しろ",
+        "よ"
+      ],
+      "meaning": "generación"
+    }
+  ],
+  "N2": [
+    {
+      "kanji": "愛",
+      "onyomi": [
+        "あい"
+      ],
+      "kunyomi": [],
+      "meaning": "amor"
+    },
+    {
+      "kanji": "情熱",
+      "onyomi": [
+        "じょうねつ"
+      ],
+      "kunyomi": [],
+      "meaning": "pasión"
+    },
+    {
+      "kanji": "情",
+      "onyomi": [
+        "じょう"
+      ],
+      "kunyomi": [],
+      "meaning": "sentimiento"
+    },
+    {
+      "kanji": "熱",
+      "onyomi": [
+        "ねつ"
+      ],
+      "kunyomi": [
+        "あつ"
+      ],
+      "meaning": "calor"
+    },
+    {
+      "kanji": "感動",
+      "onyomi": [
+        "かんどう"
+      ],
+      "kunyomi": [],
+      "meaning": "conmovedor"
+    },
+    {
+      "kanji": "感",
+      "onyomi": [
+        "かん"
+      ],
+      "kunyomi": [],
+      "meaning": "sentir"
+    },
+    {
+      "kanji": "動",
+      "onyomi": [
+        "どう"
+      ],
+      "kunyomi": [
+        "うご"
+      ],
+      "meaning": "mover"
+    },
+    {
+      "kanji": "幸福",
+      "onyomi": [
+        "こうふく"
+      ],
+      "kunyomi": [],
+      "meaning": "felicidad"
+    },
+    {
+      "kanji": "幸",
+      "onyomi": [
+        "こう"
+      ],
+      "kunyomi": [
+        "さいわ",
+        "しあわ"
+      ],
+      "meaning": "felicidad"
+    },
+    {
+      "kanji": "福",
+      "onyomi": [
+        "ふく"
+      ],
+      "kunyomi": [],
+      "meaning": "fortuna"
+    },
+    {
+      "kanji": "悲",
+      "onyomi": [
+        "ひ"
+      ],
+      "kunyomi": [
+        "かな"
+      ],
+      "meaning": "tristeza"
+    },
+    {
+      "kanji": "喜",
+      "onyomi": [
+        "き"
+      ],
+      "kunyomi": [
+        "よろこ"
+      ],
+      "meaning": "alegría"
+    },
+    {
+      "kanji": "怒",
+      "onyomi": [
+        "ど"
+      ],
+      "kunyomi": [
+        "おこ"
+      ],
+      "meaning": "ira"
+    },
+    {
+      "kanji": "驚",
+      "onyomi": [
+        "きょう"
+      ],
+      "kunyomi": [
+        "おどろ"
+      ],
+      "meaning": "sorpresa"
+    },
+    {
+      "kanji": "怖",
+      "onyomi": [
+        "ふ"
+      ],
+      "kunyomi": [
+        "こわ"
+      ],
+      "meaning": "miedo"
+    },
+    {
+      "kanji": "恋",
+      "onyomi": [
+        "れん"
+      ],
+      "kunyomi": [
+        "こ"
+      ],
+      "meaning": "amor"
+    },
+    {
+      "kanji": "関心",
+      "onyomi": [
+        "かんしん"
+      ],
+      "kunyomi": [],
+      "meaning": "interés"
+    },
+    {
+      "kanji": "関",
+      "onyomi": [
+        "かん"
+      ],
+      "kunyomi": [
+        "せき",
+        "かか"
+      ],
+      "meaning": "relación"
+    },
+    {
+      "kanji": "心",
+      "onyomi": [
+        "しん"
+      ],
+      "kunyomi": [
+        "こころ"
+      ],
+      "meaning": "corazón"
+    },
+    {
+      "kanji": "興味",
+      "onyomi": [
+        "きょうみ"
+      ],
+      "kunyomi": [],
+      "meaning": "interés"
+    },
+    {
+      "kanji": "興",
+      "onyomi": [
+        "きょう",
+        "こう"
+      ],
+      "kunyomi": [
+        "おこ"
+      ],
+      "meaning": "interés"
+    },
+    {
+      "kanji": "味",
+      "onyomi": [
+        "み"
+      ],
+      "kunyomi": [
+        "あじ"
+      ],
+      "meaning": "sabor"
+    },
+    {
+      "kanji": "信頼",
+      "onyomi": [
+        "しんらい"
+      ],
+      "kunyomi": [],
+      "meaning": "confianza"
+    },
+    {
+      "kanji": "信",
+      "onyomi": [
+        "しん"
+      ],
+      "kunyomi": [],
+      "meaning": "confianza"
+    },
+    {
+      "kanji": "頼",
+      "onyomi": [
+        "らい"
+      ],
+      "kunyomi": [
+        "たの"
+      ],
+      "meaning": "confiar"
+    },
+    {
+      "kanji": "尊敬",
+      "onyomi": [
+        "そんけい"
+      ],
+      "kunyomi": [],
+      "meaning": "respeto"
+    },
+    {
+      "kanji": "尊",
+      "onyomi": [
+        "そん"
+      ],
+      "kunyomi": [
+        "とうと"
+      ],
+      "meaning": "respeto"
+    },
+    {
+      "kanji": "敬",
+      "onyomi": [
+        "けい"
+      ],
+      "kunyomi": [
+        "うやま"
+      ],
+      "meaning": "respeto"
+    },
+    {
+      "kanji": "感謝",
+      "onyomi": [
+        "かんしゃ"
+      ],
+      "kunyomi": [],
+      "meaning": "agradecimiento"
+    },
+    {
+      "kanji": "謝",
+      "onyomi": [
+        "しゃ"
+      ],
+      "kunyomi": [
+        "あやま"
+      ],
+      "meaning": "gracias"
+    },
+    {
+      "kanji": "許",
+      "onyomi": [
+        "きょ"
+      ],
+      "kunyomi": [
+        "ゆる"
+      ],
+      "meaning": "permitir"
+    },
+    {
+      "kanji": "許可",
+      "onyomi": [
+        "きょか"
+      ],
+      "kunyomi": [],
+      "meaning": "permiso"
+    },
+    {
+      "kanji": "約束",
+      "onyomi": [
+        "やくそく"
+      ],
+      "kunyomi": [],
+      "meaning": "promesa"
+    },
+    {
+      "kanji": "約",
+      "onyomi": [
+        "やく"
+      ],
+      "kunyomi": [],
+      "meaning": "promesa"
+    },
+    {
+      "kanji": "束",
+      "onyomi": [
+        "そく"
+      ],
+      "kunyomi": [
+        "たば"
+      ],
+      "meaning": "atar"
+    },
+    {
+      "kanji": "責任",
+      "onyomi": [
+        "せきにん"
+      ],
+      "kunyomi": [],
+      "meaning": "responsabilidad"
+    },
+    {
+      "kanji": "責",
+      "onyomi": [
+        "せき"
+      ],
+      "kunyomi": [
+        "せ"
+      ],
+      "meaning": "culpa"
+    },
+    {
+      "kanji": "任",
+      "onyomi": [
+        "にん"
+      ],
+      "kunyomi": [
+        "まか"
+      ],
+      "meaning": "deber"
+    },
+    {
+      "kanji": "義務",
+      "onyomi": [
+        "ぎむ"
+      ],
+      "kunyomi": [],
+      "meaning": "obligación"
+    },
+    {
+      "kanji": "義",
+      "onyomi": [
+        "ぎ"
+      ],
+      "kunyomi": [],
+      "meaning": "deber"
+    },
+    {
+      "kanji": "務",
+      "onyomi": [
+        "む"
+      ],
+      "kunyomi": [
+        "つと"
+      ],
+      "meaning": "deber"
+    },
+    {
+      "kanji": "権利",
+      "onyomi": [
+        "けんり"
+      ],
+      "kunyomi": [],
+      "meaning": "derecho"
+    },
+    {
+      "kanji": "権",
+      "onyomi": [
+        "けん"
+      ],
+      "kunyomi": [],
+      "meaning": "derecho"
+    },
+    {
+      "kanji": "利",
+      "onyomi": [
+        "り"
+      ],
+      "kunyomi": [
+        "き"
+      ],
+      "meaning": "beneficio"
+    },
+    {
+      "kanji": "自由",
+      "onyomi": [
+        "じゆう"
+      ],
+      "kunyomi": [],
+      "meaning": "libertad"
+    },
+    {
+      "kanji": "自",
+      "onyomi": [
+        "じ"
+      ],
+      "kunyomi": [
+        "みずか"
+      ],
+      "meaning": "uno mismo"
+    },
+    {
+      "kanji": "由",
+      "onyomi": [
+        "ゆう",
+        "ゆ"
+      ],
+      "kunyomi": [
+        "よし"
+      ],
+      "meaning": "razón"
+    },
+    {
+      "kanji": "平等",
+      "onyomi": [
+        "びょうどう"
+      ],
+      "kunyomi": [],
+      "meaning": "igualdad"
+    },
+    {
+      "kanji": "平",
+      "onyomi": [
+        "へい",
+        "びょう"
+      ],
+      "kunyomi": [
+        "たいら"
+      ],
+      "meaning": "plano"
+    },
+    {
+      "kanji": "等",
+      "onyomi": [
+        "とう"
+      ],
+      "kunyomi": [
+        "ひと"
+      ],
+      "meaning": "igual"
+    },
+    {
+      "kanji": "平和",
+      "onyomi": [
+        "へいわ"
+      ],
+      "kunyomi": [],
+      "meaning": "paz"
+    },
+    {
+      "kanji": "平",
+      "onyomi": [
+        "へい"
+      ],
+      "kunyomi": [
+        "たいら"
+      ],
+      "meaning": "plano"
+    },
+    {
+      "kanji": "和",
+      "onyomi": [
+        "わ",
+        "お"
+      ],
+      "kunyomi": [
+        "なご"
+      ],
+      "meaning": "paz"
+    },
+    {
+      "kanji": "戦争",
+      "onyomi": [
+        "せんそう"
+      ],
+      "kunyomi": [],
+      "meaning": "guerra"
+    },
+    {
+      "kanji": "戦",
+      "onyomi": [
+        "せん"
+      ],
+      "kunyomi": [
+        "いくさ"
+      ],
+      "meaning": "guerra"
+    },
+    {
+      "kanji": "争",
+      "onyomi": [
+        "そう"
+      ],
+      "kunyomi": [
+        "あらそ"
+      ],
+      "meaning": "disputa"
+    },
+    {
+      "kanji": "衝突",
+      "onyomi": [
+        "しょうとつ"
+      ],
+      "kunyomi": [],
+      "meaning": "choque"
+    },
+    {
+      "kanji": "衝",
+      "onyomi": [
+        "しょう"
+      ],
+      "kunyomi": [],
+      "meaning": "impacto"
+    },
+    {
+      "kanji": "突",
+      "onyomi": [
+        "とつ"
+      ],
+      "kunyomi": [
+        "つ"
+      ],
+      "meaning": "golpear"
+    },
+    {
+      "kanji": "解決",
+      "onyomi": [
+        "かいけつ"
+      ],
+      "kunyomi": [],
+      "meaning": "solución"
+    },
+    {
+      "kanji": "妥協",
+      "onyomi": [
+        "だきょう"
+      ],
+      "kunyomi": [],
+      "meaning": "compromiso"
+    },
+    {
+      "kanji": "妥",
+      "onyomi": [
+        "だ"
+      ],
+      "kunyomi": [],
+      "meaning": "apropiado"
+    },
+    {
+      "kanji": "協",
+      "onyomi": [
+        "きょう"
+      ],
+      "kunyomi": [],
+      "meaning": "cooperar"
+    },
+    {
+      "kanji": "調停",
+      "onyomi": [
+        "ちょうてい"
+      ],
+      "kunyomi": [],
+      "meaning": "mediación"
+    },
+    {
+      "kanji": "調",
+      "onyomi": [
+        "ちょう"
+      ],
+      "kunyomi": [
+        "しら"
+      ],
+      "meaning": "ajustar"
+    },
+    {
+      "kanji": "停",
+      "onyomi": [
+        "てい"
+      ],
+      "kunyomi": [
+        "とど"
+      ],
+      "meaning": "parar"
+    },
+    {
+      "kanji": "裁判",
+      "onyomi": [
+        "さいばん"
+      ],
+      "kunyomi": [],
+      "meaning": "juicio"
+    },
+    {
+      "kanji": "裁",
+      "onyomi": [
+        "さい"
+      ],
+      "kunyomi": [
+        "さば"
+      ],
+      "meaning": "juzgar"
+    },
+    {
+      "kanji": "判",
+      "onyomi": [
+        "はん",
+        "ばん"
+      ],
+      "kunyomi": [],
+      "meaning": "veredicto"
+    },
+    {
+      "kanji": "法",
+      "onyomi": [
+        "ほう",
+        "ほっ",
+        "ほん"
+      ],
+      "kunyomi": [],
+      "meaning": "ley"
+    },
+    {
+      "kanji": "法律",
+      "onyomi": [
+        "ほうりつ"
+      ],
+      "kunyomi": [],
+      "meaning": "ley"
+    },
+    {
+      "kanji": "規則",
+      "onyomi": [
+        "きそく"
+      ],
+      "kunyomi": [],
+      "meaning": "regla"
+    },
+    {
+      "kanji": "規",
+      "onyomi": [
+        "き"
+      ],
+      "kunyomi": [],
+      "meaning": "norma"
+    },
+    {
+      "kanji": "則",
+      "onyomi": [
+        "そく"
+      ],
+      "kunyomi": [
+        "のり"
+      ],
+      "meaning": "regla"
+    },
+    {
+      "kanji": "制度",
+      "onyomi": [
+        "せいど"
+      ],
+      "kunyomi": [],
+      "meaning": "sistema"
+    },
+    {
+      "kanji": "制",
+      "onyomi": [
+        "せい"
+      ],
+      "kunyomi": [],
+      "meaning": "sistema"
+    },
+    {
+      "kanji": "度",
+      "onyomi": [
+        "ど",
+        "た",
+        "たく"
+      ],
+      "kunyomi": [
+        "たび"
+      ],
+      "meaning": "grado"
+    },
+    {
+      "kanji": "政策",
+      "onyomi": [
+        "せいさく"
+      ],
+      "kunyomi": [],
+      "meaning": "política"
+    },
+    {
+      "kanji": "政",
+      "onyomi": [
+        "せい",
+        "しょう"
+      ],
+      "kunyomi": [
+        "まつり"
+      ],
+      "meaning": "política"
+    },
+    {
+      "kanji": "策",
+      "onyomi": [
+        "さく"
+      ],
+      "kunyomi": [],
+      "meaning": "política"
+    },
+    {
+      "kanji": "政治",
+      "onyomi": [
+        "せいじ"
+      ],
+      "kunyomi": [],
+      "meaning": "política"
+    },
+    {
+      "kanji": "政",
+      "onyomi": [
+        "せい"
+      ],
+      "kunyomi": [],
+      "meaning": "política"
+    },
+    {
+      "kanji": "治",
+      "onyomi": [
+        "じ",
+        "ち"
+      ],
+      "kunyomi": [
+        "なお",
+        "おさ"
+      ],
+      "meaning": "gobernar"
+    },
+    {
+      "kanji": "選挙",
+      "onyomi": [
+        "せんきょ"
+      ],
+      "kunyomi": [],
+      "meaning": "elección"
+    },
+    {
+      "kanji": "選",
+      "onyomi": [
+        "せん"
+      ],
+      "kunyomi": [
+        "えら"
+      ],
+      "meaning": "elegir"
+    },
+    {
+      "kanji": "挙",
+      "onyomi": [
+        "きょ"
+      ],
+      "kunyomi": [
+        "あ"
+      ],
+      "meaning": "elección"
+    },
+    {
+      "kanji": "投票",
+      "onyomi": [
+        "とうひょう"
+      ],
+      "kunyomi": [],
+      "meaning": "voto"
+    },
+    {
+      "kanji": "投",
+      "onyomi": [
+        "とう"
+      ],
+      "kunyomi": [
+        "な"
+      ],
+      "meaning": "votar"
+    },
+    {
+      "kanji": "票",
+      "onyomi": [
+        "ひょう"
+      ],
+      "kunyomi": [],
+      "meaning": "voto"
+    },
+    {
+      "kanji": "議員",
+      "onyomi": [
+        "ぎいん"
+      ],
+      "kunyomi": [],
+      "meaning": "parlamentario"
+    },
+    {
+      "kanji": "議",
+      "onyomi": [
+        "ぎ"
+      ],
+      "kunyomi": [],
+      "meaning": "discusión"
+    },
+    {
+      "kanji": "員",
+      "onyomi": [
+        "いん"
+      ],
+      "kunyomi": [],
+      "meaning": "miembro"
+    },
+    {
+      "kanji": "政党",
+      "onyomi": [
+        "せいとう"
+      ],
+      "kunyomi": [],
+      "meaning": "partido"
+    },
+    {
+      "kanji": "党",
+      "onyomi": [
+        "とう"
+      ],
+      "kunyomi": [],
+      "meaning": "partido"
+    },
+    {
+      "kanji": "政府",
+      "onyomi": [
+        "せいふ"
+      ],
+      "kunyomi": [],
+      "meaning": "gobierno"
+    },
+    {
+      "kanji": "府",
+      "onyomi": [
+        "ふ"
+      ],
+      "kunyomi": [],
+      "meaning": "gobierno"
+    },
+    {
+      "kanji": "大統領",
+      "onyomi": [
+        "だいとうりょう"
+      ],
+      "kunyomi": [],
+      "meaning": "presidente"
+    },
+    {
+      "kanji": "大",
+      "onyomi": [
+        "だい",
+        "たい"
+      ],
+      "kunyomi": [
+        "おお"
+      ],
+      "meaning": "grande"
+    },
+    {
+      "kanji": "統",
+      "onyomi": [
+        "とう"
+      ],
+      "kunyomi": [
+        "す",
+        "すべ"
+      ],
+      "meaning": "unificar"
+    },
+    {
+      "kanji": "領",
+      "onyomi": [
+        "りょう"
+      ],
+      "kunyomi": [],
+      "meaning": "territorio"
+    },
+    {
+      "kanji": "大臣",
+      "onyomi": [
+        "だいじん"
+      ],
+      "kunyomi": [],
+      "meaning": "ministro"
+    },
+    {
+      "kanji": "大",
+      "onyomi": [
+        "だい"
+      ],
+      "kunyomi": [
+        "おお"
+      ],
+      "meaning": "grande"
+    },
+    {
+      "kanji": "臣",
+      "onyomi": [
+        "しん",
+        "じん"
+      ],
+      "kunyomi": [],
+      "meaning": "ministro"
+    },
+    {
+      "kanji": "外交",
+      "onyomi": [
+        "がいこう"
+      ],
+      "kunyomi": [],
+      "meaning": "diplomacia"
+    },
+    {
+      "kanji": "外",
+      "onyomi": [
+        "がい",
+        "げ"
+      ],
+      "kunyomi": [
+        "そと",
+        "ほか"
+      ],
+      "meaning": "exterior"
+    },
+    {
+      "kanji": "交",
+      "onyomi": [
+        "こう"
+      ],
+      "kunyomi": [
+        "まじ",
+        "か"
+      ],
+      "meaning": "intercambio"
+    },
+    {
+      "kanji": "条約",
+      "onyomi": [
+        "じょうやく"
+      ],
+      "kunyomi": [],
+      "meaning": "tratado"
+    },
+    {
+      "kanji": "条",
+      "onyomi": [
+        "じょう"
+      ],
+      "kunyomi": [
+        "えだ",
+        "すじ"
+      ],
+      "meaning": "artículo"
+    },
+    {
+      "kanji": "約",
+      "onyomi": [
+        "やく"
+      ],
+      "kunyomi": [],
+      "meaning": "tratado"
+    },
+    {
+      "kanji": "同盟",
+      "onyomi": [
+        "どうめい"
+      ],
+      "kunyomi": [],
+      "meaning": "alianza"
+    },
+    {
+      "kanji": "同",
+      "onyomi": [
+        "どう"
+      ],
+      "kunyomi": [
+        "おな"
+      ],
+      "meaning": "mismo"
+    },
+    {
+      "kanji": "盟",
+      "onyomi": [
+        "めい"
+      ],
+      "kunyomi": [],
+      "meaning": "alianza"
+    },
+    {
+      "kanji": "宣戦",
+      "onyomi": [
+        "せんせん"
+      ],
+      "kunyomi": [],
+      "meaning": "declaración"
+    },
+    {
+      "kanji": "宣",
+      "onyomi": [
+        "せん"
+      ],
+      "kunyomi": [
+        "の"
+      ],
+      "meaning": "declarar"
+    },
+    {
+      "kanji": "戦",
+      "onyomi": [
+        "せん"
+      ],
+      "kunyomi": [
+        "いくさ"
+      ],
+      "meaning": "guerra"
+    },
+    {
+      "kanji": "講和",
+      "onyomi": [
+        "こうわ"
+      ],
+      "kunyomi": [],
+      "meaning": "paz"
+    },
+    {
+      "kanji": "講",
+      "onyomi": [
+        "こう"
+      ],
+      "kunyomi": [],
+      "meaning": "conferencia"
+    },
+    {
+      "kanji": "和",
+      "onyomi": [
+        "わ"
+      ],
+      "kunyomi": [
+        "なご"
+      ],
+      "meaning": "armonía"
+    },
+    {
+      "kanji": "独立",
+      "onyomi": [
+        "どくりつ"
+      ],
+      "kunyomi": [],
+      "meaning": "independencia"
+    },
+    {
+      "kanji": "独",
+      "onyomi": [
+        "どく"
+      ],
+      "kunyomi": [
+        "ひと"
+      ],
+      "meaning": "solo"
+    },
+    {
+      "kanji": "立",
+      "onyomi": [
+        "りつ",
+        "りゅう"
+      ],
+      "kunyomi": [
+        "た",
+        "たて"
+      ],
+      "meaning": "establecer"
+    },
+    {
+      "kanji": "主権",
+      "onyomi": [
+        "しゅけん"
+      ],
+      "kunyomi": [],
+      "meaning": "soberanía"
+    },
+    {
+      "kanji": "主",
+      "onyomi": [
+        "しゅ",
+        "す"
+      ],
+      "kunyomi": [
+        "ぬし",
+        "おも"
+      ],
+      "meaning": "dueño"
+    },
+    {
+      "kanji": "権",
+      "onyomi": [
+        "けん"
+      ],
+      "kunyomi": [],
+      "meaning": "autoridad"
+    },
+    {
+      "kanji": "領土",
+      "onyomi": [
+        "りょうど"
+      ],
+      "kunyomi": [],
+      "meaning": "territorio"
+    },
+    {
+      "kanji": "領",
+      "onyomi": [
+        "りょう"
+      ],
+      "kunyomi": [],
+      "meaning": "territorio"
+    },
+    {
+      "kanji": "土",
+      "onyomi": [
+        "ど"
+      ],
+      "kunyomi": [
+        "つち"
+      ],
+      "meaning": "tierra"
+    },
+    {
+      "kanji": "境界",
+      "onyomi": [
+        "きょうかい"
+      ],
+      "kunyomi": [],
+      "meaning": "frontera"
+    },
+    {
+      "kanji": "境",
+      "onyomi": [
+        "きょう"
+      ],
+      "kunyomi": [
+        "さか"
+      ],
+      "meaning": "límite"
+    },
+    {
+      "kanji": "界",
+      "onyomi": [
+        "かい"
+      ],
+      "kunyomi": [],
+      "meaning": "mundo"
+    },
+    {
+      "kanji": "領域",
+      "onyomi": [
+        "りょういき"
+      ],
+      "kunyomi": [],
+      "meaning": "territorio"
+    },
+    {
+      "kanji": "域",
+      "onyomi": [
+        "いき"
+      ],
+      "kunyomi": [],
+      "meaning": "región"
+    },
+    {
+      "kanji": "領海",
+      "onyomi": [
+        "りょうかい"
+      ],
+      "kunyomi": [],
+      "meaning": "mar"
+    },
+    {
+      "kanji": "海",
+      "onyomi": [
+        "かい"
+      ],
+      "kunyomi": [
+        "うみ"
+      ],
+      "meaning": "mar"
+    },
+    {
+      "kanji": "領空",
+      "onyomi": [
+        "りょうくう"
+      ],
+      "kunyomi": [],
+      "meaning": "aire"
+    },
+    {
+      "kanji": "空",
+      "onyomi": [
+        "くう"
+      ],
+      "kunyomi": [
+        "そら",
+        "あ"
+      ],
+      "meaning": "cielo"
+    },
+    {
+      "kanji": "国境",
+      "onyomi": [
+        "こっきょう"
+      ],
+      "kunyomi": [],
+      "meaning": "frontera"
+    },
+    {
+      "kanji": "国",
+      "onyomi": [
+        "こく"
+      ],
+      "kunyomi": [
+        "くに"
+      ],
+      "meaning": "país"
+    },
+    {
+      "kanji": "境",
+      "onyomi": [
+        "きょう"
+      ],
+      "kunyomi": [
+        "さか"
+      ],
+      "meaning": "frontera"
+    },
+    {
+      "kanji": "貿易",
+      "onyomi": [
+        "ぼうえき"
+      ],
+      "kunyomi": [],
+      "meaning": "comercio"
+    },
+    {
+      "kanji": "貿",
+      "onyomi": [
+        "ぼう"
+      ],
+      "kunyomi": [],
+      "meaning": "comercio"
+    },
+    {
+      "kanji": "易",
+      "onyomi": [
+        "えき",
+        "い"
+      ],
+      "kunyomi": [
+        "やさ"
+      ],
+      "meaning": "intercambio"
+    },
+    {
+      "kanji": "輸出",
+      "onyomi": [
+        "ゆしゅつ"
+      ],
+      "kunyomi": [],
+      "meaning": "exportar"
+    },
+    {
+      "kanji": "輸",
+      "onyomi": [
+        "ゆ"
+      ],
+      "kunyomi": [],
+      "meaning": "transportar"
+    },
+    {
+      "kanji": "出",
+      "onyomi": [
+        "しゅつ",
+        "すい"
+      ],
+      "kunyomi": [
+        "で",
+        "だ"
+      ],
+      "meaning": "salir"
+    },
+    {
+      "kanji": "輸入",
+      "onyomi": [
+        "ゆにゅう"
+      ],
+      "kunyomi": [],
+      "meaning": "importar"
+    },
+    {
+      "kanji": "入",
+      "onyomi": [
+        "にゅう"
+      ],
+      "kunyomi": [
+        "い"
+      ],
+      "meaning": "entrar"
+    },
+    {
+      "kanji": "市場",
+      "onyomi": [
+        "しじょう",
+        "いちば"
+      ],
+      "kunyomi": [],
+      "meaning": "mercado"
+    },
+    {
+      "kanji": "市",
+      "onyomi": [
+        "し"
+      ],
+      "kunyomi": [
+        "いち"
+      ],
+      "meaning": "mercado"
+    },
+    {
+      "kanji": "場",
+      "onyomi": [
+        "じょう",
+        "ば"
+      ],
+      "kunyomi": [
+        "ば"
+      ],
+      "meaning": "lugar"
+    },
+    {
+      "kanji": "経済",
+      "onyomi": [
+        "けいざい"
+      ],
+      "kunyomi": [],
+      "meaning": "economía"
+    },
+    {
+      "kanji": "産業",
+      "onyomi": [
+        "さんぎょう"
+      ],
+      "kunyomi": [],
+      "meaning": "industria"
+    },
+    {
+      "kanji": "産",
+      "onyomi": [
+        "さん"
+      ],
+      "kunyomi": [
+        "う",
+        "うぶ"
+      ],
+      "meaning": "producto"
+    },
+    {
+      "kanji": "業",
+      "onyomi": [
+        "ぎょう",
+        "ごう"
+      ],
+      "kunyomi": [
+        "わざ",
+        "なりわ"
+      ],
+      "meaning": "industria"
+    },
+    {
+      "kanji": "農業",
+      "onyomi": [
+        "のうぎょう"
+      ],
+      "kunyomi": [],
+      "meaning": "agricultura"
+    },
+    {
+      "kanji": "農",
+      "onyomi": [
+        "のう"
+      ],
+      "kunyomi": [],
+      "meaning": "agricultura"
+    },
+    {
+      "kanji": "工業",
+      "onyomi": [
+        "こうぎょう"
+      ],
+      "kunyomi": [],
+      "meaning": "industria"
+    },
+    {
+      "kanji": "工",
+      "onyomi": [
+        "こう"
+      ],
+      "kunyomi": [],
+      "meaning": "ingeniería"
+    },
+    {
+      "kanji": "商業",
+      "onyomi": [
+        "しょうぎょう"
+      ],
+      "kunyomi": [],
+      "meaning": "comercio"
+    },
+    {
+      "kanji": "商",
+      "onyomi": [
+        "しょう"
+      ],
+      "kunyomi": [
+        "あきな"
+      ],
+      "meaning": "comercio"
+    },
+    {
+      "kanji": "金融",
+      "onyomi": [
+        "きんゆう"
+      ],
+      "kunyomi": [],
+      "meaning": "finanzas"
+    },
+    {
+      "kanji": "金",
+      "onyomi": [
+        "きん"
+      ],
+      "kunyomi": [
+        "かね"
+      ],
+      "meaning": "dinero"
+    },
+    {
+      "kanji": "融",
+      "onyomi": [
+        "ゆう"
+      ],
+      "kunyomi": [],
+      "meaning": "financiar"
+    },
+    {
+      "kanji": "銀行",
+      "onyomi": [
+        "ぎんこう"
+      ],
+      "kunyomi": [],
+      "meaning": "banco"
+    },
+    {
+      "kanji": "銀",
+      "onyomi": [
+        "ぎん"
+      ],
+      "kunyomi": [],
+      "meaning": "plata"
+    },
+    {
+      "kanji": "行",
+      "onyomi": [
+        "こう",
+        "ぎょう"
+      ],
+      "kunyomi": [
+        "い",
+        "ゆ",
+        "おこな"
+      ],
+      "meaning": "ir"
+    },
+    {
+      "kanji": "貨幣",
+      "onyomi": [
+        "かへい"
+      ],
+      "kunyomi": [],
+      "meaning": "moneda"
+    },
+    {
+      "kanji": "貨",
+      "onyomi": [
+        "か"
+      ],
+      "kunyomi": [],
+      "meaning": "carga"
+    },
+    {
+      "kanji": "幣",
+      "onyomi": [
+        "へい"
+      ],
+      "kunyomi": [],
+      "meaning": "moneda"
+    },
+    {
+      "kanji": "投資",
+      "onyomi": [
+        "とうし"
+      ],
+      "kunyomi": [],
+      "meaning": "inversión"
+    },
+    {
+      "kanji": "投",
+      "onyomi": [
+        "とう"
+      ],
+      "kunyomi": [
+        "な"
+      ],
+      "meaning": "invertir"
+    },
+    {
+      "kanji": "資",
+      "onyomi": [
+        "し"
+      ],
+      "kunyomi": [],
+      "meaning": "capital"
+    },
+    {
+      "kanji": "株",
+      "onyomi": [
+        "かぶ"
+      ],
+      "kunyomi": [],
+      "meaning": "acción"
+    },
+    {
+      "kanji": "利益",
+      "onyomi": [
+        "りえき"
+      ],
+      "kunyomi": [],
+      "meaning": "beneficio"
+    },
+    {
+      "kanji": "利",
+      "onyomi": [
+        "り"
+      ],
+      "kunyomi": [
+        "き"
+      ],
+      "meaning": "beneficio"
+    },
+    {
+      "kanji": "益",
+      "onyomi": [
+        "えき",
+        "やく"
+      ],
+      "kunyomi": [
+        "ま"
+      ],
+      "meaning": "beneficio"
+    },
+    {
+      "kanji": "損失",
+      "onyomi": [
+        "そんしつ"
+      ],
+      "kunyomi": [],
+      "meaning": "pérdida"
+    },
+    {
+      "kanji": "損",
+      "onyomi": [
+        "そん"
+      ],
+      "kunyomi": [
+        "そこ"
+      ],
+      "meaning": "pérdida"
+    },
+    {
+      "kanji": "失",
+      "onyomi": [
+        "しつ"
+      ],
+      "kunyomi": [
+        "うしな"
+      ],
+      "meaning": "perder"
+    },
+    {
+      "kanji": "消費",
+      "onyomi": [
+        "しょうひ"
+      ],
+      "kunyomi": [],
+      "meaning": "consumo"
+    },
+    {
+      "kanji": "消",
+      "onyomi": [
+        "しょう"
+      ],
+      "kunyomi": [
+        "き",
+        "け"
+      ],
+      "meaning": "desaparecer"
+    },
+    {
+      "kanji": "費",
+      "onyomi": [
+        "ひ"
+      ],
+      "kunyomi": [],
+      "meaning": "gasto"
+    },
+    {
+      "kanji": "貯金",
+      "onyomi": [
+        "ちょきん"
+      ],
+      "kunyomi": [],
+      "meaning": "ahorro"
+    },
+    {
+      "kanji": "貯",
+      "onyomi": [
+        "ちょ"
+      ],
+      "kunyomi": [
+        "た"
+      ],
+      "meaning": "ahorrar"
+    },
+    {
+      "kanji": "金",
+      "onyomi": [
+        "きん"
+      ],
+      "kunyomi": [
+        "かね"
+      ],
+      "meaning": "dinero"
+    },
+    {
+      "kanji": "借金",
+      "onyomi": [
+        "しゃっきん"
+      ],
+      "kunyomi": [],
+      "meaning": "deuda"
+    },
+    {
+      "kanji": "借",
+      "onyomi": [
+        "しゃく"
+      ],
+      "kunyomi": [
+        "か"
+      ],
+      "meaning": "pedir"
+    },
+    {
+      "kanji": "金",
+      "onyomi": [
+        "きん"
+      ],
+      "kunyomi": [
+        "かね"
+      ],
+      "meaning": "dinero"
+    },
+    {
+      "kanji": "税金",
+      "onyomi": [
+        "ぜいきん"
+      ],
+      "kunyomi": [],
+      "meaning": "impuestos"
+    },
+    {
+      "kanji": "税",
+      "onyomi": [
+        "ぜい"
+      ],
+      "kunyomi": [],
+      "meaning": "impuesto"
+    },
+    {
+      "kanji": "金",
+      "onyomi": [
+        "きん"
+      ],
+      "kunyomi": [
+        "かね"
+      ],
+      "meaning": "dinero"
+    },
+    {
+      "kanji": "収入",
+      "onyomi": [
+        "しゅうにゅう"
+      ],
+      "kunyomi": [],
+      "meaning": "ingreso"
+    },
+    {
+      "kanji": "収",
+      "onyomi": [
+        "しゅう"
+      ],
+      "kunyomi": [
+        "おさ"
+      ],
+      "meaning": "recibir"
+    },
+    {
+      "kanji": "入",
+      "onyomi": [
+        "にゅう"
+      ],
+      "kunyomi": [
+        "い"
+      ],
+      "meaning": "entrar"
+    },
+    {
+      "kanji": "支出",
+      "onyomi": [
+        "ししゅつ"
+      ],
+      "kunyomi": [],
+      "meaning": "gasto"
+    },
+    {
+      "kanji": "支",
+      "onyomi": [
+        "し"
+      ],
+      "kunyomi": [
+        "ささ"
+      ],
+      "meaning": "pagar"
+    },
+    {
+      "kanji": "出",
+      "onyomi": [
+        "しゅつ"
+      ],
+      "kunyomi": [
+        "で"
+      ],
+      "meaning": "salir"
+    },
+    {
+      "kanji": "給料",
+      "onyomi": [
+        "きゅうりょう"
+      ],
+      "kunyomi": [],
+      "meaning": "salario"
+    },
+    {
+      "kanji": "給",
+      "onyomi": [
+        "きゅう"
+      ],
+      "kunyomi": [],
+      "meaning": "salario"
+    },
+    {
+      "kanji": "料",
+      "onyomi": [
+        "りょう"
+      ],
+      "kunyomi": [],
+      "meaning": "material"
+    },
+    {
+      "kanji": "賞与",
+      "onyomi": [
+        "しょうよ"
+      ],
+      "kunyomi": [],
+      "meaning": "bonificación"
+    },
+    {
+      "kanji": "賞",
+      "onyomi": [
+        "しょう"
+      ],
+      "kunyomi": [],
+      "meaning": "premio"
+    },
+    {
+      "kanji": "与",
+      "onyomi": [
+        "よ"
+      ],
+      "kunyomi": [
+        "あた"
+      ],
+      "meaning": "dar"
+    },
+    {
+      "kanji": "年金",
+      "onyomi": [
+        "ねんきん"
+      ],
+      "kunyomi": [],
+      "meaning": "pensión"
+    },
+    {
+      "kanji": "年",
+      "onyomi": [
+        "ねん"
+      ],
+      "kunyomi": [
+        "とし"
+      ],
+      "meaning": "año"
+    },
+    {
+      "kanji": "金",
+      "onyomi": [
+        "きん"
+      ],
+      "kunyomi": [
+        "かね"
+      ],
+      "meaning": "dinero"
+    },
+    {
+      "kanji": "資本",
+      "onyomi": [
+        "しほん"
+      ],
+      "kunyomi": [],
+      "meaning": "capital"
+    },
+    {
+      "kanji": "資",
+      "onyomi": [
+        "し"
+      ],
+      "kunyomi": [],
+      "meaning": "capital"
+    },
+    {
+      "kanji": "本",
+      "onyomi": [
+        "ほん"
+      ],
+      "kunyomi": [
+        "もと"
+      ],
+      "meaning": "origen"
+    },
+    {
+      "kanji": "資産",
+      "onyomi": [
+        "しさん"
+      ],
+      "kunyomi": [],
+      "meaning": "activo"
+    },
+    {
+      "kanji": "産",
+      "onyomi": [
+        "さん"
+      ],
+      "kunyomi": [
+        "うぶ"
+      ],
+      "meaning": "producto"
+    },
+    {
+      "kanji": "資源",
+      "onyomi": [
+        "しげん"
+      ],
+      "kunyomi": [],
+      "meaning": "recursos"
+    },
+    {
+      "kanji": "源",
+      "onyomi": [
+        "げん"
+      ],
+      "kunyomi": [
+        "みなも"
+      ],
+      "meaning": "fuente"
+    },
+    {
+      "kanji": "天然",
+      "onyomi": [
+        "てんねん"
+      ],
+      "kunyomi": [],
+      "meaning": "natural"
+    },
+    {
+      "kanji": "天",
+      "onyomi": [
+        "てん"
+      ],
+      "kunyomi": [
+        "あま"
+      ],
+      "meaning": "cielo"
+    },
+    {
+      "kanji": "然",
+      "onyomi": [
+        "ねん",
+        "ぜん"
+      ],
+      "kunyomi": [],
+      "meaning": "así"
+    },
+    {
+      "kanji": "エネルギー",
+      "onyomi": [
+        "エネルギー"
+      ],
+      "kunyomi": [],
+      "meaning": "energía"
+    },
+    {
+      "kanji": "石油",
+      "onyomi": [
+        "せきゆ"
+      ],
+      "kunyomi": [],
+      "meaning": "petróleo"
+    },
+    {
+      "kanji": "石",
+      "onyomi": [
+        "せき",
+        "じゃく"
+      ],
+      "kunyomi": [
+        "いし"
+      ],
+      "meaning": "piedra"
+    },
+    {
+      "kanji": "油",
+      "onyomi": [
+        "ゆ"
+      ],
+      "kunyomi": [
+        "あぶら"
+      ],
+      "meaning": "aceite"
+    },
+    {
+      "kanji": "石炭",
+      "onyomi": [
+        "せきたん"
+      ],
+      "kunyomi": [],
+      "meaning": "carbón"
+    },
+    {
+      "kanji": "炭",
+      "onyomi": [
+        "たん"
+      ],
+      "kunyomi": [
+        "すみ"
+      ],
+      "meaning": "carbón"
+    },
+    {
+      "kanji": "電力",
+      "onyomi": [
+        "でんりょく"
+      ],
+      "kunyomi": [],
+      "meaning": "electricidad"
+    },
+    {
+      "kanji": "電",
+      "onyomi": [
+        "でん"
+      ],
+      "kunyomi": [],
+      "meaning": "electricidad"
+    },
+    {
+      "kanji": "力",
+      "onyomi": [
+        "りょく",
+        "りき"
+      ],
+      "kunyomi": [
+        "ちから"
+      ],
+      "meaning": "fuerza"
+    },
+    {
+      "kanji": "原子力",
+      "onyomi": [
+        "げんしりょく"
+      ],
+      "kunyomi": [],
+      "meaning": "nuclear"
+    },
+    {
+      "kanji": "原",
+      "onyomi": [
+        "げん"
+      ],
+      "kunyomi": [
+        "はら"
+      ],
+      "meaning": "original"
+    },
+    {
+      "kanji": "子",
+      "onyomi": [
+        "し",
+        "す"
+      ],
+      "kunyomi": [
+        "こ"
+      ],
+      "meaning": "niño"
+    },
+    {
+      "kanji": "太陽",
+      "onyomi": [
+        "たいよう"
+      ],
+      "kunyomi": [],
+      "meaning": "sol"
+    },
+    {
+      "kanji": "太",
+      "onyomi": [
+        "たい"
+      ],
+      "kunyomi": [
+        "ふと"
+      ],
+      "meaning": "grande"
+    },
+    {
+      "kanji": "陽",
+      "onyomi": [
+        "よう"
+      ],
+      "kunyomi": [
+        "ひ"
+      ],
+      "meaning": "sol"
+    },
+    {
+      "kanji": "風",
+      "onyomi": [
+        "ふう",
+        "ふ"
+      ],
+      "kunyomi": [
+        "かぜ"
+      ],
+      "meaning": "viento"
+    },
+    {
+      "kanji": "水",
+      "onyomi": [
+        "すい"
+      ],
+      "kunyomi": [
+        "みず"
+      ],
+      "meaning": "agua"
+    },
+    {
+      "kanji": "波",
+      "onyomi": [
+        "は"
+      ],
+      "kunyomi": [
+        "なみ"
+      ],
+      "meaning": "ola"
+    },
+    {
+      "kanji": "潮",
+      "onyomi": [
+        "ちょう"
+      ],
+      "kunyomi": [
+        "しお"
+      ],
+      "meaning": "marea"
+    },
+    {
+      "kanji": "環境",
+      "onyomi": [
+        "かんきょう"
+      ],
+      "kunyomi": [],
+      "meaning": "ambiente"
+    },
+    {
+      "kanji": "環",
+      "onyomi": [
+        "かん"
+      ],
+      "kunyomi": [
+        "わ"
+      ],
+      "meaning": "círculo"
+    },
+    {
+      "kanji": "境",
+      "onyomi": [
+        "きょう"
+      ],
+      "kunyomi": [
+        "さか"
+      ],
+      "meaning": "límite"
+    },
+    {
+      "kanji": "汚染",
+      "onyomi": [
+        "おせん"
+      ],
+      "kunyomi": [],
+      "meaning": "contaminación"
+    },
+    {
+      "kanji": "汚",
+      "onyomi": [
+        "お"
+      ],
+      "kunyomi": [
+        "よご",
+        "きたな"
+      ],
+      "meaning": "suciedad"
+    },
+    {
+      "kanji": "染",
+      "onyomi": [
+        "せん"
+      ],
+      "kunyomi": [
+        "し"
+      ],
+      "meaning": "teñir"
+    },
+    {
+      "kanji": "保護",
+      "onyomi": [
+        "ほご"
+      ],
+      "kunyomi": [],
+      "meaning": "protección"
+    },
+    {
+      "kanji": "保",
+      "onyomi": [
+        "ほ"
+      ],
+      "kunyomi": [
+        "たも"
+      ],
+      "meaning": "proteger"
+    },
+    {
+      "kanji": "護",
+      "onyomi": [
+        "ご"
+      ],
+      "kunyomi": [
+        "まも"
+      ],
+      "meaning": "proteger"
+    },
+    {
+      "kanji": "対策",
+      "onyomi": [
+        "たいさく"
+      ],
+      "kunyomi": [],
+      "meaning": "medida"
+    },
+    {
+      "kanji": "対",
+      "onyomi": [
+        "たい",
+        "つい"
+      ],
+      "kunyomi": [],
+      "meaning": "contra"
+    },
+    {
+      "kanji": "策",
+      "onyomi": [
+        "さく"
+      ],
+      "kunyomi": [],
+      "meaning": "medida"
+    },
+    {
+      "kanji": "温暖化",
+      "onyomi": [
+        "おんだんか"
+      ],
+      "kunyomi": [],
+      "meaning": "calentamiento"
+    },
+    {
+      "kanji": "温",
+      "onyomi": [
+        "おん"
+      ],
+      "kunyomi": [
+        "あたた"
+      ],
+      "meaning": "cálido"
+    },
+    {
+      "kanji": "暖",
+      "onyomi": [
+        "だん"
+      ],
+      "kunyomi": [
+        "あたた"
+      ],
+      "meaning": "cálido"
+    },
+    {
+      "kanji": "化",
+      "onyomi": [
+        "か"
+      ],
+      "kunyomi": [
+        "ば"
+      ],
+      "meaning": "cambio"
+    },
+    {
+      "kanji": "気候",
+      "onyomi": [
+        "きこう"
+      ],
+      "kunyomi": [],
+      "meaning": "clima"
+    },
+    {
+      "kanji": "気",
+      "onyomi": [
+        "き",
+        "け"
+      ],
+      "kunyomi": [],
+      "meaning": "clima"
+    },
+    {
+      "kanji": "候",
+      "onyomi": [
+        "こう"
+      ],
+      "kunyomi": [
+        "そうろ"
+      ],
+      "meaning": "clima"
+    },
+    {
+      "kanji": "変動",
+      "onyomi": [
+        "へんどう"
+      ],
+      "kunyomi": [],
+      "meaning": "fluctuación"
+    },
+    {
+      "kanji": "変",
+      "onyomi": [
+        "へん"
+      ],
+      "kunyomi": [
+        "か",
+        "ふ"
+      ],
+      "meaning": "cambio"
+    },
+    {
+      "kanji": "動",
+      "onyomi": [
+        "どう"
+      ],
+      "kunyomi": [
+        "うご"
+      ],
+      "meaning": "movimiento"
+    },
+    {
+      "kanji": "災害",
+      "onyomi": [
+        "さいがい"
+      ],
+      "kunyomi": [],
+      "meaning": "desastre"
+    },
+    {
+      "kanji": "災",
+      "onyomi": [
+        "さい"
+      ],
+      "kunyomi": [
+        "わざわ"
+      ],
+      "meaning": "desastre"
+    },
+    {
+      "kanji": "害",
+      "onyomi": [
+        "がい"
+      ],
+      "kunyomi": [],
+      "meaning": "daño"
+    },
+    {
+      "kanji": "地震",
+      "onyomi": [
+        "じしん"
+      ],
+      "kunyomi": [],
+      "meaning": "terremoto"
+    },
+    {
+      "kanji": "地",
+      "onyomi": [
+        "ち",
+        "じ"
+      ],
+      "kunyomi": [],
+      "meaning": "tierra"
+    },
+    {
+      "kanji": "震",
+      "onyomi": [
+        "しん"
+      ],
+      "kunyomi": [
+        "ふる"
+      ],
+      "meaning": "terremoto"
+    },
+    {
+      "kanji": "台風",
+      "onyomi": [
+        "たいふう"
+      ],
+      "kunyomi": [],
+      "meaning": "tifón"
+    },
+    {
+      "kanji": "台",
+      "onyomi": [
+        "だい",
+        "たい"
+      ],
+      "kunyomi": [],
+      "meaning": "plataforma"
+    },
+    {
+      "kanji": "風",
+      "onyomi": [
+        "ふう",
+        "ふ"
+      ],
+      "kunyomi": [
+        "かぜ"
+      ],
+      "meaning": "viento"
+    },
+    {
+      "kanji": "洪水",
+      "onyomi": [
+        "こうずい"
+      ],
+      "kunyomi": [],
+      "meaning": "inundación"
+    },
+    {
+      "kanji": "洪",
+      "onyomi": [
+        "こう"
+      ],
+      "kunyomi": [],
+      "meaning": "inundación"
+    },
+    {
+      "kanji": "水",
+      "onyomi": [
+        "すい"
+      ],
+      "kunyomi": [
+        "みず"
+      ],
+      "meaning": "agua"
+    },
+    {
+      "kanji": "火災",
+      "onyomi": [
+        "かさい"
+      ],
+      "kunyomi": [],
+      "meaning": "incendio"
+    },
+    {
+      "kanji": "火",
+      "onyomi": [
+        "か"
+      ],
+      "kunyomi": [
+        "ひ"
+      ],
+      "meaning": "fuego"
+    },
+    {
+      "kanji": "災",
+      "onyomi": [
+        "さい"
+      ],
+      "kunyomi": [
+        "わざわ"
+      ],
+      "meaning": "desastre"
+    },
+    {
+      "kanji": "救援",
+      "onyomi": [
+        "きゅうえん"
+      ],
+      "kunyomi": [],
+      "meaning": "rescate"
+    },
+    {
+      "kanji": "救",
+      "onyomi": [
+        "きゅう"
+      ],
+      "kunyomi": [
+        "すく"
+      ],
+      "meaning": "rescatar"
+    },
+    {
+      "kanji": "援",
+      "onyomi": [
+        "えん"
+      ],
+      "kunyomi": [],
+      "meaning": "rescate"
+    },
+    {
+      "kanji": "避難",
+      "onyomi": [
+        "ひなん"
+      ],
+      "kunyomi": [],
+      "meaning": "evacuación"
+    },
+    {
+      "kanji": "避",
+      "onyomi": [
+        "ひ"
+      ],
+      "kunyomi": [
+        "さ"
+      ],
+      "meaning": "evitar"
+    },
+    {
+      "kanji": "難",
+      "onyomi": [
+        "なん"
+      ],
+      "kunyomi": [
+        "かた",
+        "むずか"
+      ],
+      "meaning": "dificultad"
+    },
+    {
+      "kanji": "復旧",
+      "onyomi": [
+        "ふっきゅう"
+      ],
+      "kunyomi": [],
+      "meaning": "restauración"
+    },
+    {
+      "kanji": "復",
+      "onyomi": [
+        "ふく"
+      ],
+      "kunyomi": [],
+      "meaning": "recuperación"
+    },
+    {
+      "kanji": "旧",
+      "onyomi": [
+        "きゅう"
+      ],
+      "kunyomi": [
+        "ふる"
+      ],
+      "meaning": "antiguo"
+    },
+    {
+      "kanji": "復興",
+      "onyomi": [
+        "ふっこう"
+      ],
+      "kunyomi": [],
+      "meaning": "reconstrucción"
+    },
+    {
+      "kanji": "興",
+      "onyomi": [
+        "こう",
+        "きょう"
+      ],
+      "kunyomi": [
+        "おこ"
+      ],
+      "meaning": "progreso"
+    }
+  ],
+  "N1": [
+    {
+      "kanji": "権威",
+      "onyomi": [
+        "けんい"
+      ],
+      "kunyomi": [],
+      "meaning": "autoridad"
+    },
+    {
+      "kanji": "権",
+      "onyomi": [
+        "けん"
+      ],
+      "kunyomi": [],
+      "meaning": "derecho"
+    },
+    {
+      "kanji": "威",
+      "onyomi": [
+        "い"
+      ],
+      "kunyomi": [
+        "おど"
+      ],
+      "meaning": "autoridad"
+    },
+    {
+      "kanji": "支配",
+      "onyomi": [
+        "しはい"
+      ],
+      "kunyomi": [],
+      "meaning": "dominio"
+    },
+    {
+      "kanji": "支",
+      "onyomi": [
+        "し"
+      ],
+      "kunyomi": [
+        "ささ"
+      ],
+      "meaning": "apoyo"
+    },
+    {
+      "kanji": "配",
+      "onyomi": [
+        "はい"
+      ],
+      "kunyomi": [
+        "くば"
+      ],
+      "meaning": "distribuir"
+    },
+    {
+      "kanji": "征服",
+      "onyomi": [
+        "せいふく"
+      ],
+      "kunyomi": [],
+      "meaning": "conquista"
+    },
+    {
+      "kanji": "征",
+      "onyomi": [
+        "せい"
+      ],
+      "kunyomi": [
+        "ゆ"
+      ],
+      "meaning": "conquistar"
+    },
+    {
+      "kanji": "服",
+      "onyomi": [
+        "ふく"
+      ],
+      "kunyomi": [],
+      "meaning": "someter"
+    },
+    {
+      "kanji": "革命",
+      "onyomi": [
+        "かくめい"
+      ],
+      "kunyomi": [],
+      "meaning": "revolución"
+    },
+    {
+      "kanji": "革",
+      "onyomi": [
+        "かく"
+      ],
+      "kunyomi": [
+        "かわ"
+      ],
+      "meaning": "reforma"
+    },
+    {
+      "kanji": "命",
+      "onyomi": [
+        "めい",
+        "みょう"
+      ],
+      "kunyomi": [
+        "いのち"
+      ],
+      "meaning": "vida"
+    },
+    {
+      "kanji": "改革",
+      "onyomi": [
+        "かいかく"
+      ],
+      "kunyomi": [],
+      "meaning": "reforma"
+    },
+    {
+      "kanji": "改",
+      "onyomi": [
+        "かい"
+      ],
+      "kunyomi": [
+        "あらた"
+      ],
+      "meaning": "reformar"
+    },
+    {
+      "kanji": "革新",
+      "onyomi": [
+        "かくしん"
+      ],
+      "kunyomi": [],
+      "meaning": "innovación"
+    },
+    {
+      "kanji": "革",
+      "onyomi": [
+        "かく"
+      ],
+      "kunyomi": [],
+      "meaning": "reforma"
+    },
+    {
+      "kanji": "新",
+      "onyomi": [
+        "しん"
+      ],
+      "kunyomi": [
+        "あたら",
+        "にい"
+      ],
+      "meaning": "nuevo"
+    },
+    {
+      "kanji": "反抗",
+      "onyomi": [
+        "はんこう"
+      ],
+      "kunyomi": [],
+      "meaning": "resistencia"
+    },
+    {
+      "kanji": "反",
+      "onyomi": [
+        "はん",
+        "ほん"
+      ],
+      "kunyomi": [
+        "そ"
+      ],
+      "meaning": "oponer"
+    },
+    {
+      "kanji": "抗",
+      "onyomi": [
+        "こう"
+      ],
+      "kunyomi": [
+        "あらが"
+      ],
+      "meaning": "resistir"
+    },
+    {
+      "kanji": "反乱",
+      "onyomi": [
+        "はんらん"
+      ],
+      "kunyomi": [],
+      "meaning": "rebelión"
+    },
+    {
+      "kanji": "乱",
+      "onyomi": [
+        "らん"
+      ],
+      "kunyomi": [
+        "みだ"
+      ],
+      "meaning": "desorden"
+    },
+    {
+      "kanji": "反動",
+      "onyomi": [
+        "はんどう"
+      ],
+      "kunyomi": [],
+      "meaning": "reacción"
+    },
+    {
+      "kanji": "動",
+      "onyomi": [
+        "どう"
+      ],
+      "kunyomi": [
+        "うご"
+      ],
+      "meaning": "movimiento"
+    },
+    {
+      "kanji": "民主主義",
+      "onyomi": [
+        "みんしゅしゅぎ"
+      ],
+      "kunyomi": [],
+      "meaning": "democracia"
+    },
+    {
+      "kanji": "民",
+      "onyomi": [
+        "みん"
+      ],
+      "kunyomi": [
+        "たみ"
+      ],
+      "meaning": "pueblo"
+    },
+    {
+      "kanji": "主",
+      "onyomi": [
+        "しゅ",
+        "す"
+      ],
+      "kunyomi": [
+        "ぬし"
+      ],
+      "meaning": "principal"
+    },
+    {
+      "kanji": "義",
+      "onyomi": [
+        "ぎ"
+      ],
+      "kunyomi": [],
+      "meaning": "justicia"
+    },
+    {
+      "kanji": "独裁",
+      "onyomi": [
+        "どくさい"
+      ],
+      "kunyomi": [],
+      "meaning": "dictadura"
+    },
+    {
+      "kanji": "独",
+      "onyomi": [
+        "どく"
+      ],
+      "kunyomi": [
+        "ひと"
+      ],
+      "meaning": "solo"
+    },
+    {
+      "kanji": "裁",
+      "onyomi": [
+        "さい"
+      ],
+      "kunyomi": [
+        "さば"
+      ],
+      "meaning": "dictadura"
+    },
+    {
+      "kanji": "専制",
+      "onyomi": [
+        "せんせい"
+      ],
+      "kunyomi": [],
+      "meaning": "despotismo"
+    },
+    {
+      "kanji": "専",
+      "onyomi": [
+        "せん"
+      ],
+      "kunyomi": [
+        "もっぱ"
+      ],
+      "meaning": "exclusivo"
+    },
+    {
+      "kanji": "制",
+      "onyomi": [
+        "せい"
+      ],
+      "kunyomi": [],
+      "meaning": "sistema"
+    },
+    {
+      "kanji": "暴政",
+      "onyomi": [
+        "ぼうせい"
+      ],
+      "kunyomi": [],
+      "meaning": "tiranía"
+    },
+    {
+      "kanji": "暴",
+      "onyomi": [
+        "ぼう"
+      ],
+      "kunyomi": [
+        "あば"
+      ],
+      "meaning": "violencia"
+    },
+    {
+      "kanji": "政",
+      "onyomi": [
+        "せい",
+        "しょう"
+      ],
+      "kunyomi": [],
+      "meaning": "política"
+    },
+    {
+      "kanji": "圧迫",
+      "onyomi": [
+        "あっぱく"
+      ],
+      "kunyomi": [],
+      "meaning": "opresión"
+    },
+    {
+      "kanji": "圧",
+      "onyomi": [
+        "あつ"
+      ],
+      "kunyomi": [],
+      "meaning": "presionar"
+    },
+    {
+      "kanji": "迫",
+      "onyomi": [
+        "はく"
+      ],
+      "kunyomi": [
+        "せま"
+      ],
+      "meaning": "forzar"
+    },
+    {
+      "kanji": "解放",
+      "onyomi": [
+        "かいほう"
+      ],
+      "kunyomi": [],
+      "meaning": "liberación"
+    },
+    {
+      "kanji": "解",
+      "onyomi": [
+        "かい"
+      ],
+      "kunyomi": [
+        "と"
+      ],
+      "meaning": "liberar"
+    },
+    {
+      "kanji": "放",
+      "onyomi": [
+        "ほう"
+      ],
+      "kunyomi": [
+        "はな"
+      ],
+      "meaning": "liberar"
+    },
+    {
+      "kanji": "自由主義",
+      "onyomi": [
+        "じゆうしゅぎ"
+      ],
+      "kunyomi": [],
+      "meaning": "liberalismo"
+    },
+    {
+      "kanji": "自",
+      "onyomi": [
+        "じ"
+      ],
+      "kunyomi": [
+        "みずか"
+      ],
+      "meaning": "uno mismo"
+    },
+    {
+      "kanji": "由",
+      "onyomi": [
+        "ゆう",
+        "ゆ"
+      ],
+      "kunyomi": [
+        "よし"
+      ],
+      "meaning": "razón"
+    },
+    {
+      "kanji": "主",
+      "onyomi": [
+        "しゅ"
+      ],
+      "kunyomi": [
+        "ぬし"
+      ],
+      "meaning": "doctrina"
+    },
+    {
+      "kanji": "義",
+      "onyomi": [
+        "ぎ"
+      ],
+      "kunyomi": [],
+      "meaning": "doctrina"
+    },
+    {
+      "kanji": "社会主義",
+      "onyomi": [
+        "しゃかいしゅぎ"
+      ],
+      "kunyomi": [],
+      "meaning": "socialismo"
+    },
+    {
+      "kanji": "社",
+      "onyomi": [
+        "しゃ"
+      ],
+      "kunyomi": [
+        "やしろ"
+      ],
+      "meaning": "sociedad"
+    },
+    {
+      "kanji": "会",
+      "onyomi": [
+        "かい"
+      ],
+      "kunyomi": [
+        "あ"
+      ],
+      "meaning": "asociación"
+    },
+    {
+      "kanji": "共産主義",
+      "onyomi": [
+        "きょうさんしゅぎ"
+      ],
+      "kunyomi": [],
+      "meaning": "comunismo"
+    },
+    {
+      "kanji": "共",
+      "onyomi": [
+        "きょう"
+      ],
+      "kunyomi": [
+        "とも"
+      ],
+      "meaning": "junto"
+    },
+    {
+      "kanji": "産",
+      "onyomi": [
+        "さん"
+      ],
+      "kunyomi": [
+        "う"
+      ],
+      "meaning": "producción"
+    },
+    {
+      "kanji": "資本主義",
+      "onyomi": [
+        "しほんしゅぎ"
+      ],
+      "kunyomi": [],
+      "meaning": "capitalismo"
+    },
+    {
+      "kanji": "資",
+      "onyomi": [
+        "し"
+      ],
+      "kunyomi": [],
+      "meaning": "capital"
+    },
+    {
+      "kanji": "本",
+      "onyomi": [
+        "ほん"
+      ],
+      "kunyomi": [
+        "もと"
+      ],
+      "meaning": "origen"
+    },
+    {
+      "kanji": "主",
+      "onyomi": [
+        "しゅ"
+      ],
+      "kunyomi": [
+        "ぬし"
+      ],
+      "meaning": "doctrina"
+    },
+    {
+      "kanji": "福祉",
+      "onyomi": [
+        "ふくし"
+      ],
+      "kunyomi": [],
+      "meaning": "bienestar"
+    },
+    {
+      "kanji": "福",
+      "onyomi": [
+        "ふく"
+      ],
+      "kunyomi": [],
+      "meaning": "fortuna"
+    },
+    {
+      "kanji": "祉",
+      "onyomi": [
+        "し"
+      ],
+      "kunyomi": [],
+      "meaning": "bienestar"
+    },
+    {
+      "kanji": "社会保障",
+      "onyomi": [
+        "しゃかいほしょう"
+      ],
+      "kunyomi": [],
+      "meaning": "seguridad social"
+    },
+    {
+      "kanji": "社",
+      "onyomi": [
+        "しゃ"
+      ],
+      "kunyomi": [],
+      "meaning": "sociedad"
+    },
+    {
+      "kanji": "会",
+      "onyomi": [
+        "かい"
+      ],
+      "kunyomi": [],
+      "meaning": "asociación"
+    },
+    {
+      "kanji": "保",
+      "onyomi": [
+        "ほ"
+      ],
+      "kunyomi": [
+        "たも"
+      ],
+      "meaning": "proteger"
+    },
+    {
+      "kanji": "障",
+      "onyomi": [
+        "しょう"
+      ],
+      "kunyomi": [
+        "さわ"
+      ],
+      "meaning": "obstáculo"
+    },
+    {
+      "kanji": "公的",
+      "onyomi": [
+        "こうてき"
+      ],
+      "kunyomi": [],
+      "meaning": "público"
+    },
+    {
+      "kanji": "公",
+      "onyomi": [
+        "こう"
+      ],
+      "kunyomi": [
+        "おおやけ"
+      ],
+      "meaning": "público"
+    },
+    {
+      "kanji": "的",
+      "onyomi": [
+        "てき"
+      ],
+      "kunyomi": [
+        "まと"
+      ],
+      "meaning": "blanco"
+    },
+    {
+      "kanji": "私的",
+      "onyomi": [
+        "してき"
+      ],
+      "kunyomi": [],
+      "meaning": "privado"
+    },
+    {
+      "kanji": "私",
+      "onyomi": [
+        "し"
+      ],
+      "kunyomi": [
+        "わたし"
+      ],
+      "meaning": "privado"
+    },
+    {
+      "kanji": "公益",
+      "onyomi": [
+        "こうえき"
+      ],
+      "kunyomi": [],
+      "meaning": "interés público"
+    },
+    {
+      "kanji": "利",
+      "onyomi": [
+        "り"
+      ],
+      "kunyomi": [
+        "き"
+      ],
+      "meaning": "beneficio"
+    },
+    {
+      "kanji": "権益",
+      "onyomi": [
+        "けんえき"
+      ],
+      "kunyomi": [],
+      "meaning": "intereses"
+    },
+    {
+      "kanji": "権",
+      "onyomi": [
+        "けん"
+      ],
+      "kunyomi": [],
+      "meaning": "derechos"
+    },
+    {
+      "kanji": "益",
+      "onyomi": [
+        "えき"
+      ],
+      "kunyomi": [
+        "ま"
+      ],
+      "meaning": "beneficio"
+    },
+    {
+      "kanji": "人権",
+      "onyomi": [
+        "じんけん"
+      ],
+      "kunyomi": [],
+      "meaning": "derechos humanos"
+    },
+    {
+      "kanji": "人",
+      "onyomi": [
+        "じん",
+        "にん"
+      ],
+      "kunyomi": [
+        "ひと"
+      ],
+      "meaning": "persona"
+    },
+    {
+      "kanji": "権",
+      "onyomi": [
+        "けん"
+      ],
+      "kunyomi": [],
+      "meaning": "derechos"
+    },
+    {
+      "kanji": "市民",
+      "onyomi": [
+        "しみん"
+      ],
+      "kunyomi": [],
+      "meaning": "ciudadano"
+    },
+    {
+      "kanji": "市",
+      "onyomi": [
+        "し"
+      ],
+      "kunyomi": [
+        "いち"
+      ],
+      "meaning": "ciudad"
+    },
+    {
+      "kanji": "民",
+      "onyomi": [
+        "みん"
+      ],
+      "kunyomi": [
+        "たみ"
+      ],
+      "meaning": "pueblo"
+    },
+    {
+      "kanji": "選挙権",
+      "onyomi": [
+        "せんきょけん"
+      ],
+      "kunyomi": [],
+      "meaning": "derecho al voto"
+    },
+    {
+      "kanji": "選",
+      "onyomi": [
+        "せん"
+      ],
+      "kunyomi": [
+        "えら"
+      ],
+      "meaning": "elegir"
+    },
+    {
+      "kanji": "挙",
+      "onyomi": [
+        "きょ"
+      ],
+      "kunyomi": [
+        "あ"
+      ],
+      "meaning": "elección"
+    },
+    {
+      "kanji": "権",
+      "onyomi": [
+        "けん"
+      ],
+      "kunyomi": [],
+      "meaning": "derecho"
+    },
+    {
+      "kanji": "参政権",
+      "onyomi": [
+        "さんせいけん"
+      ],
+      "kunyomi": [],
+      "meaning": "derecho político"
+    },
+    {
+      "kanji": "参",
+      "onyomi": [
+        "さん"
+      ],
+      "kunyomi": [
+        "まい"
+      ],
+      "meaning": "participar"
+    },
+    {
+      "kanji": "政",
+      "onyomi": [
+        "せい"
+      ],
+      "kunyomi": [],
+      "meaning": "política"
+    },
+    {
+      "kanji": "権",
+      "onyomi": [
+        "けん"
+      ],
+      "kunyomi": [],
+      "meaning": "derecho"
+    },
+    {
+      "kanji": "教育",
+      "onyomi": [
+        "きょういく"
+      ],
+      "kunyomi": [],
+      "meaning": "educación"
+    },
+    {
+      "kanji": "教",
+      "onyomi": [
+        "きょう"
+      ],
+      "kunyomi": [
+        "おし"
+      ],
+      "meaning": "enseñar"
+    },
+    {
+      "kanji": "育",
+      "onyomi": [
+        "いく"
+      ],
+      "kunyomi": [
+        "そだ"
+      ],
+      "meaning": "criar"
+    },
+    {
+      "kanji": "学歴",
+      "onyomi": [
+        "がくれき"
+      ],
+      "kunyomi": [],
+      "meaning": "historial académico"
+    },
+    {
+      "kanji": "学",
+      "onyomi": [
+        "がく"
+      ],
+      "kunyomi": [
+        "まな"
+      ],
+      "meaning": "aprender"
+    },
+    {
+      "kanji": "歴",
+      "onyomi": [
+        "れき"
+      ],
+      "kunyomi": [],
+      "meaning": "historial"
+    },
+    {
+      "kanji": "資格",
+      "onyomi": [
+        "しかく"
+      ],
+      "kunyomi": [],
+      "meaning": "calificación"
+    },
+    {
+      "kanji": "資",
+      "onyomi": [
+        "し"
+      ],
+      "kunyomi": [],
+      "meaning": "calificación"
+    },
+    {
+      "kanji": "格",
+      "onyomi": [
+        "かく"
+      ],
+      "kunyomi": [],
+      "meaning": "estándar"
+    },
+    {
+      "kanji": "免許",
+      "onyomi": [
+        "めんきょ"
+      ],
+      "kunyomi": [],
+      "meaning": "licencia"
+    },
+    {
+      "kanji": "免",
+      "onyomi": [
+        "めん"
+      ],
+      "kunyomi": [],
+      "meaning": "exención"
+    },
+    {
+      "kanji": "許",
+      "onyomi": [
+        "きょ"
+      ],
+      "kunyomi": [
+        "ゆる"
+      ],
+      "meaning": "permiso"
+    },
+    {
+      "kanji": "卒業",
+      "onyomi": [
+        "そつぎょう"
+      ],
+      "kunyomi": [],
+      "meaning": "graduación"
+    },
+    {
+      "kanji": "卒",
+      "onyomi": [
+        "そつ"
+      ],
+      "kunyomi": [],
+      "meaning": "graduado"
+    },
+    {
+      "kanji": "業",
+      "onyomi": [
+        "ぎょう"
+      ],
+      "kunyomi": [
+        "わざ"
+      ],
+      "meaning": "trabajo"
+    },
+    {
+      "kanji": "入学",
+      "onyomi": [
+        "にゅうがく"
+      ],
+      "kunyomi": [],
+      "meaning": "ingreso escolar"
+    },
+    {
+      "kanji": "入",
+      "onyomi": [
+        "にゅう"
+      ],
+      "kunyomi": [
+        "い"
+      ],
+      "meaning": "entrar"
+    },
+    {
+      "kanji": "学",
+      "onyomi": [
+        "がく"
+      ],
+      "kunyomi": [
+        "まな"
+      ],
+      "meaning": "escuela"
+    },
+    {
+      "kanji": "退学",
+      "onyomi": [
+        "たいがく"
+      ],
+      "kunyomi": [],
+      "meaning": "retirada escolar"
+    },
+    {
+      "kanji": "退",
+      "onyomi": [
+        "たい"
+      ],
+      "kunyomi": [
+        "しりぞ"
+      ],
+      "meaning": "retirada"
+    },
+    {
+      "kanji": "学",
+      "onyomi": [
+        "がく"
+      ],
+      "kunyomi": [
+        "まな"
+      ],
+      "meaning": "escuela"
+    },
+    {
+      "kanji": "入学試験",
+      "onyomi": [
+        "にゅうがくしけん"
+      ],
+      "kunyomi": [],
+      "meaning": "examen de ingreso"
+    },
+    {
+      "kanji": "入",
+      "onyomi": [
+        "にゅう"
+      ],
+      "kunyomi": [
+        "い"
+      ],
+      "meaning": "entrar"
+    },
+    {
+      "kanji": "学",
+      "onyomi": [
+        "がく"
+      ],
+      "kunyomi": [
+        "まな"
+      ],
+      "meaning": "escuela"
+    },
+    {
+      "kanji": "試験",
+      "onyomi": [
+        "しけん"
+      ],
+      "kunyomi": [],
+      "meaning": "examen"
+    },
+    {
+      "kanji": "試",
+      "onyomi": [
+        "し"
+      ],
+      "kunyomi": [
+        "こころ",
+        "ため"
+      ],
+      "meaning": "prueba"
+    },
+    {
+      "kanji": "験",
+      "onyomi": [
+        "けん",
+        "げん"
+      ],
+      "kunyomi": [],
+      "meaning": "prueba"
+    },
+    {
+      "kanji": "修学",
+      "onyomi": [
+        "しゅうがく"
+      ],
+      "kunyomi": [],
+      "meaning": "estudiar"
+    },
+    {
+      "kanji": "修",
+      "onyomi": [
+        "しゅう",
+        "しゅ"
+      ],
+      "kunyomi": [
+        "おさ"
+      ],
+      "meaning": "estudiar"
+    },
+    {
+      "kanji": "学",
+      "onyomi": [
+        "がく"
+      ],
+      "kunyomi": [
+        "まな"
+      ],
+      "meaning": "estudiar"
+    },
+    {
+      "kanji": "留学",
+      "onyomi": [
+        "りゅうがく"
+      ],
+      "kunyomi": [],
+      "meaning": "estudiar en el extranjero"
+    },
+    {
+      "kanji": "留",
+      "onyomi": [
+        "りゅう"
+      ],
+      "kunyomi": [
+        "と"
+      ],
+      "meaning": "quedarse"
+    },
+    {
+      "kanji": "学",
+      "onyomi": [
+        "がく"
+      ],
+      "kunyomi": [
+        "まな"
+      ],
+      "meaning": "estudiar"
+    },
+    {
+      "kanji": "研究",
+      "onyomi": [
+        "けんきゅう"
+      ],
+      "kunyomi": [],
+      "meaning": "investigación"
+    },
+    {
+      "kanji": "研",
+      "onyomi": [
+        "けん"
+      ],
+      "kunyomi": [
+        "と"
+      ],
+      "meaning": "investigar"
+    },
+    {
+      "kanji": "究",
+      "onyomi": [
+        "きゅう"
+      ],
+      "kunyomi": [
+        "きわ"
+      ],
+      "meaning": "investigación"
+    },
+    {
+      "kanji": "論文",
+      "onyomi": [
+        "ろんぶん"
+      ],
+      "kunyomi": [],
+      "meaning": "tesis"
+    },
+    {
+      "kanji": "論",
+      "onyomi": [
+        "ろん"
+      ],
+      "kunyomi": [],
+      "meaning": "teoría"
+    },
+    {
+      "kanji": "文",
+      "onyomi": [
+        "ぶん",
+        "もん"
+      ],
+      "kunyomi": [
+        "ふみ"
+      ],
+      "meaning": "escritura"
+    },
+    {
+      "kanji": "学位",
+      "onyomi": [
+        "がくい"
+      ],
+      "kunyomi": [],
+      "meaning": "grado académico"
+    },
+    {
+      "kanji": "学",
+      "onyomi": [
+        "がく"
+      ],
+      "kunyomi": [
+        "まな"
+      ],
+      "meaning": "estudiar"
+    },
+    {
+      "kanji": "位",
+      "onyomi": [
+        "い"
+      ],
+      "kunyomi": [
+        "くらい"
+      ],
+      "meaning": "grado"
+    },
+    {
+      "kanji": "講義",
+      "onyomi": [
+        "こうぎ"
+      ],
+      "kunyomi": [],
+      "meaning": "clase magistral"
+    },
+    {
+      "kanji": "講",
+      "onyomi": [
+        "こう"
+      ],
+      "kunyomi": [],
+      "meaning": "conferencia"
+    },
+    {
+      "kanji": "義",
+      "onyomi": [
+        "ぎ"
+      ],
+      "kunyomi": [],
+      "meaning": "significado"
+    },
+    {
+      "kanji": "講師",
+      "onyomi": [
+        "こうし"
+      ],
+      "kunyomi": [],
+      "meaning": "conferenciante"
+    },
+    {
+      "kanji": "講",
+      "onyomi": [
+        "こう"
+      ],
+      "kunyomi": [],
+      "meaning": "clase"
+    },
+    {
+      "kanji": "師",
+      "onyomi": [
+        "し"
+      ],
+      "kunyomi": [],
+      "meaning": "profesor"
+    },
+    {
+      "kanji": "教授",
+      "onyomi": [
+        "きょうじゅ"
+      ],
+      "kunyomi": [],
+      "meaning": "profesor"
+    },
+    {
+      "kanji": "教",
+      "onyomi": [
+        "きょう"
+      ],
+      "kunyomi": [
+        "おし"
+      ],
+      "meaning": "enseñar"
+    },
+    {
+      "kanji": "授",
+      "onyomi": [
+        "じゅ"
+      ],
+      "kunyomi": [
+        "さず"
+      ],
+      "meaning": "otorgar"
+    },
+    {
+      "kanji": "学生",
+      "onyomi": [
+        "がくせい"
+      ],
+      "kunyomi": [],
+      "meaning": "estudiante"
+    },
+    {
+      "kanji": "学",
+      "onyomi": [
+        "がく"
+      ],
+      "kunyomi": [
+        "まな"
+      ],
+      "meaning": "aprender"
+    },
+    {
+      "kanji": "生",
+      "onyomi": [
+        "せい"
+      ],
+      "kunyomi": [
+        "い"
+      ],
+      "meaning": "vida"
+    },
+    {
+      "kanji": "生徒",
+      "onyomi": [
+        "せいと"
+      ],
+      "kunyomi": [],
+      "meaning": "alumno"
+    },
+    {
+      "kanji": "生",
+      "onyomi": [
+        "せい"
+      ],
+      "kunyomi": [
+        "い"
+      ],
+      "meaning": "estudiante"
+    },
+    {
+      "kanji": "徒",
+      "onyomi": [
+        "と"
+      ],
+      "kunyomi": [],
+      "meaning": "alumno"
+    },
+    {
+      "kanji": "教師",
+      "onyomi": [
+        "きょうし"
+      ],
+      "kunyomi": [],
+      "meaning": "profesor"
+    },
+    {
+      "kanji": "教",
+      "onyomi": [
+        "きょう"
+      ],
+      "kunyomi": [
+        "おし"
+      ],
+      "meaning": "enseñar"
+    },
+    {
+      "kanji": "師",
+      "onyomi": [
+        "し"
+      ],
+      "kunyomi": [],
+      "meaning": "profesor"
+    },
+    {
+      "kanji": "学校",
+      "onyomi": [
+        "がっこう"
+      ],
+      "kunyomi": [],
+      "meaning": "escuela"
+    },
+    {
+      "kanji": "学",
+      "onyomi": [
+        "がく"
+      ],
+      "kunyomi": [
+        "まな"
+      ],
+      "meaning": "escuela"
+    },
+    {
+      "kanji": "校",
+      "onyomi": [
+        "こう"
+      ],
+      "kunyomi": [],
+      "meaning": "escuela"
+    },
+    {
+      "kanji": "大学",
+      "onyomi": [
+        "だいがく"
+      ],
+      "kunyomi": [],
+      "meaning": "universidad"
+    },
+    {
+      "kanji": "大",
+      "onyomi": [
+        "だい"
+      ],
+      "kunyomi": [
+        "おお"
+      ],
+      "meaning": "grande"
+    },
+    {
+      "kanji": "学",
+      "onyomi": [
+        "がく"
+      ],
+      "kunyomi": [
+        "まな"
+      ],
+      "meaning": "escuela"
+    },
+    {
+      "kanji": "高校",
+      "onyomi": [
+        "こうこう"
+      ],
+      "kunyomi": [],
+      "meaning": "instituto"
+    },
+    {
+      "kanji": "中学校",
+      "onyomi": [
+        "ちゅうがっこう"
+      ],
+      "kunyomi": [],
+      "meaning": "secundaria"
+    },
+    {
+      "kanji": "中",
+      "onyomi": [
+        "ちゅう"
+      ],
+      "kunyomi": [
+        "なか"
+      ],
+      "meaning": "medio"
+    },
+    {
+      "kanji": "小学校",
+      "onyomi": [
+        "しょうがっこう"
+      ],
+      "kunyomi": [],
+      "meaning": "primaria"
+    },
+    {
+      "kanji": "小",
+      "onyomi": [
+        "しょう"
+      ],
+      "kunyomi": [
+        "ちい"
+      ],
+      "meaning": "pequeño"
+    },
+    {
+      "kanji": "幼稚園",
+      "onyomi": [
+        "ようちえん"
+      ],
+      "kunyomi": [],
+      "meaning": "jardín infantil"
+    },
+    {
+      "kanji": "幼",
+      "onyomi": [
+        "よう"
+      ],
+      "kunyomi": [
+        "おさな"
+      ],
+      "meaning": "pequeño"
+    },
+    {
+      "kanji": "稚",
+      "onyomi": [
+        "ち"
+      ],
+      "kunyomi": [],
+      "meaning": "inmaduro"
+    },
+    {
+      "kanji": "園",
+      "onyomi": [
+        "えん"
+      ],
+      "kunyomi": [
+        "その"
+      ],
+      "meaning": "jardín"
+    },
+    {
+      "kanji": "図書館",
+      "onyomi": [
+        "としょかん"
+      ],
+      "kunyomi": [],
+      "meaning": "biblioteca"
+    },
+    {
+      "kanji": "図",
+      "onyomi": [
+        "と",
+        "ず"
+      ],
+      "kunyomi": [
+        "はか"
+      ],
+      "meaning": "mapa"
+    },
+    {
+      "kanji": "書",
+      "onyomi": [
+        "しょ"
+      ],
+      "kunyomi": [
+        "か"
+      ],
+      "meaning": "libro"
+    },
+    {
+      "kanji": "館",
+      "onyomi": [
+        "かん"
+      ],
+      "kunyomi": [
+        "やかた"
+      ],
+      "meaning": "edificio"
+    },
+    {
+      "kanji": "科学",
+      "onyomi": [
+        "かがく"
+      ],
+      "kunyomi": [],
+      "meaning": "ciencia"
+    },
+    {
+      "kanji": "科",
+      "onyomi": [
+        "か"
+      ],
+      "kunyomi": [],
+      "meaning": "ciencia"
+    },
+    {
+      "kanji": "学",
+      "onyomi": [
+        "がく"
+      ],
+      "kunyomi": [
+        "まな"
+      ],
+      "meaning": "estudiar"
+    },
+    {
+      "kanji": "技術",
+      "onyomi": [
+        "ぎじゅつ"
+      ],
+      "kunyomi": [],
+      "meaning": "tecnología"
+    },
+    {
+      "kanji": "技",
+      "onyomi": [
+        "ぎ"
+      ],
+      "kunyomi": [
+        "わざ"
+      ],
+      "meaning": "habilidad"
+    },
+    {
+      "kanji": "術",
+      "onyomi": [
+        "じゅつ"
+      ],
+      "kunyomi": [],
+      "meaning": "técnica"
+    },
+    {
+      "kanji": "発明",
+      "onyomi": [
+        "はつめい"
+      ],
+      "kunyomi": [],
+      "meaning": "invención"
+    },
+    {
+      "kanji": "発",
+      "onyomi": [
+        "はつ"
+      ],
+      "kunyomi": [],
+      "meaning": "desarrollar"
+    },
+    {
+      "kanji": "明",
+      "onyomi": [
+        "めい"
+      ],
+      "kunyomi": [
+        "あか",
+        "あき"
+      ],
+      "meaning": "claro"
+    },
+    {
+      "kanji": "発見",
+      "onyomi": [
+        "はっけん"
+      ],
+      "kunyomi": [],
+      "meaning": "descubrimiento"
+    },
+    {
+      "kanji": "発",
+      "onyomi": [
+        "はつ"
+      ],
+      "kunyomi": [],
+      "meaning": "descubrir"
+    },
+    {
+      "kanji": "見",
+      "onyomi": [
+        "けん"
+      ],
+      "kunyomi": [
+        "み"
+      ],
+      "meaning": "ver"
+    },
+    {
+      "kanji": "実験",
+      "onyomi": [
+        "じっけん"
+      ],
+      "kunyomi": [],
+      "meaning": "experimento"
+    },
+    {
+      "kanji": "実",
+      "onyomi": [
+        "じつ"
+      ],
+      "kunyomi": [
+        "み"
+      ],
+      "meaning": "realidad"
+    },
+    {
+      "kanji": "験",
+      "onyomi": [
+        "けん"
+      ],
+      "kunyomi": [],
+      "meaning": "prueba"
+    },
+    {
+      "kanji": "理論",
+      "onyomi": [
+        "りろん"
+      ],
+      "kunyomi": [],
+      "meaning": "teoría"
+    },
+    {
+      "kanji": "理",
+      "onyomi": [
+        "り"
+      ],
+      "kunyomi": [],
+      "meaning": "razón"
+    },
+    {
+      "kanji": "論",
+      "onyomi": [
+        "ろん"
+      ],
+      "kunyomi": [],
+      "meaning": "teoría"
+    },
+    {
+      "kanji": "法則",
+      "onyomi": [
+        "ほうそく"
+      ],
+      "kunyomi": [],
+      "meaning": "ley"
+    },
+    {
+      "kanji": "法",
+      "onyomi": [
+        "ほう"
+      ],
+      "kunyomi": [],
+      "meaning": "ley"
+    },
+    {
+      "kanji": "則",
+      "onyomi": [
+        "そく"
+      ],
+      "kunyomi": [
+        "のり"
+      ],
+      "meaning": "regla"
+    },
+    {
+      "kanji": "原理",
+      "onyomi": [
+        "げんり"
+      ],
+      "kunyomi": [],
+      "meaning": "principio"
+    },
+    {
+      "kanji": "原",
+      "onyomi": [
+        "げん"
+      ],
+      "kunyomi": [
+        "はら"
+      ],
+      "meaning": "original"
+    },
+    {
+      "kanji": "理",
+      "onyomi": [
+        "り"
+      ],
+      "kunyomi": [],
+      "meaning": "principio"
+    },
+    {
+      "kanji": "宇宙",
+      "onyomi": [
+        "うちゅう"
+      ],
+      "kunyomi": [],
+      "meaning": "universo"
+    },
+    {
+      "kanji": "宇",
+      "onyomi": [
+        "う"
+      ],
+      "kunyomi": [],
+      "meaning": "universo"
+    },
+    {
+      "kanji": "宙",
+      "onyomi": [
+        "ちゅう"
+      ],
+      "kunyomi": [],
+      "meaning": "espacio"
+    },
+    {
+      "kanji": "地球",
+      "onyomi": [
+        "ちきゅう"
+      ],
+      "kunyomi": [],
+      "meaning": "tierra"
+    },
+    {
+      "kanji": "地",
+      "onyomi": [
+        "ち",
+        "じ"
+      ],
+      "kunyomi": [],
+      "meaning": "tierra"
+    },
+    {
+      "kanji": "球",
+      "onyomi": [
+        "きゅう"
+      ],
+      "kunyomi": [
+        "たま"
+      ],
+      "meaning": "esfera"
+    },
+    {
+      "kanji": "惑星",
+      "onyomi": [
+        "わくせい"
+      ],
+      "kunyomi": [],
+      "meaning": "planeta"
+    },
+    {
+      "kanji": "惑",
+      "onyomi": [
+        "わく"
+      ],
+      "kunyomi": [
+        "まど"
+      ],
+      "meaning": "confundir"
+    },
+    {
+      "kanji": "星",
+      "onyomi": [
+        "せい",
+        "しょう"
+      ],
+      "kunyomi": [
+        "ほし"
+      ],
+      "meaning": "estrella"
+    },
+    {
+      "kanji": "恒星",
+      "onyomi": [
+        "こうせい"
+      ],
+      "kunyomi": [],
+      "meaning": "estrella"
+    },
+    {
+      "kanji": "恒",
+      "onyomi": [
+        "こう"
+      ],
+      "kunyomi": [],
+      "meaning": "constante"
+    },
+    {
+      "kanji": "星",
+      "onyomi": [
+        "せい",
+        "しょう"
+      ],
+      "kunyomi": [
+        "ほし"
+      ],
+      "meaning": "estrella"
+    },
+    {
+      "kanji": "太陽系",
+      "onyomi": [
+        "たいようけい"
+      ],
+      "kunyomi": [],
+      "meaning": "sistema solar"
+    },
+    {
+      "kanji": "太陽",
+      "onyomi": [
+        "たいよう"
+      ],
+      "kunyomi": [],
+      "meaning": "sol"
+    },
+    {
+      "kanji": "系",
+      "onyomi": [
+        "けい"
+      ],
+      "kunyomi": [],
+      "meaning": "sistema"
+    },
+    {
+      "kanji": "銀河",
+      "onyomi": [
+        "ぎんが"
+      ],
+      "kunyomi": [],
+      "meaning": "galaxia"
+    },
+    {
+      "kanji": "銀",
+      "onyomi": [
+        "ぎん"
+      ],
+      "kunyomi": [],
+      "meaning": "plata"
+    },
+    {
+      "kanji": "河",
+      "onyomi": [
+        "か"
+      ],
+      "kunyomi": [
+        "かわ"
+      ],
+      "meaning": "río"
+    },
+    {
+      "kanji": "天文学",
+      "onyomi": [
+        "てんもんがく"
+      ],
+      "kunyomi": [],
+      "meaning": "astronomía"
+    },
+    {
+      "kanji": "天",
+      "onyomi": [
+        "てん"
+      ],
+      "kunyomi": [
+        "あま"
+      ],
+      "meaning": "cielo"
+    },
+    {
+      "kanji": "文",
+      "onyomi": [
+        "ぶん"
+      ],
+      "kunyomi": [
+        "ふみ"
+      ],
+      "meaning": "escritura"
+    },
+    {
+      "kanji": "学",
+      "onyomi": [
+        "がく"
+      ],
+      "kunyomi": [
+        "まな"
+      ],
+      "meaning": "estudio"
+    },
+    {
+      "kanji": "物理学",
+      "onyomi": [
+        "ぶつりがく"
+      ],
+      "kunyomi": [],
+      "meaning": "física"
+    },
+    {
+      "kanji": "物",
+      "onyomi": [
+        "ぶつ",
+        "もつ"
+      ],
+      "kunyomi": [
+        "もの"
+      ],
+      "meaning": "cosa"
+    },
+    {
+      "kanji": "理",
+      "onyomi": [
+        "り"
+      ],
+      "kunyomi": [],
+      "meaning": "razón"
+    },
+    {
+      "kanji": "学",
+      "onyomi": [
+        "がく"
+      ],
+      "kunyomi": [
+        "まな"
+      ],
+      "meaning": "estudio"
+    },
+    {
+      "kanji": "化学",
+      "onyomi": [
+        "かがく"
+      ],
+      "kunyomi": [],
+      "meaning": "química"
+    },
+    {
+      "kanji": "化",
+      "onyomi": [
+        "か"
+      ],
+      "kunyomi": [
+        "ば"
+      ],
+      "meaning": "cambio"
+    },
+    {
+      "kanji": "学",
+      "onyomi": [
+        "がく"
+      ],
+      "kunyomi": [
+        "まな"
+      ],
+      "meaning": "estudio"
+    },
+    {
+      "kanji": "生物学",
+      "onyomi": [
+        "せいぶつがく"
+      ],
+      "kunyomi": [],
+      "meaning": "biología"
+    },
+    {
+      "kanji": "生",
+      "onyomi": [
+        "せい"
+      ],
+      "kunyomi": [
+        "い"
+      ],
+      "meaning": "vida"
+    },
+    {
+      "kanji": "物",
+      "onyomi": [
+        "ぶつ"
+      ],
+      "kunyomi": [
+        "もの"
+      ],
+      "meaning": "cosa"
+    },
+    {
+      "kanji": "学",
+      "onyomi": [
+        "がく"
+      ],
+      "kunyomi": [
+        "まな"
+      ],
+      "meaning": "estudio"
+    },
+    {
+      "kanji": "数学",
+      "onyomi": [
+        "すうがく"
+      ],
+      "kunyomi": [],
+      "meaning": "matemáticas"
+    },
+    {
+      "kanji": "数",
+      "onyomi": [
+        "すう"
+      ],
+      "kunyomi": [
+        "かず",
+        "かぞ"
+      ],
+      "meaning": "número"
+    },
+    {
+      "kanji": "学",
+      "onyomi": [
+        "がく"
+      ],
+      "kunyomi": [
+        "まな"
+      ],
+      "meaning": "estudio"
+    },
+    {
+      "kanji": "医学",
+      "onyomi": [
+        "いがく"
+      ],
+      "kunyomi": [],
+      "meaning": "medicina"
+    },
+    {
+      "kanji": "医",
+      "onyomi": [
+        "い"
+      ],
+      "kunyomi": [
+        "い"
+      ],
+      "meaning": "médico"
+    },
+    {
+      "kanji": "学",
+      "onyomi": [
+        "がく"
+      ],
+      "kunyomi": [
+        "まな"
+      ],
+      "meaning": "estudio"
+    },
+    {
+      "kanji": "心理学",
+      "onyomi": [
+        "しんりがく"
+      ],
+      "kunyomi": [],
+      "meaning": "psicología"
+    },
+    {
+      "kanji": "心",
+      "onyomi": [
+        "しん"
+      ],
+      "kunyomi": [
+        "こころ"
+      ],
+      "meaning": "corazón"
+    },
+    {
+      "kanji": "理",
+      "onyomi": [
+        "り"
+      ],
+      "kunyomi": [],
+      "meaning": "razón"
+    },
+    {
+      "kanji": "学",
+      "onyomi": [
+        "がく"
+      ],
+      "kunyomi": [
+        "まな"
+      ],
+      "meaning": "estudio"
+    },
+    {
+      "kanji": "哲学",
+      "onyomi": [
+        "てつがく"
+      ],
+      "kunyomi": [],
+      "meaning": "filosofía"
+    },
+    {
+      "kanji": "哲",
+      "onyomi": [
+        "てつ"
+      ],
+      "kunyomi": [],
+      "meaning": "filosofía"
+    },
+    {
+      "kanji": "学",
+      "onyomi": [
+        "がく"
+      ],
+      "kunyomi": [
+        "まな"
+      ],
+      "meaning": "estudio"
+    },
+    {
+      "kanji": "文学",
+      "onyomi": [
+        "ぶんがく"
+      ],
+      "kunyomi": [],
+      "meaning": "literatura"
+    },
+    {
+      "kanji": "文",
+      "onyomi": [
+        "ぶん"
+      ],
+      "kunyomi": [
+        "ふみ"
+      ],
+      "meaning": "escritura"
+    },
+    {
+      "kanji": "学",
+      "onyomi": [
+        "がく"
+      ],
+      "kunyomi": [
+        "まな"
+      ],
+      "meaning": "estudio"
+    },
+    {
+      "kanji": "芸術",
+      "onyomi": [
+        "げいじゅつ"
+      ],
+      "kunyomi": [],
+      "meaning": "arte"
+    },
+    {
+      "kanji": "芸",
+      "onyomi": [
+        "げい"
+      ],
+      "kunyomi": [],
+      "meaning": "arte"
+    },
+    {
+      "kanji": "術",
+      "onyomi": [
+        "じゅつ"
+      ],
+      "kunyomi": [],
+      "meaning": "técnica"
+    },
+    {
+      "kanji": "音楽",
+      "onyomi": [
+        "おんがく"
+      ],
+      "kunyomi": [],
+      "meaning": "música"
+    },
+    {
+      "kanji": "音",
+      "onyomi": [
+        "おん",
+        "いん"
+      ],
+      "kunyomi": [
+        "おと",
+        "ね"
+      ],
+      "meaning": "sonido"
+    },
+    {
+      "kanji": "楽",
+      "onyomi": [
+        "がく",
+        "らく"
+      ],
+      "kunyomi": [
+        "たの"
+      ],
+      "meaning": "música"
+    },
+    {
+      "kanji": "絵画",
+      "onyomi": [
+        "かいが"
+      ],
+      "kunyomi": [],
+      "meaning": "pintura"
+    },
+    {
+      "kanji": "絵",
+      "onyomi": [
+        "かい",
+        "え"
+      ],
+      "kunyomi": [
+        "え"
+      ],
+      "meaning": "dibujo"
+    },
+    {
+      "kanji": "画",
+      "onyomi": [
+        "が"
+      ],
+      "kunyomi": [
+        "えが"
+      ],
+      "meaning": "cuadro"
+    },
+    {
+      "kanji": "彫刻",
+      "onyomi": [
+        "ちょうこく"
+      ],
+      "kunyomi": [],
+      "meaning": "escultura"
+    },
+    {
+      "kanji": "彫",
+      "onyomi": [
+        "ちょう"
+      ],
+      "kunyomi": [
+        "ほ"
+      ],
+      "meaning": "esculpir"
+    },
+    {
+      "kanji": "刻",
+      "onyomi": [
+        "こく"
+      ],
+      "kunyomi": [
+        "きざ"
+      ],
+      "meaning": "grabar"
+    },
+    {
+      "kanji": "建築",
+      "onyomi": [
+        "けんちく"
+      ],
+      "kunyomi": [],
+      "meaning": "arquitectura"
+    },
+    {
+      "kanji": "建",
+      "onyomi": [
+        "けん"
+      ],
+      "kunyomi": [
+        "た",
+        "たて"
+      ],
+      "meaning": "construir"
+    },
+    {
+      "kanji": "築",
+      "onyomi": [
+        "ちく"
+      ],
+      "kunyomi": [
+        "きず"
+      ],
+      "meaning": "construir"
+    },
+    {
+      "kanji": "宗教",
+      "onyomi": [
+        "しゅうきょう"
+      ],
+      "kunyomi": [],
+      "meaning": "religión"
+    },
+    {
+      "kanji": "宗",
+      "onyomi": [
+        "しゅう"
+      ],
+      "kunyomi": [],
+      "meaning": "religión"
+    },
+    {
+      "kanji": "教",
+      "onyomi": [
+        "きょう"
+      ],
+      "kunyomi": [
+        "おし"
+      ],
+      "meaning": "enseñanza"
+    },
+    {
+      "kanji": "神道",
+      "onyomi": [
+        "しんとう"
+      ],
+      "kunyomi": [],
+      "meaning": "sintoísmo"
+    },
+    {
+      "kanji": "神",
+      "onyomi": [
+        "しん"
+      ],
+      "kunyomi": [
+        "かみ"
+      ],
+      "meaning": "dios"
+    },
+    {
+      "kanji": "道",
+      "onyomi": [
+        "どう",
+        "とう"
+      ],
+      "kunyomi": [
+        "みち"
+      ],
+      "meaning": "camino"
+    },
+    {
+      "kanji": "仏教",
+      "onyomi": [
+        "ぶっきょう"
+      ],
+      "kunyomi": [],
+      "meaning": "budismo"
+    },
+    {
+      "kanji": "仏",
+      "onyomi": [
+        "ぶつ"
+      ],
+      "kunyomi": [
+        "ほとけ"
+      ],
+      "meaning": "buda"
+    },
+    {
+      "kanji": "教",
+      "onyomi": [
+        "きょう"
+      ],
+      "kunyomi": [
+        "おし"
+      ],
+      "meaning": "enseñanza"
+    },
+    {
+      "kanji": "言語",
+      "onyomi": [
+        "げんご"
+      ],
+      "kunyomi": [],
+      "meaning": "idioma"
+    },
+    {
+      "kanji": "言",
+      "onyomi": [
+        "げん",
+        "ごん"
+      ],
+      "kunyomi": [
+        "い",
+        "こと"
+      ],
+      "meaning": "palabra"
+    },
+    {
+      "kanji": "語",
+      "onyomi": [
+        "ご"
+      ],
+      "kunyomi": [
+        "かた"
+      ],
+      "meaning": "idioma"
+    },
+    {
+      "kanji": "文法",
+      "onyomi": [
+        "ぶんぽう"
+      ],
+      "kunyomi": [],
+      "meaning": "gramática"
+    },
+    {
+      "kanji": "文",
+      "onyomi": [
+        "ぶん"
+      ],
+      "kunyomi": [
+        "ふみ"
+      ],
+      "meaning": "escritura"
+    },
+    {
+      "kanji": "法",
+      "onyomi": [
+        "ほう",
+        "ほっ"
+      ],
+      "kunyomi": [],
+      "meaning": "método"
+    },
+    {
+      "kanji": "単語",
+      "onyomi": [
+        "たんご"
+      ],
+      "kunyomi": [],
+      "meaning": "palabra"
+    },
+    {
+      "kanji": "単",
+      "onyomi": [
+        "たん"
+      ],
+      "kunyomi": [
+        "ひと"
+      ],
+      "meaning": "simple"
+    },
+    {
+      "kanji": "語",
+      "onyomi": [
+        "ご"
+      ],
+      "kunyomi": [
+        "かた"
+      ],
+      "meaning": "palabra"
+    },
+    {
+      "kanji": "翻訳",
+      "onyomi": [
+        "ほんやく"
+      ],
+      "kunyomi": [],
+      "meaning": "traducción"
+    },
+    {
+      "kanji": "翻",
+      "onyomi": [
+        "ほん"
+      ],
+      "kunyomi": [
+        "ひるがえ"
+      ],
+      "meaning": "traducir"
+    },
+    {
+      "kanji": "訳",
+      "onyomi": [
+        "やく"
+      ],
+      "kunyomi": [
+        "わけ"
+      ],
+      "meaning": "traducción"
+    },
+    {
+      "kanji": "通訳",
+      "onyomi": [
+        "つうやく"
+      ],
+      "kunyomi": [],
+      "meaning": "interpretación"
+    },
+    {
+      "kanji": "通",
+      "onyomi": [
+        "つう"
+      ],
+      "kunyomi": [
+        "かよ"
+      ],
+      "meaning": "interpretar"
+    },
+    {
+      "kanji": "訳",
+      "onyomi": [
+        "やく"
+      ],
+      "kunyomi": [
+        "わけ"
+      ],
+      "meaning": "traducir"
+    }
+  ]
+}
