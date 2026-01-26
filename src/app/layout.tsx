@@ -14,24 +14,24 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "NihongoApp - Aprende japonés",
-  description: "Aplicación completa para aprender japonés: silabarios, vocabulario, gramática y partículas JLPT N5-N1",
-  keywords: ["NihongoApp", "japonés", "aprender japonés", "JLPT", "hiragana", "katakana", "kanji", "gramática japonesa"],
-  authors: [{ name: "NihongoApp Team" }],
+  title: "Z.ai Code Scaffold - AI-Powered Development",
+  description: "Modern Next.js scaffold optimized for AI-powered development with Z.ai. Built with TypeScript, Tailwind CSS, and shadcn/ui.",
+  keywords: ["Z.ai", "Next.js", "TypeScript", "Tailwind CSS", "shadcn/ui", "AI development", "React"],
+  authors: [{ name: "Z.ai Team" }],
   icons: {
-    icon: "/nihon/logo.svg",
+    icon: "https://z-cdn.chatglm.cn/z-ai/static/logo.svg",
   },
   openGraph: {
-    title: "NihongoApp - Aprende japonés",
-    description: "Aplicación completa para aprender japonés: silabarios, vocabulario, gramática y partículas JLPT N5-N1",
-    url: process.env.NODE_ENV === 'production' ? 'https://[USERNAME].github.io/nihon' : 'http://localhost:3000',
-    siteName: "NihongoApp",
+    title: "Z.ai Code Scaffold",
+    description: "AI-powered development with modern React stack",
+    url: "https://chat.z.ai",
+    siteName: "Z.ai",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "NihongoApp - Aprende japonés",
-    description: "Aplicación completa para aprender japonés: silabarios, vocabulario, gramática y partículas JLPT N5-N1",
+    title: "Z.ai Code Scaffold",
+    description: "AI-powered development with modern React stack",
   },
 };
 

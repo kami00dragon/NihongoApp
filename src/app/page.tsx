@@ -359,8 +359,8 @@ export default function JapaneseLearningApp() {
           <div className="flex items-center gap-4">
             <ToriiGate size="lg" />
             <div>
-              <h1 className="text-2xl font-bold text-gray-900">NihongoApp</h1>
-              <p className="text-sm text-gray-600">Aprende japonés</p>
+              <h1 className="text-2xl font-bold text-gray-900">Kana Español</h1>
+              <p className="text-sm text-gray-600">Aprende Japonés de Forma Divertida</p>
             </div>
           </div>
 
@@ -881,7 +881,7 @@ export default function JapaneseLearningApp() {
       <footer className="bg-red-600 text-white py-4 mt-auto">
         <div className="max-w-6xl mx-auto text-center">
           <p className="text-sm">
-            © 2024 NihongoApp - Aprende japonés
+            © 2024 Kana Español - Aprende japonés de forma divertida
           </p>
         </div>
       </footer>
