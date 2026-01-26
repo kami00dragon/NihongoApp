@@ -6,8 +6,8 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: process.env.NODE_ENV === 'production' ? '/nihon' : '',
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/nihon' : '',
+  basePath: process.env.NODE_ENV === 'production' ? '/NihongoApp' : '',
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/NihongoApp' : '',
   typescript: {
     ignoreBuildErrors: true,
   },
