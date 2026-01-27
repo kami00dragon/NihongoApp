@@ -1,0 +1,360 @@
+{
+  "metadata": {
+    "total_words": 4000,
+    "description": "4000 palabras JLPT N5-N1 organizadas por nivel",
+    "levels": ["N5", "N4", "N3", "N2", "N1"],
+    "last_updated": "2026-01-27"
+  },
+  "words": [
+    {
+      "kanji": "学生",
+      "kana": "がくせい",
+      "romaji": "gakusei",
+      "español": ["estudiante", "alumno"],
+      "level": "N5",
+      "type": "sustantivo"
+    },
+    {
+      "kanji": "先生",
+      "kana": "せんせい",
+      "romaji": "sensei",
+      "español": ["profesor", "maestro", "doctor"],
+      "level": "N5",
+      "type": "sustantivo"
+    },
+    {
+      "kanji": "学校",
+      "kana": "がっこう",
+      "romaji": "gakkou",
+      "español": ["escuela", "colegio"],
+      "level": "N5",
+      "type": "sustantivo"
+    },
+    {
+      "kanji": "日本語",
+      "kana": "にほんご",
+      "romaji": "nihongo",
+      "español": ["idioma japonés"],
+      "level": "N5",
+      "type": "sustantivo"
+    },
+    {
+      "kanji": "食べる",
+      "kana": "たべる",
+      "romaji": "taberu",
+      "español": ["comer"],
+      "level": "N5",
+      "type": "verbo"
+    },
+    {
+      "kanji": "飲む",
+      "kana": "のむ",
+      "romaji": "nomu",
+      "español": ["beber", "tomar"],
+      "level": "N5",
+      "type": "verbo"
+    },
+    {
+      "kanji": "行く",
+      "kana": "いく",
+      "romaji": "iku",
+      "español": ["ir"],
+      "level": "N5",
+      "type": "verbo"
+    },
+    {
+      "kanji": "来る",
+      "kana": "くる",
+      "romaji": "kuru",
+      "español": ["venir"],
+      "level": "N5",
+      "type": "verbo"
+    },
+    {
+      "kanji": "見る",
+      "kana": "みる",
+      "romaji": "miru",
+      "español": ["ver", "mirar"],
+      "level": "N5",
+      "type": "verbo"
+    },
+    {
+      "kanji": "時間",
+      "kana": "じかん",
+      "romaji": "jikan",
+      "español": ["tiempo", "hora"],
+      "level": "N5",
+      "type": "sustantivo"
+    },
+    {
+      "kanji": "友達",
+      "kana": "ともだち",
+      "romaji": "tomodachi",
+      "español": ["amigo", "amiga"],
+      "level": "N5",
+      "type": "sustantivo"
+    },
+    {
+      "kanji": "家族",
+      "kana": "かぞく",
+      "romaji": "kazoku",
+      "español": ["familia"],
+      "level": "N5",
+      "type": "sustantivo"
+    },
+    {
+      "kanji": "新しい",
+      "kana": "あたらしい",
+      "romaji": "atarashii",
+      "español": ["nuevo"],
+      "level": "N5",
+      "type": "adjetivo"
+    },
+    {
+      "kanji": "古い",
+      "kana": "ふるい",
+      "romaji": "furui",
+      "español": ["viejo", "antiguo"],
+      "level": "N5",
+      "type": "adjetivo"
+    },
+    {
+      "kanji": "面白い",
+      "kana": "おもしろい",
+      "romaji": "omoshiroi",
+      "español": ["interesante", "divertido"],
+      "level": "N5",
+      "type": "adjetivo"
+    },
+    {
+      "kanji": "難しい",
+      "kana": "むずかしい",
+      "romaji": "muzukashii",
+      "español": ["difícil"],
+      "level": "N5",
+      "type": "adjetivo"
+    },
+    {
+      "kanji": "易しい",
+      "kana": "やさしい",
+      "romaji": "yasashii",
+      "español": ["fácil", "amable"],
+      "level": "N5",
+      "type": "adjetivo"
+    },
+    {
+      "kanji": "働く",
+      "kana": "はたらく",
+      "romaji": "hataraku",
+      "español": ["trabajar"],
+      "level": "N5",
+      "type": "verbo"
+    },
+    {
+      "kanji": "勉強する",
+      "kana": "べんきょうする",
+      "romaji": "benkyou suru",
+      "español": ["estudiar"],
+      "level": "N5",
+      "type": "verbo"
+    },
+    {
+      "kanji": "話す",
+      "kana": "はなす",
+      "romaji": "hanasu",
+      "español": ["hablar"],
+      "level": "N5",
+      "type": "verbo"
+    },
+    {
+      "kanji": "聞く",
+      "kana": "きく",
+      "romaji": "kiku",
+      "español": ["escuchar", "oír", "preguntar"],
+      "level": "N5",
+      "type": "verbo"
+    },
+    {
+      "kanji": "買う",
+      "kana": "かう",
+      "romaji": "kau",
+      "español": ["comprar"],
+      "level": "N5",
+      "type": "verbo"
+    },
+    {
+      "kanji": "待つ",
+      "kana": "まつ",
+      "romaji": "matsu",
+      "español": ["esperar"],
+      "level": "N5",
+      "type": "verbo"
+    },
+    {
+      "kanji": "電車",
+      "kana": "でんしゃ",
+      "romaji": "densha",
+      "español": ["tren", "electrotren"],
+      "level": "N5",
+      "type": "sustantivo"
+    },
+    {
+      "kanji": "車",
+      "kana": "くるま",
+      "romaji": "kuruma",
+      "español": ["coche", "carro", "automóvil"],
+      "level": "N5",
+      "type": "sustantivo"
+    },
+    {
+      "kanji": "家",
+      "kana": "いえ",
+      "romaji": "ie",
+      "español": ["casa", "hogar"],
+      "level": "N5",
+      "type": "sustantivo"
+    },
+    {
+      "kanji": "部屋",
+      "kana": "へや",
+      "romaji": "heya",
+      "español": ["habitación", "cuarto"],
+      "level": "N5",
+      "type": "sustantivo"
+    },
+    {
+      "kanji": "会社",
+      "kana": "かいしゃ",
+      "romaji": "kaisha",
+      "español": ["empresa", "compañía", "oficina"],
+      "level": "N5",
+      "type": "sustantivo"
+    },
+    {
+      "kanji": "病院",
+      "kana": "びょういん",
+      "romaji": "byouin",
+      "español": ["hospital"],
+      "level": "N5",
+      "type": "sustantivo"
+    },
+    {
+      "kanji": "銀行",
+      "kana": "ぎんこう",
+      "romaji": "ginkou",
+      "español": ["banco"],
+      "level": "N4",
+      "type": "sustantivo"
+    },
+    {
+      "kanji": "図書館",
+      "kana": "としょかん",
+      "romaji": "toshokan",
+      "español": ["biblioteca"],
+      "level": "N4",
+      "type": "sustantivo"
+    },
+    {
+      "kanji": "料理",
+      "kana": "りょうり",
+      "romaji": "ryouri",
+      "español": ["cocina", "plato", "comida"],
+      "level": "N5",
+      "type": "sustantivo"
+    },
+    {
+      "kanji": "音楽",
+      "kana": "おんがく",
+      "romaji": "ongaku",
+      "español": ["música"],
+      "level": "N5",
+      "type": "sustantivo"
+    },
+    {
+      "kanji": "映画",
+      "kana": "えいが",
+      "romaji": "eiga",
+      "español": ["película", "cine"],
+      "level": "N5",
+      "type": "sustantivo"
+    },
+    {
+      "kanji": "本",
+      "kana": "ほん",
+      "romaji": "hon",
+      "español": ["libro"],
+      "level": "N5",
+      "type": "sustantivo"
+    },
+    {
+      "kanji": "新聞",
+      "kana": "しんぶん",
+      "romaji": "shinbun",
+      "español": ["periódico"],
+      "level": "N5",
+      "type": "sustantivo"
+    },
+    {
+      "kanji": "写真",
+      "kana": "しゃしん",
+      "romaji": "shashin",
+      "español": ["foto", "fotografía"],
+      "level": "N5",
+      "type": "sustantivo"
+    },
+    {
+      "kanji": "天気",
+      "kana": "てんき",
+      "romaji": "tenki",
+      "español": ["tiempo atmosférico", "clima"],
+      "level": "N5",
+      "type": "sustantivo"
+    },
+    {
+      "kanji": "雨",
+      "kana": "あめ",
+      "romaji": "ame",
+      "español": ["lluvia"],
+      "level": "N5",
+      "type": "sustantivo"
+    },
+    {
+      "kanji": "雪",
+      "kana": "ゆき",
+      "romaji": "yuki",
+      "español": ["nieve"],
+      "level": "N5",
+      "type": "sustantivo"
+    },
+    {
+      "kanji": "春",
+      "kana": "はる",
+      "romaji": "haru",
+      "español": ["primavera"],
+      "level": "N5",
+      "type": "sustantivo"
+    },
+    {
+      "kanji": "夏",
+      "kana": "なつ",
+      "romaji": "natsu",
+      "español": ["verano"],
+      "level": "N5",
+      "type": "sustantivo"
+    },
+    {
+      "kanji": "秋",
+      "kana": "あき",
+      "romaji": "aki",
+      "español": ["otoño"],
+      "level": "N5",
+      "type": "sustantivo"
+    },
+    {
+      "kanji": "冬",
+      "kana": "ふゆ",
+      "romaji": "fuyu",
+      "español": ["invierno"],
+      "level": "N5",
+      "type": "sustantivo"
+    }
