@@ -389,6 +389,158 @@
       "español": ["invierno"],
       "level": "N5",
       "type": "sustantivo"
+    },
+    {
+      "kanji": "月曜日",
+      "kana": "げつようび",
+      "romaji": "getsuyoubi",
+      "español": ["lunes"],
+      "level": "N5",
+      "type": "sustantivo"
+    },
+    {
+      "kanji": "火曜日",
+      "kana": "かようび",
+      "romaji": "kayoubi",
+      "español": ["martes"],
+      "level": "N5",
+      "type": "sustantivo"
+    },
+    {
+      "kanji": "水曜日",
+      "kana": "すいようび",
+      "romaji": "suiyoubi",
+      "español": ["miércoles"],
+      "level": "N5",
+      "type": "sustantivo"
+    },
+    {
+      "kanji": "木曜日",
+      "kana": "もくようび",
+      "romaji": "mokuyoubi",
+      "español": ["jueves"],
+      "level": "N5",
+      "type": "sustantivo"
+    },
+    {
+      "kanji": "金曜日",
+      "kana": "きんようび",
+      "romaji": "kinyoubi",
+      "español": ["viernes"],
+      "level": "N5",
+      "type": "sustantivo"
+    },
+    {
+      "kanji": "土曜日",
+      "kana": "どようび",
+      "romaji": "doyoubi",
+      "español": ["sábado"],
+      "level": "N5",
+      "type": "sustantivo"
+    },
+    {
+      "kanji": "日曜日",
+      "kana": "にちようび",
+      "romaji": "nichiyoubi",
+      "español": ["domingo"],
+      "level": "N5",
+      "type": "sustantivo"
+    },
+    {
+      "kanji": "一月",
+      "kana": "いちがつ",
+      "romaji": "ichigatsu",
+      "español": ["enero"],
+      "level": "N5",
+      "type": "sustantivo"
+    },
+    {
+      "kanji": "二月",
+      "kana": "にがつ",
+      "romaji": "nigatsu",
+      "español": ["febrero"],
+      "level": "N5",
+      "type": "sustantivo"
+    },
+    {
+      "kanji": "三月",
+      "kana": "さんがつ",
+      "romaji": "sangatsu",
+      "español": ["marzo"],
+      "level": "N5",
+      "type": "sustantivo"
+    },
+    {
+      "kanji": "四月",
+      "kana": "しがつ",
+      "romaji": "shigatsu",
+      "español": ["abril"],
+      "level": "N5",
+      "type": "sustantivo"
+    },
+    {
+      "kanji": "五月",
+      "kana": "ごがつ",
+      "romaji": "gogatsu",
+      "español": ["mayo"],
+      "level": "N5",
+      "type": "sustantivo"
+    },
+    {
+      "kanji": "六月",
+      "kana": "ろくがつ",
+      "romaji": "rokugatsu",
+      "español": ["junio"],
+      "level": "N5",
+      "type": "sustantivo"
+    },
+    {
+      "kanji": "七月",
+      "kana": "しちがつ",
+      "romaji": "shichigatsu",
+      "español": ["julio"],
+      "level": "N5",
+      "type": "sustantivo"
+    },
+    {
+      "kanji": "八月",
+      "kana": "はちがつ",
+      "romaji": "hachigatsu",
+      "español": ["agosto"],
+      "level": "N5",
+      "type": "sustantivo"
+    },
+    {
+      "kanji": "九月",
+      "kana": "くがつ",
+      "romaji": "kugatsu",
+      "español": ["septiembre"],
+      "level": "N5",
+      "type": "sustantivo"
+    },
+    {
+      "kanji": "十月",
+      "kana": "じゅうがつ",
+      "romaji": "juugatsu",
+      "español": ["octubre"],
+      "level": "N5",
+      "type": "sustantivo"
+    },
+    {
+      "kanji": "十一月",
+      "kana": "じゅういちがつ",
+      "romaji": "juuichigatsu",
+      "español": ["noviembre"],
+      "level": "N5",
+      "type": "sustantivo"
+    },
+    {
+      "kanji": "十二月",
+      "kana": "じゅうにがつ",
+      "romaji": "juunigatsu",
+      "español": ["diciembre"],
+      "level": "N5",
+      "type": "sustantivo"
     }
   ]
 }
