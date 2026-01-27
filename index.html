@@ -232,5 +232,28 @@
     <!-- Scripts -->
     <script src="data.js"></script>
     <script src="app.js"></script>
+    
+    <!-- Script de inicialización -->
+    <script>
+        // Forzar inicialización después de que todo cargue
+        window.addEventListener('load', function() {
+            console.log('Inicializando NihongoApp...');
+            if (window.app) {
+                console.log('App ya existe');
+                // Forzar que solo el main-menu esté visible
+                if (window.app.hideAllScreens) {
+                    window.app.hideAllScreens();
+                }
+                const mainMenu = document.getElementById('main-menu');
+                if (mainMenu) {
+                    mainMenu.classList.add('active');
+                    console.log('Main menu activado');
+                }
+            } else {
+                console.log('App no existe, creando...');
+                window.app = new NihongoApp();
+            }
+        });
+    </script>
 </body>
 </html><!-- Actualizado: mar 27 ene 2026 06:11:15 -03 -->

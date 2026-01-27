@@ -877,10 +877,25 @@ function flipCard() {
     }
 }
 
-// Inicialización cuando el DOM esté listo
+// Inicialización inmediata y cuando el DOM esté listo
 document.addEventListener('DOMContentLoaded', () => {
+    console.log('DOM cargado, inicializando app...');
     app = new NihongoApp();
     window.app = app;
+    console.log('App inicializada:', app);
+    
+    // Forzar estado inicial
+    setTimeout(() => {
+        console.log('Forzando estado inicial...');
+        if (window.app && window.app.hideAllScreens) {
+            window.app.hideAllScreens();
+            const mainMenu = document.getElementById('main-menu');
+            if (mainMenu) {
+                mainMenu.classList.add('active');
+                console.log('Main menu forzado a active');
+            }
+        }
+    }, 100);
 });
 
 // Exportar para uso global
