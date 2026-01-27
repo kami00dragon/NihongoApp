@@ -344,8 +344,10 @@
             return;
         }
         
-        container.innerHTML = filteredVocabulary.map(word => `
-            <div class="vocab-card" onclick="flipCard(this)">
+        container.innerHTML = filteredVocabulary.map(word => {
+            const card = document.createElement('div');
+            card.className = 'vocab-card';
+            card.innerHTML = `
                 <div class="card-face card-front jp-word-front">
                     <div class="kanji-display">${word.kanji}</div>
                     <div class="kana-display">${word.kana}</div>
@@ -353,8 +355,14 @@
                 <div class="card-face card-back es-word-back">
                     ${word.español.join(', ')}
                 </div>
-            </div>
-        `).join('');
+            `;
+            
+            card.addEventListener('click', function() {
+                if (!this.classList.contains('flipped')) this.classList.add('flipped');
+            });
+            
+            return card.outerHTML;
+        }).join('');
     }
 
     function getEnglishTranslation(word) {
@@ -499,9 +507,7 @@
         return englishTranslations[mainSpanish] || mainSpanish;
     }
 
-    function flipCard(card) {
-        if (!card.classList.contains('flipped')) card.classList.add('flipped');
-    }
+
 
     // Event listeners
     document.addEventListener('DOMContentLoaded', function() {
