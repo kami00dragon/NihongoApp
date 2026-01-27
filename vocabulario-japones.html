@@ -98,57 +98,109 @@
             width: 100%;
         }
 
+        .vocabulary-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 1.5rem;
+            width: 100%;
+            perspective: 1000px;
+        }
+
         .vocab-card {
-            background: white;
-            border-radius: 12px;
-            padding: 1.5rem;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
-            transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+            width: 100%;
+            height: 280px;
+            position: relative;
             cursor: pointer;
-            border-left: 5px solid var(--torii-red);
+            transform-style: preserve-3d;
+            transition: transform 0.6s cubic-bezier(0.4, 0.2, 0.2, 1);
+            border-radius: 12px;
         }
 
         .vocab-card:hover {
             transform: translateY(-5px);
-            box-shadow: 0 15px 30px rgba(188, 0, 45, 0.2);
+        }
+
+        .vocab-card.flipped {
+            transform: rotateY(180deg);
+        }
+
+        .card-face {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            backface-visibility: hidden;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+            padding: 1.5rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            background: white;
+            border-left: 5px solid var(--torii-red);
+        }
+
+        .card-back {
+            transform: rotateY(180deg);
+            background: linear-gradient(135deg, var(--torii-red) 0%, #8b0020 100%);
+            color: white;
+            border-left: 5px solid white;
         }
 
         .vocab-kanji {
-            font-size: 2rem;
+            font-size: 2.5rem;
             font-weight: bold;
             color: var(--ink-black);
-            margin-bottom: 0.5rem;
+            margin-bottom: 0.8rem;
             font-family: serif;
+            text-align: center;
         }
 
         .vocab-kana {
-            font-size: 1.1rem;
+            font-size: 1.3rem;
             color: #666;
-            margin-bottom: 0.5rem;
+            margin-bottom: 0.8rem;
+            text-align: center;
         }
 
         .vocab-romaji {
-            font-size: 0.9rem;
+            font-size: 1rem;
             color: #888;
-            margin-bottom: 0.8rem;
+            margin-bottom: 1rem;
             font-style: italic;
+            text-align: center;
         }
 
         .vocab-español {
-            font-size: 1rem;
+            font-size: 1.2rem;
             color: var(--ink-black);
             font-weight: 500;
+            text-align: center;
+            line-height: 1.4;
+        }
+
+        .vocab-english {
+            font-size: 1rem;
+            color: rgba(255,255,255,0.8);
+            margin-top: 0.8rem;
+            text-align: center;
+            font-style: italic;
         }
 
         .vocab-level {
             display: inline-block;
             background: var(--torii-red);
             color: white;
-            padding: 2px 8px;
-            border-radius: 12px;
-            font-size: 0.75rem;
+            padding: 4px 12px;
+            border-radius: 15px;
+            font-size: 0.8rem;
             font-weight: bold;
-            margin-top: 0.5rem;
+            margin-top: 1rem;
+            align-self: center;
+        }
+
+        .card-back .vocab-level {
+            background: white;
+            color: var(--torii-red);
         }
 
         .search-box {
@@ -295,20 +347,166 @@
         }
         
         container.innerHTML = filteredVocabulary.map(word => `
-            <div class="vocab-card" onclick="toggleDetails(this)">
-                <div class="vocab-kanji">${word.kanji}</div>
-                <div class="vocab-kana">${word.kana}</div>
-                <div class="vocab-romaji">${word.romaji}</div>
-                <div class="vocab-español">${word.español.join(', ')}</div>
-                <div class="vocab-level">${word.level}</div>
-                ${word.type ? `<div class="vocab-type">${word.type}</div>` : ''}
+            <div class="vocab-card" onclick="flipCard(this)">
+                <div class="card-face card-front">
+                    <div class="vocab-kanji">${word.kanji}</div>
+                    <div class="vocab-kana">${word.kana}</div>
+                    <div class="vocab-romaji">${word.romaji}</div>
+                    <div class="vocab-level">${word.level}</div>
+                </div>
+                <div class="card-face card-back">
+                    <div class="vocab-español">${word.español.join(', ')}</div>
+                    <div class="vocab-english">${getEnglishTranslation(word)}</div>
+                    <div class="vocab-level">${word.level}</div>
+                </div>
             </div>
         `).join('');
     }
 
-    function toggleDetails(card) {
-        // Implementar detalles adicionales si es necesario
-        card.style.transform = card.style.transform === 'scale(1.05)' ? 'scale(1)' : 'scale(1.05)';
+    function getEnglishTranslation(word) {
+        // Common English translations for basic words
+        const englishTranslations = {
+            "cada mañana": "every morning",
+            "problema": "problem",
+            "té verde": "green tea",
+            "negro": "black",
+            "cocina": "kitchen",
+            "postal": "postcard",
+            "bolígrafo": "pen",
+            "noticias": "news",
+            "bicicleta": "bicycle",
+            "autobús": "bus",
+            "tren": "train",
+            "estación": "station",
+            "hospital": "hospital",
+            "banco": "bank",
+            "restaurante": "restaurant",
+            "hotel": "hotel",
+            "aeropuerto": "airport",
+            "biblioteca": "library",
+            "museo": "museum",
+            "parque": "park",
+            "mercado": "market",
+            "tienda": "store",
+            "empresa": "company",
+            "oficina": "office",
+            "fábrica": "factory",
+            "universidad": "university",
+            "teléfono": "phone",
+            "computadora": "computer",
+            "televisión": "television",
+            "cámara": "camera",
+            "reloj": "watch",
+            "estudiante": "student",
+            "profesor": "teacher",
+            "escuela": "school",
+            "idioma japonés": "Japanese language",
+            "comer": "to eat",
+            "beber": "to drink",
+            "dormir": "to sleep",
+            "trabajar": "to work",
+            "estudiar": "to study",
+            "aprender": "to learn",
+            "enseñar": "to teach",
+            "hablar": "to speak",
+            "escuchar": "to listen",
+            "leer": "to read",
+            "escribir": "to write",
+            "ver": "to see",
+            "mirar": "to watch",
+            "pensar": "to think",
+            "saber": "to know",
+            "entender": "to understand",
+            "recordar": "to remember",
+            "querer": "to want",
+            "necesitar": "to need",
+            "tener": "to have",
+            "hacer": "to do/make",
+            "dar": "to give",
+            "tomar": "to take",
+            "venir": "to come",
+            "ir": "to go",
+            "volver": "to return",
+            "parar": "to stop",
+            "empezar": "to start",
+            "terminar": "to finish",
+            "ayudar": "to help",
+            "intentar": "to try",
+            "comprar": "to buy",
+            "vender": "to sell",
+            "abrir": "to open",
+            "cerrar": "to close",
+            "mover": "to move",
+            "cambiar": "to change",
+            "jugar": "to play",
+            "correr": "to run",
+            "caminar": "to walk",
+            "bueno": "good",
+            "malo": "bad",
+            "grande": "big/large",
+            "pequeño": "small",
+            "largo": "long",
+            "corto": "short",
+            "alto": "high/tall",
+            "bajo": "low/short",
+            "nuevo": "new",
+            "viejo": "old",
+            "fácil": "easy",
+            "difícil": "difficult",
+            "duro": "hard",
+            "suave": "soft",
+            "pesado": "heavy",
+            "ligero": "light",
+            "rápido": "fast",
+            "lento": "slow",
+            "limpio": "clean",
+            "sucio": "dirty",
+            "hermoso": "beautiful",
+            "feo": "ugly",
+            "caro": "expensive",
+            "barato": "cheap",
+            "importante": "important",
+            "interesante": "interesting",
+            "aburrido": "boring",
+            "feliz": "happy",
+            "triste": "sad",
+            "enojado": "angry",
+            "cansado": "tired",
+            "enfermo": "sick",
+            "saludable": "healthy",
+            "fuerte": "strong",
+            "débil": "weak",
+            "correcto": "correct",
+            "incorrecto": "incorrect",
+            "verdadero": "true",
+            "falso": "false",
+            "posible": "possible",
+            "imposible": "impossible",
+            "necesario": "necessary",
+            "disponible": "available",
+            "ocupado": "busy",
+            "libre": "free",
+            "lleno": "full",
+            "vacío": "empty",
+            "rojo": "red",
+            "azul": "blue",
+            "verde": "green",
+            "amarillo": "yellow",
+            "negro": "black",
+            "blanco": "white",
+            "gris": "gray",
+            "marrón": "brown",
+            "rosa": "pink",
+            "púrpura": "purple",
+            "naranja": "orange"
+        };
+        
+        const mainSpanish = word.español[0];
+        return englishTranslations[mainSpanish] || mainSpanish;
+    }
+
+    function flipCard(card) {
+        card.classList.toggle('flipped');
     }
 
     // Event listeners
