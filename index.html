@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="NihongoApp - Aprende japonés completo: silabarios, vocabulario, gramática JLPT N5-N1">
-    <title>NihongoApp - Aprende Japonés</title>
+    <meta name="description" content="NihongoApp - Aprende Japonés: silabarios, vocabulario, gramática, números">
+    <title>🎌 NihongoApp - Aprende Japonés</title>
     
     <!-- Fuentes -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Noto+Serif+JP:wght@400;700&family=Philosopher&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Noto+Serif+JP:wght@400;700&family=Philosopher:wght@400;700&display=swap" rel="stylesheet">
     
     <!-- Estilos -->
     <link rel="stylesheet" href="styles.css">
@@ -24,39 +24,198 @@
         
         <main class="main-stage">
             <header class="pediment">
+                <div class="torii-beam"></div>
                 <h1>🎌 NihongoApp</h1>
                 <p class="subtitle">Aprende Japonés Completo</p>
             </header>
             
             <nav class="bookshelf" aria-label="Categorías de estudio">
                 <div class="book active" data-category="silabario" title="Silabario">
-                    <span>あ</span>
-                    <small>Silabario</small>
+                    <div class="book-cover">
+                        <span class="book-icon">あ</span>
+                        <small class="book-title">Silabario</small>
+                    </div>
                 </div>
-                <div class="book" data-category="vocabulario-esp" title="Vocabulario Español">
-                    <span>📚</span>
-                    <small>Vocab. ES</small>
-                </div>
-                <div class="book" data-category="vocabulario-jap" title="Vocabulario Japonés">
-                    <span>漢</span>
-                    <small>Vocab. JP</small>
-                </div>
-                <div class="book" data-category="fechas" title="Fechas">
-                    <span>📅</span>
-                    <small>Fechas</small>
+                <div class="book" data-category="vocabulario" title="Vocabulario">
+                    <div class="book-cover">
+                        <span class="book-icon">📚</span>
+                        <small class="book-title">Vocabulario</small>
+                    </div>
                 </div>
                 <div class="book" data-category="numeros" title="Números">
-                    <span>🔢</span>
-                    <small>Números</small>
+                    <div class="book-cover">
+                        <span class="book-icon">🔢</span>
+                        <small class="book-title">Números</small>
+                    </div>
                 </div>
                 <div class="book" data-category="gramatica" title="Gramática">
-                    <span>📝</span>
-                    <small>Gramática</small>
+                    <div class="book-cover">
+                        <span class="book-icon">📝</span>
+                        <small class="book-title">Gramática</small>
+                    </div>
+                </div>
+                <div class="book" data-category="frases" title="Frases">
+                    <div class="book-cover">
+                        <span class="book-icon">💬</span>
+                        <small class="book-title">Frases</small>
+                    </div>
                 </div>
             </nav>
             
             <div id="content-area" aria-live="polite">
-                <!-- El contenido se genera dinámicamente -->
+                <!-- Contenido principal - Menú de silabarios -->
+                <div id="main-menu" class="content-screen active">
+                    <div class="welcome-section">
+                        <h2>Seleccione una categoría para comenzar</h2>
+                        <p class="welcome-text">Elige una opción de arriba para empezar tu aprendizaje del japonés</p>
+                    </div>
+                </div>
+                
+                <!-- Pantalla de submenús -->
+                <div id="submenu-silabario" class="content-screen">
+                    <h3 class="screen-title">Elige el silabario</h3>
+                    <div class="mode-grid">
+                        <div class="mode-card" onclick="startGame('hira', 'basic')">
+                            <div class="torii-decoration"></div>
+                            <div class="card-content">
+                                <span class="mode-title">ひらがな</span>
+                                <span class="mode-desc">Silabario básico japonés</span>
+                            </div>
+                        </div>
+                        <div class="mode-card" onclick="startGame('kata', 'basic')">
+                            <div class="torii-decoration"></div>
+                            <div class="card-content">
+                                <span class="mode-title">カタカナ</span>
+                                <span class="mode-desc">Para palabras extranjeras</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div id="submenu-vocabulario" class="content-screen">
+                    <h3 class="screen-title">Tipo de vocabulario</h3>
+                    <div class="mode-grid">
+                        <div class="mode-card" onclick="startGame('hira', 'vocab-es')">
+                            <div class="torii-decoration"></div>
+                            <div class="card-content">
+                                <span class="mode-title">Español → Japonés</span>
+                                <span class="mode-desc">Aprende vocabulario común</span>
+                            </div>
+                        </div>
+                        <div class="mode-card" onclick="startGame('kata', 'vocab-es')">
+                            <div class="torii-decoration"></div>
+                            <div class="card-content">
+                                <span class="mode-title">Banco de Kanjis</span>
+                                <span class="mode-desc">Vocabulario avanzado con kanji</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div id="submenu-numeros" class="content-screen">
+                    <h3 class="screen-title">Practica números y fechas</h3>
+                    <div class="mode-grid">
+                        <div class="mode-card" onclick="startGame('hira', 'nums-normal')">
+                            <div class="torii-decoration"></div>
+                            <div class="card-content">
+                                <span class="mode-title">Números Cardinales</span>
+                                <span class="mode-desc">Contar en japonés</span>
+                            </div>
+                        </div>
+                        <div class="mode-card" onclick="startGame('hira', 'dates-days')">
+                            <div class="torii-decoration"></div>
+                            <div class="card-content">
+                                <span class="mode-title">Días y Fechas</span>
+                                <span class="mode-desc">Días de la semana y meses</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div id="submenu-gramatica" class="content-screen">
+                    <h3 class="screen-title">Fundamentos de gramática</h3>
+                    <div class="mode-grid">
+                        <div class="mode-card" onclick="showGrammarSection('particles')">
+                            <div class="torii-decoration"></div>
+                            <div class="card-content">
+                                <span class="mode-title">Partículas</span>
+                                <span class="mode-desc">は, が, を, に, で, へ, と, も</span>
+                            </div>
+                        </div>
+                        <div class="mode-card" onclick="showGrammarSection('verbs')">
+                            <div class="torii-decoration"></div>
+                            <div class="card-content">
+                                <span class="mode-title">Verbos</span>
+                                <span class="mode-desc">Conjugación básica</span>
+                            </div>
+                        </div>
+                        <div class="mode-card" onclick="showGrammarSection('sentence')">
+                            <div class="torii-decoration"></div>
+                            <div class="card-content">
+                                <span class="mode-title">Estructuras</span>
+                                <span class="mode-desc">Formación de oraciones</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div id="submenu-frases" class="content-screen">
+                    <h3 class="screen-title">Frases útiles</h3>
+                    <div class="mode-grid">
+                        <div class="mode-card" onclick="showPhrasesSection('greetings')">
+                            <div class="torii-decoration"></div>
+                            <div class="card-content">
+                                <span class="mode-title">Saludos</span>
+                                <span class="mode-desc">Buenos días, gracias, etc.</span>
+                            </div>
+                        </div>
+                        <div class="mode-card" onclick="showPhrasesSection('travel')">
+                            <div class="torii-decoration"></div>
+                            <div class="card-content">
+                                <span class="mode-title">Viajes</span>
+                                <span class="mode-desc">Direcciones, transporte</span>
+                            </div>
+                        </div>
+                        <div class="mode-card" onclick="showPhrasesSection('restaurant')">
+                            <div class="torii-decoration"></div>
+                            <div class="card-content">
+                                <span class="mode-title">Restaurante</span>
+                                <span class="mode-desc">Comida y bebidas</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Pantalla de juego -->
+                <div id="game-screen" class="content-screen">
+                    <div class="progress-section">
+                        <div class="progress-bar">
+                            <span id="progress-text">1 / 46</span>
+                        </div>
+                    </div>
+                    
+                    <div class="word-context" id="word-context">
+                        <!-- Contexto de la palabra -->
+                    </div>
+                    
+                    <div class="cards-container" id="cards-container">
+                        <!-- Las tarjetas se generarán dinámicamente -->
+                    </div>
+                    
+                    <div class="controls">
+                        <button id="btn-back" class="control-btn" onclick="goBack()">← Volver</button>
+                        <button id="btn-prev" class="control-btn" onclick="previousCard()">← Anterior</button>
+                        <button id="btn-next" class="control-btn" onclick="nextCard()">Siguiente →</button>
+                    </div>
+                </div>
+                
+                <!-- Pantallas de contenido gramatical y frases -->
+                <div id="content-screen" class="content-screen">
+                    <button class="back-btn" onclick="goBack()">← Volver al menú</button>
+                    <div id="content-display">
+                        <!-- Contenido dinámico -->
+                    </div>
+                </div>
             </div>
         </main>
         
