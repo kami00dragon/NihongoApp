@@ -239,7 +239,7 @@
     // Cargar datos de vocabulario desde el archivo JSON
     async function loadVocabulary() {
         try {
-            const response = await fetch('vocabulario-data.json');
+            const response = await fetch('vocabulario-jlpt-4000.json');
             const data = await response.json();
             allVocabulary = data.words;
             console.log(`Cargadas ${allVocabulary.length} palabras de vocabulario`);
