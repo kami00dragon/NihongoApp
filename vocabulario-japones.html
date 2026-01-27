@@ -112,7 +112,7 @@
             position: relative;
             cursor: pointer;
             transform-style: preserve-3d;
-            transition: transform 0.3s ease;
+            transition: transform 0.2s ease-out;
             border-radius: 12px;
         }
 
@@ -136,14 +136,46 @@
             flex-direction: column;
             justify-content: center;
             background: white;
+        }
+
+        .card-front {
+            position: relative;
+        }
+
+        .card-front::before {
+            content: '';
+            position: absolute;
+            left: -5px;
+            top: -5px;
+            right: -5px;
+            height: calc(100% + 10px);
             border-left: 5px solid var(--torii-red);
+            border-right: 5px solid var(--torii-red);
+            border-top: 5px solid var(--torii-red);
+            border-radius: 12px;
+            pointer-events: none;
+            z-index: 2;
         }
 
         .card-back {
             transform: rotateY(180deg);
             background: linear-gradient(135deg, var(--torii-red) 0%, #8b0020 100%);
             color: white;
+        }
+
+        .card-back::before {
+            content: '';
+            position: absolute;
+            left: -5px;
+            top: -5px;
+            right: -5px;
+            height: calc(100% + 10px);
             border-left: 5px solid white;
+            border-right: 5px solid white;
+            border-top: 5px solid white;
+            border-radius: 12px;
+            pointer-events: none;
+            z-index: 2;
         }
 
         .vocab-kanji {
