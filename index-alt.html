@@ -40,6 +40,7 @@
         }
 
         .header-title { font-size: 1.4rem; color: var(--ink-black); font-weight: 700; letter-spacing: 2px; text-transform: uppercase; }
+        .header-subtitle { font-size: 0.9rem; color: #666; margin-top: 0.2rem; font-style: italic; }
         
         .top-controls {
             width: 100%; display: flex; justify-content: space-between; position: absolute; left: 0; top: 0; padding: 12px 15px; box-sizing: border-box; pointer-events: none; 
@@ -266,6 +267,7 @@
     </svg>
 
     <div class="header-title">NihongoApp</div>
+    <div class="header-subtitle">Aprende japonés</div>
     <div id="progress-container" class="progress-bar" style="display:none;">1 / 100</div>
 </header>
 
@@ -275,7 +277,7 @@
         <div class="mode-card" onclick="showSubmenu('basic')">
             <div class="torii-pillars"></div>
             <div class="card-content">
-                <span class="mode-title">Silabario</span>
+                <span class="mode-title">Silabarios</span>
                 <span class="mode-desc">Aprende una a una las sílabas básicas.</span>
             </div>
         </div>
@@ -288,12 +290,13 @@
             </div>
         </div>
 
-        <div class="mode-card" onclick="showSubmenu('vocab-jp')">
+<div class="mode-card" onclick="openVocabularyDocument()">
             <div class="torii-pillars"></div>
             <div class="card-content">
-                <span class="mode-title">Vocabulario (Japonés)</span>
-                <span class="mode-desc">Amplio repertorio de palabras en Kanji y su traducción.</span>
+                <span class="mode-title">Vocabulario Japonés</span>
+                <span class="mode-desc">4000 palabras más usadas JLPT N5-N1 con ejemplos.</span>
             </div>
+        </div>
         </div>
 
         <div class="mode-card" onclick="showSubmenu('dates')">
@@ -309,6 +312,14 @@
             <div class="card-content">
                 <span class="mode-title">Números</span>
                 <span class="mode-desc">Del 0 al 10,000 y escalas mayores (Corregido).</span>
+            </div>
+        </div>
+
+        <div class="mode-card" onclick="showSubmenu('grammar')">
+            <div class="torii-pillars"></div>
+            <div class="card-content">
+                <span class="mode-title">Gramática</span>
+                <span class="mode-desc">Partículas, estructuras y patrones gramaticales.</span>
             </div>
         </div>
     </section>
@@ -376,6 +387,31 @@
             <div class="card-content">
                 <span class="mode-title">Ordinales</span>
                 <span class="mode-desc">Primero, segundo...</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="submenu-grammar" class="selection-screen">
+        <h3 style="margin-bottom: 2rem; color:var(--ink-black);">¿Qué quieres estudiar?</h3>
+        <div class="mode-card" onclick="startGame('hira', 'grammar-particles')">
+            <div class="torii-pillars"></div>
+            <div class="card-content">
+                <span class="mode-title">Partículas</span>
+                <span class="mode-desc">は, が, を, に, で, へ, と, も, の</span>
+            </div>
+        </div>
+        <div class="mode-card" onclick="startGame('hira', 'grammar-basic')">
+            <div class="torii-pillars"></div>
+            <div class="card-content">
+                <span class="mode-title">Estructuras Básicas</span>
+                <span class="mode-desc">Sustantivo + です, adjetivos, verbos básicos</span>
+            </div>
+        </div>
+        <div class="mode-card" onclick="startGame('hira', 'grammar-advanced')">
+            <div class="torii-pillars"></div>
+            <div class="card-content">
+                <span class="mode-title">Patrones Avanzados</span>
+                <span class="mode-desc">Conectores, condicionales, pasiva, causativa</span>
             </div>
         </div>
     </section>
@@ -819,6 +855,34 @@
         ordinal: generateDaysOfMonth()
     };
 
+    const dataGrammar = {
+        particles: [
+            { word: "は", jp: "は<br><span class='kana-text'>wa</span>", es: "Tema/Marcador de tema" },
+            { word: "が", jp: "が<br><span class='kana-text'>ga</span>", es: "Sujeto/Identificación" },
+            { word: "を", jp: "を<br><span class='kana-text'>o</span>", es: "Objeto directo" },
+            { word: "に", jp: "に<br><span class='kana-text'>ni</span>", es: "Lugar/Tiempo/Destino" },
+            { word: "で", jp: "で<br><span class='kana-text'>de</span>", es: "Lugar de acción/Medio" },
+            { word: "へ", jp: "へ<br><span class='kana-text'>e</span>", es: "Dirección" },
+            { word: "と", jp: "と<br><span class='kana-text'>to</span>", es: "Y/Con" },
+            { word: "も", jp: "も<br><span class='kana-text'>mo</span>", es: "También/Tampoco" },
+            { word: "の", jp: "の<br><span class='kana-text'>no</span>", es: "Posesión/Modificador" }
+        ],
+        basic: [
+            { word: "Sustantivo + です", jp: "学生です<br><span class='kana-text'>がくせいです</span>", es: "Ser/Estar (forma cortés)" },
+            { word: "Adjetivo -i", jp: "高いです<br><span class='kana-text'>たかいです</span>", es: "Adjetivos terminados en i" },
+            { word: "Adjetivo -na", jp: "静かです<br><span class='kana-text'>しずかです</span>", es: "Adjetivos terminados en na" },
+            { word: "Verbo -masu", jp: "食べます<br><span class='kana-text'>たべます</span>", es: "Forma cortés de verbos" },
+            { word: "Negación -ません", jp: "食べません<br><span class='kana-text'>たべません</span>", es: "Forma negativa cortés" }
+        ],
+        advanced: [
+            { word: "Condicional -たら", jp: "食べたら<br><span class='kana-text'>たべたら</span>", es: "Si/Cuando (condicional)" },
+            { word: "Condicional -ば", jp: "食べれば<br><span class='kana-text'>たべれば</span>", es: "Si (condicional hipotético)" },
+            { word: "Pasiva -られる", jp: "食べられる<br><span class='kana-text'>たべられる</span>", es: "Voz pasiva" },
+            { word: "Causativa -させる", jp: "食べさせる<br><span class='kana-text'>たべさせる</span>", es: "Hacer que alguien haga algo" },
+            { word: "Potencial -える", jp: "食べられる<br><span class='kana-text'>たべられる</span>", es: "Poder hacer algo" }
+        ]
+    };
+
     function generateOrdinalNumbers() {
         const list = [];
         const digits = ["", "いち", "に", "さん", "よ", "ご", "ろく", "なな", "はち", "きゅう", "じゅう"];
@@ -870,7 +934,13 @@
         if(type === 'vocab-jp') id = 'submenu-vocab-jp';
         if(type === 'dates') id = 'submenu-dates';
         if(type === 'numbers') id = 'submenu-numbers';
+        if(type === 'grammar') id = 'submenu-grammar';
         document.getElementById(id).classList.add('active');
+    }
+
+    function openVocabularyDocument() {
+        // Abrirá el documento de vocabulario en una nueva sección
+        window.location.href = 'vocabulario-japones.html';
     }
 
     function startGame(mode, track) {
@@ -895,6 +965,12 @@
             currentData = generateCardinalNumbers();
         } else if (track === 'nums-ordinal') {
             currentData = generateOrdinalNumbers();
+        } else if (track === 'grammar-particles') {
+            currentData = dataGrammar.particles.map(x => ({...x, displayMode: 'whole'}));
+        } else if (track === 'grammar-basic') {
+            currentData = dataGrammar.basic.map(x => ({...x, displayMode: 'whole'}));
+        } else if (track === 'grammar-advanced') {
+            currentData = dataGrammar.advanced.map(x => ({...x, displayMode: 'whole'}));
         }
 
         submenus.forEach(el => el.classList.remove('active'));
