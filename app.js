@@ -36,14 +36,15 @@ class NihongoApp {
         // Referencias al DOM
         this.elements = {
             contentArea: document.getElementById('content-area'),
-            books: document.querySelectorAll('.book'),
             toast: document.getElementById('toast'),
             progressText: document.getElementById('progress-text'),
+            progressContainer: document.getElementById('progress-container'),
             wordContext: document.getElementById('word-context'),
             cardsContainer: document.getElementById('cards-container'),
             btnPrev: document.getElementById('btn-prev'),
             btnNext: document.getElementById('btn-next'),
-            btnBack: document.getElementById('btn-back')
+            btnFlip: document.getElementById('btn-flip'),
+            btnResetHeader: document.getElementById('btn-reset-header')
         };
 
         // Inicializar
@@ -63,41 +64,53 @@ class NihongoApp {
      * Configura los event listeners
      */
     setupEventListeners() {
-        // Event listeners para los libros
-        this.elements.books.forEach(book => {
-            book.addEventListener('click', (e) => {
-                const category = e.currentTarget.dataset.category;
-                this.switchCategory(category);
-            });
-        });
+        // Event listeners para botones y controles
+        if (this.elements.btnPrev) {
+            this.elements.btnPrev.addEventListener('click', () => this.previousCard());
+        }
+        if (this.elements.btnNext) {
+            this.elements.btnNext.addEventListener('click', () => this.nextCard());
+        }
+        if (this.elements.btnFlip) {
+            this.elements.btnFlip.addEventListener('click', () => this.flipCard());
+        }
+        if (this.elements.btnResetHeader) {
+            this.elements.btnResetHeader.addEventListener('click', () => this.resetToMainMenu());
+        }
     }
 
     /**
-     * Cambia entre categorías
+     * Muestra un submenú específico
      */
-    switchCategory(category) {
-        if (this.state.currentCategory === category) return;
+    showSubmenu(submenu) {
+        this.hideAllScreens();
+        const screenId = `submenu-${submenu}`;
+        const screen = document.getElementById(screenId);
+        if (screen) {
+            screen.classList.add('active');
+            this.state.currentScreen = screenId;
+        }
+    }
 
-        // Actualizar estado
-        this.state.currentCategory = category;
+    /**
+     * Reinicia al menú principal
+     */
+    resetToMainMenu() {
+        this.hideAllScreens();
+        document.getElementById('main-menu').classList.add('active');
+        this.state.currentScreen = 'main-menu';
         this.state.currentIndex = 0;
         this.state.isFlipped = false;
-
-        // Actualizar UI
-        this.updateActiveBook(category);
-        this.showScreen(`submenu-${category}`);
+        this.state.currentData = [];
+        
+        // Ocultar controles de juego
+        if (this.elements.progressContainer) {
+            this.elements.progressContainer.style.display = 'none';
+        }
+        if (this.elements.btnResetHeader) {
+            this.elements.btnResetHeader.style.display = 'none';
+        }
     }
-
-    /**
-     * Actualiza el libro activo
-     */
-    updateActiveBook(activeCategory) {
-        this.elements.books.forEach(book => {
-            const category = book.dataset.category;
-            if (category === activeCategory) {
-                book.classList.add('active');
-            } else {
-                book.classList.remove('active');
             }
         });
     }
@@ -836,26 +849,59 @@ function nextCard() {
     app.nextCard();
 }
 
-function showGrammarSection(section) {
-    app.showGrammarSection(section);
+// =====================================================
+// FUNCIONES GLOBALES PARA EL HTML
+// =====================================================
+function showSubmenu(submenu) {
+    if (window.app) {
+        window.app.showSubmenu(submenu);
+    }
 }
 
-function showPhrasesSection(section) {
-    app.showPhrasesSection(section);
+function startGame(script, mode) {
+    if (window.app) {
+        window.app.startGame(script, mode);
+    }
+}
+
+function resetToMainMenu() {
+    if (window.app) {
+        window.app.resetToMainMenu();
+    }
+}
+
+function previousCard() {
+    if (window.app) {
+        window.app.previousCard();
+    }
+}
+
+function nextCard() {
+    if (window.app) {
+        window.app.nextCard();
+    }
+}
+
+function flipCard() {
+    if (window.app) {
+        window.app.flipCard();
+    }
 }
 
 // =====================================================
 // INICIALIZACIÓN CUANDO EL DOM ESTÉ LISTO
 // =====================================================
+let app;
 document.addEventListener('DOMContentLoaded', () => {
     app = new NihongoApp();
+    window.app = app;
 });
 
 // Exportar para uso global
 window.NihongoApp = NihongoApp;
+window.showSubmenu = showSubmenu;
 window.startGame = startGame;
-window.goBack = goBack;
+window.resetToMainMenu = resetToMainMenu;
 window.previousCard = previousCard;
 window.nextCard = nextCard;
-window.showGrammarSection = showGrammarSection;
-window.showPhrasesSection = showPhrasesSection;
+window.flipCard = flipCard;
