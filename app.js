@@ -116,13 +116,19 @@ class NihongoApp {
     }
 
     /**
+     * Oculta todas las pantallas
+     */
+    hideAllScreens() {
+        document.querySelectorAll('.content-screen, .selection-screen, .game-screen').forEach(screen => {
+            screen.classList.remove('active');
+        });
+    }
+
+    /**
      * Muestra una pantalla específica
      */
     showScreen(screenId) {
-        // Ocultar todas las pantallas
-        document.querySelectorAll('.content-screen').forEach(screen => {
-            screen.classList.remove('active');
-        });
+        this.hideAllScreens();
 
         // Mostrar la pantalla solicitada
         const targetScreen = document.getElementById(screenId);
@@ -829,29 +835,12 @@ class NihongoApp {
 // =====================================================
 // FUNCIONES GLOBALES PARA EVENTOS HTML
 // =====================================================
+// INICIALIZACIÓN Y FUNCIONES GLOBALES
+// =====================================================
 
 let app;
 
-// Funciones llamadas desde HTML
-function startGame(mode, track) {
-    app.startGame(mode, track);
-}
-
-function goBack() {
-    app.goBack();
-}
-
-function previousCard() {
-    app.previousCard();
-}
-
-function nextCard() {
-    app.nextCard();
-}
-
-// =====================================================
-// FUNCIONES GLOBALES PARA EL HTML
-// =====================================================
+// Funciones globales llamadas desde HTML
 function showSubmenu(submenu) {
     if (window.app) {
         window.app.showSubmenu(submenu);
@@ -888,10 +877,7 @@ function flipCard() {
     }
 }
 
-// =====================================================
-// INICIALIZACIÓN CUANDO EL DOM ESTÉ LISTO
-// =====================================================
-let app;
+// Inicialización cuando el DOM esté listo
 document.addEventListener('DOMContentLoaded', () => {
     app = new NihongoApp();
     window.app = app;
