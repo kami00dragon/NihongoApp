@@ -357,4 +357,158 @@
       "español": ["invierno"],
       "level": "N5",
       "type": "sustantivo"
+    },
+    {
+      "kanji": "水",
+      "kana": "みず",
+      "romaji": "mizu",
+      "español": ["agua"],
+      "level": "N5",
+      "type": "sustantivo"
+    },
+    {
+      "kanji": "火",
+      "kana": "ひ",
+      "romaji": "hi",
+      "español": ["fuego"],
+      "level": "N5",
+      "type": "sustantivo"
+    },
+    {
+      "kanji": "木",
+      "kana": "き",
+      "romaji": "ki",
+      "español": ["árbol"],
+      "level": "N5",
+      "type": "sustantivo"
+    },
+    {
+      "kanji": "朝",
+      "kana": "あさ",
+      "romaji": "asa",
+      "español": ["mañana"],
+      "level": "N5",
+      "type": "sustantivo"
+    },
+    {
+      "kanji": "晩",
+      "kana": "ばん",
+      "romaji": "ban",
+      "español": ["noche", "tarde"],
+      "level": "N5",
+      "type": "sustantivo"
+    },
+    {
+      "kanji": "今日",
+      "kana": "きょう",
+      "romaji": "kyou",
+      "español": ["hoy"],
+      "level": "N5",
+      "type": "sustantivo"
+    },
+    {
+      "kanji": "明日",
+      "kana": "あした",
+      "romaji": "ashita",
+      "español": ["mañana"],
+      "level": "N5",
+      "type": "sustantivo"
+    },
+    {
+      "kanji": "名前",
+      "kana": "なまえ",
+      "romaji": "namae",
+      "español": ["nombre"],
+      "level": "N5",
+      "type": "sustantivo"
+    },
+    {
+      "kanji": "電話",
+      "kana": "でんわ",
+      "romaji": "denwa",
+      "español": ["teléfono"],
+      "level": "N5",
+      "type": "sustantivo"
+    },
+    {
+      "kanji": "手紙",
+      "kana": "てがみ",
+      "romaji": "tegami",
+      "español": ["carta"],
+      "level": "N5",
+      "type": "sustantivo"
+    },
+    {
+      "kanji": "切手",
+      "kana": "きって",
+      "romaji": "kitte",
+      "español": ["sello"],
+      "level": "N5",
+      "type": "sustantivo"
+    },
+    {
+      "kanji": "郵便",
+      "kana": "ゆうびん",
+      "romaji": "yuubin",
+      "español": ["correo postal"],
+      "level": "N5",
+      "type": "sustantivo"
+    },
+    {
+      "kanji": "切符",
+      "kana": "きっぷ",
+      "romaji": "kippu",
+      "español": ["billete", "ticket"],
+      "level": "N5",
+      "type": "sustantivo"
+    },
+    {
+      "kanji": "お金",
+      "kana": "おかね",
+      "romaji": "okane",
+      "español": ["dinero"],
+      "level": "N5",
+      "type": "sustantivo"
+    },
+    {
+      "kanji": "時",
+      "kana": "じ",
+      "romaji": "ji",
+      "español": ["hora"],
+      "level": "N5",
+      "type": "sustantivo"
+    },
+    {
+      "kanji": "分",
+      "kana": "ふん",
+      "romaji": "fun",
+      "español": ["minuto"],
+      "level": "N5",
+      "type": "sustantivo"
+    },
+    {
+      "kanji": "曜日",
+      "kana": "ようび",
+      "romaji": "youbi",
+      "español": ["día de la semana"],
+      "level": "N5",
+      "type": "sustantivo"
+    },
+    {
+      "kanji": "月",
+      "kana": "つき",
+      "romaji": "tsuki",
+      "español": ["luna", "mes"],
+      "level": "N5",
+      "type": "sustantivo"
+    },
+    {
+      "kanji": "年",
+      "kana": "とし",
+      "romaji": "toshi",
+      "español": ["año"],
+      "level": "N5",
+      "type": "sustantivo"
     }
+  ]
+}
