@@ -344,7 +344,9 @@
             return;
         }
         
-        container.innerHTML = filteredVocabulary.map(word => {
+        container.innerHTML = '';
+        
+        filteredVocabulary.forEach(word => {
             const card = document.createElement('div');
             card.className = 'vocab-card';
             card.innerHTML = `
@@ -361,8 +363,8 @@
                 if (!this.classList.contains('flipped')) this.classList.add('flipped');
             });
             
-            return card.outerHTML;
-        }).join('');
+            container.appendChild(card);
+        });
     }
 
     function getEnglishTranslation(word) {
