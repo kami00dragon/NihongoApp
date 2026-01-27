@@ -873,6 +873,19 @@ body {
 
 /* --- NUEVOS ESTILOS TORII --- */
 
+/* FORZAR OCULTAMIENTO DE TODOS LOS SUBMENÚS POR DEFECTO */
+#submenu-silabario,
+#submenu-vocab-es, 
+#submenu-vocab-jp,
+#submenu-numbers,
+#game-screen {
+    display: none !important;
+}
+
+#main-menu {
+    display: block !important;
+}
+
 /* Header principal */
 .app-header {
     background: white;
