@@ -3,257 +3,1003 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="NihongoApp - Aprende Japonés: silabarios, vocabulario, gramática, números">
-    <title>🎌 NihongoApp - Aprende Japonés</title>
-    
-    <!-- Fuentes -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Noto+Serif+JP:wght@400;700&family=Philosopher:wght@400;700&display=swap" rel="stylesheet">
-    
-    <!-- Estilos -->
-    <link rel="stylesheet" href="styles.css">
-    
-    <!-- Meta para GitHub Pages -->
-    <meta name="theme-color" content="#BC002D">
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎌</text></svg>">
+    <title>Kana Español - Números Corregidos</title>
+    <style>
+        :root {
+            --bg-paper: #ffffff;     
+            --bg-pattern: #f9f9f9;   
+            --torii-red: #BC002D;    
+            --ink-black: #2c3e50;   
+            --theme-color: var(--torii-red);
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', 'Hiragino Sans', 'Noto Sans JP', sans-serif; }
+        
+        body { 
+            background-color: var(--bg-pattern);
+            color: var(--ink-black);
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            background: white;
+            padding: 1rem;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border-bottom: 4px solid var(--torii-red);
+            position: sticky; top: 0; z-index: 100;
+        }
+
+        .app-logo {
+            width: 60px; height: 40px; fill: var(--torii-red); margin-bottom: 0.3rem;
+        }
+
+        .header-title { font-size: 1.4rem; color: var(--ink-black); font-weight: 700; letter-spacing: 2px; text-transform: uppercase; }
+        
+        .top-controls {
+            width: 100%; display: flex; justify-content: space-between; position: absolute; left: 0; top: 0; padding: 12px 15px; box-sizing: border-box; pointer-events: none; 
+        }
+
+        .btn-back {
+            pointer-events: auto; background: white; color: var(--torii-red); border: 2px solid var(--torii-red);
+            padding: 6px 16px; border-radius: 20px; cursor: pointer; font-size: 0.85rem; font-weight: bold; transition: all 0.3s; box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .btn-back:hover { background: var(--torii-red); color: white; transform: translateY(-2px); }
+
+        main {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            padding: 2rem 1rem;
+            width: 100%;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        /* --- MENÚ Y TARJETAS --- */
+        .selection-screen { text-align: center; animation: slideUp 0.6s ease-out; width: 100%; display: none; padding-bottom: 2rem; }
+        .selection-screen.active { display: block; }
+
+        .mode-card {
+            background: white;
+            position: relative; 
+            border-radius: 4px; 
+            padding: 0; 
+            margin: 1.5rem auto;
+            cursor: pointer; 
+            transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            width: 100%;
+            max-width: 320px;
+            height: 160px; 
+            overflow: visible;
+            display: inline-block;
+            vertical-align: top;
+        }
+
+        /* Estilo Torii */
+        .mode-card::before {
+            content: ''; 
+            position: absolute; 
+            top: -8px; left: -8px; right: -8px; height: 16px; 
+            background: var(--torii-red); 
+            z-index: 2;
+            border-radius: 10px 10px 0 0;
+        }
+
+        .mode-card::after {
+            content: ''; 
+            position: absolute; 
+            top: 24px; left: -8px; right: -8px; height: 6px; 
+            background: var(--torii-red); 
+            z-index: 2;
+        }
+        
+        .torii-pillars {
+            position: absolute; left: -8px; top: 0; width: calc(100% + 16px); height: 100%;
+            border-left: 8px solid var(--torii-red); 
+            border-right: 8px solid var(--torii-red);
+            pointer-events: none; 
+            z-index: 1;
+            border-bottom: 8px solid var(--torii-red);
+        }
+
+        .card-content {
+            position: relative; 
+            z-index: 3; 
+            width: 100%;
+            padding: 40px 10px 10px 10px; 
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            background: white;
+            transition: background 0.3s;
+        }
+
+        .mode-title { 
+            font-size: 1.3rem; font-weight: bold; color: var(--ink-black); margin-bottom: 0.5rem; font-family: 'Times New Roman', serif;
+        }
+        .mode-desc { font-size: 0.85rem; color: #666; line-height: 1.3; padding: 0 10px;}
+
+        .mode-card:hover { 
+            transform: translateY(-5px); 
+            box-shadow: 0 15px 30px rgba(188, 0, 45, 0.25); 
+        }
+        .mode-card:hover .mode-title { color: var(--torii-red); }
+
+        /* --- ÁREA DE JUEGO --- */
+        #game-screen { display: none; width: 100%; text-align: center; padding-top: 1rem; }
+        
+        .progress-bar {
+            font-size: 0.9rem; color: var(--ink-black); background: #fff;
+            padding: 8px 20px; border-radius: 30px; margin-bottom: 2rem; display: inline-block; font-weight: bold; border: 2px solid #eee; box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+
+        .word-context {
+            margin-bottom: 2rem;
+            font-size: 1.2rem;
+            color: #888;
+            min-height: 1.5em;
+        }
+
+        .syllables-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            margin-bottom: 3rem;
+            perspective: 1000px;
+            min-height: 200px; 
+            align-items: center;
+        }
+
+        .syllable-card {
+            width: 110px;
+            height: 110px;
+            position: relative;
+            cursor: pointer;
+            transform-style: preserve-3d;
+            transition: transform 0.6s cubic-bezier(0.4, 0.2, 0.2, 1);
+        }
+
+        .whole-word-card {
+            width: 280px;
+            height: 200px;
+        }
+
+        .syllable-card.flipped { transform: rotateY(180deg); }
+
+        .card-face {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            backface-visibility: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            font-weight: bold;
+            user-select: none;
+            padding: 15px;
+            flex-direction: column;
+            border: 1px solid #eee;
+            background: white;
+        }
+
+        .card-back {
+            background-color: var(--torii-red); 
+            color: white;
+            transform: rotateY(180deg);
+            border: none;
+        }
+        
+        .jp-word-front { 
+            font-size: 1rem; 
+            display: flex; 
+            flex-direction: column; 
+            justify-content: center; 
+            align-items: center; 
+            height: 100%; 
+            background: #fff;
+            color: var(--ink-black);
+        }
+        .kanji-display { font-size: 3.5rem; margin-bottom: 15px; line-height: 1; font-family: serif; color: var(--ink-black); }
+        .kana-display { font-size: 1.3rem; opacity: 0.8; color: #555; font-weight: normal; }
+        .es-word-back { font-size: 1.8rem; letter-spacing: 1px; font-weight: 500; }
+
+        .controls {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 1rem;
+            margin-bottom: 3rem;
+        }
+
+        .btn {
+            background-color: var(--ink-black); 
+            color: white; 
+            border: none; 
+            padding: 12px 25px; font-size: 1rem; 
+            border-radius: 30px; 
+            cursor: pointer; 
+            transition: all 0.2s; 
+            display: inline-flex; align-items: center; gap: 8px; min-width: 120px; justify-content: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .btn:disabled { background-color: #e0e0e0; color: #999; cursor: not-allowed; box-shadow: none; }
+        .btn:hover:not(:disabled) { background-color: var(--torii-red); transform: translateY(-2px); box-shadow: 0 6px 12px rgba(188,0,45,0.3); }
+
+        @keyframes slideUp { from { opacity: 0; transform: translateY(30px); } to { opacity: 1; transform: translateY(0); } }
+
+        @media (max-width: 450px) {
+            .syllable-card { width: 85px; height: 85px; }
+            .whole-word-card { width: 90%; height: 180px; }
+            .kanji-display { font-size: 2.5rem; }
+            .mode-card { max-width: 100%; }
+            .mode-card::before, .mode-card::after { left: -5px; right: -5px; }
+            .torii-pillars { left: -5px; width: calc(100% + 10px); border-width: 6px; }
+        }
+    </style>
 </head>
 <body>
-    <div class="temple-container">
-        <aside class="column left"></aside>
-        
-        <main class="main-stage">
-            <header class="app-header">
-                <div class="top-controls">
-                    <button id="btn-reset-header" class="btn-back" onclick="resetToMainMenu()" style="display:none;">← Salir</button>
-                </div>
-                
-                <svg class="app-logo" viewBox="0 0 100 60" xmlns="http://www.w3.org/2000/svg">
-                    <rect x="10" y="5" width="8" height="50" fill="#BC002D" rx="1"/>
-                    <rect x="82" y="5" width="8" height="50" fill="#BC002D" rx="1"/>
-                    <path d="M5,10 Q50,-10 95,10 L95,18 Q50,0 5,18 Z" fill="#BC002D"/>
-                    <rect x="10" y="22" width="80" height="6" fill="#BC002D"/>
-                </svg>
 
-                <h1 class="header-title">NihongoApp</h1>
-                <p class="header-subtitle">aprende japonés</p>
-                <div id="progress-container" class="progress-bar" style="display:none;">1 / 100</div>
-            </header>
-            
-            <nav class="mode-selection" aria-label="Categorías de estudio">
-            
-            <div id="content-area" aria-live="polite">
-                <!-- Menú Principal con Tarjetas de Modo -->
-                <div id="main-menu" class="selection-screen active">
-                    <div class="mode-card" onclick="showSubmenu('silabario')">
-                        <div class="torii-pillars"></div>
-                        <div class="card-content">
-                            <span class="mode-title">Silabario</span>
-                            <span class="mode-desc">Aprende una a una las sílabas básicas.</span>
-                        </div>
-                    </div>
-
-                    <div class="mode-card" onclick="showSubmenu('vocab-es')">
-                        <div class="torii-pillars"></div>
-                        <div class="card-content">
-                            <span class="mode-title">Vocabulario (Español)</span>
-                            <span class="mode-desc">Practica con palabras comunes escritas en Kana.</span>
-                        </div>
-                    </div>
-
-                    <div class="mode-card" onclick="showSubmenu('vocab-jp')">
-                        <div class="torii-pillars"></div>
-                        <div class="card-content">
-                            <span class="mode-title">Vocabulario (Japonés)</span>
-                            <span class="mode-desc">Amplio repertorio de palabras en Kanji y su traducción.</span>
-                        </div>
-                    </div>
-
-                    <div class="mode-card" onclick="showSubmenu('numbers')">
-                        <div class="torii-pillars"></div>
-                        <div class="card-content">
-                            <span class="mode-title">Números y Fechas</span>
-                            <span class="mode-desc">Aprende a contar y decir fechas en japonés.</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- Submenú Silabario -->
-                <div id="submenu-silabario" class="selection-screen">
-                    <button class="btn-back" onclick="resetToMainMenu()">← Volver</button>
-                    <div class="mode-card" onclick="startGame('hira', 'basic')">
-                        <div class="torii-pillars"></div>
-                        <div class="card-content">
-                            <span class="mode-title">ひらがな</span>
-                            <span class="mode-desc">Silabario básico japonés</span>
-                        </div>
-                    </div>
-                    <div class="mode-card" onclick="startGame('kata', 'basic')">
-                        <div class="torii-pillars"></div>
-                        <div class="card-content">
-                            <span class="mode-title">カタカナ</span>
-                            <span class="mode-desc">Para palabras extranjeras</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- Submenú Vocabulario -->
-                <div id="submenu-vocab-es" class="selection-screen">
-                    <button class="btn-back" onclick="resetToMainMenu()">← Volver</button>
-                    <div class="mode-card" onclick="startGame('hira', 'vocab-es')">
-                        <div class="torii-pillars"></div>
-                        <div class="card-content">
-                            <span class="mode-title">Básico (Español)</span>
-                            <span class="mode-desc">Practica con palabras comunes en Hiragana.</span>
-                        </div>
-                    </div>
-                    <div class="mode-card" onclick="startGame('kata', 'vocab-es')">
-                        <div class="torii-pillars"></div>
-                        <div class="card-content">
-                            <span class="mode-title">Avanzado (Katakana)</span>
-                            <span class="mode-desc">Palabras extranjeras en Katakana.</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- Submenú Vocabulario Japonés -->
-                <div id="submenu-vocab-jp" class="selection-screen">
-                    <button class="btn-back" onclick="resetToMainMenu()">← Volver</button>
-                    <div class="mode-card" onclick="startGame('kanji', 'vocab-jp')">
-                        <div class="torii-pillars"></div>
-                        <div class="card-content">
-                            <span class="mode-title">Banco de Kanjis</span>
-                            <span class="mode-desc">Vocabulario avanzado con kanji y traducción.</span>
-                        </div>
-                    </div>
-                    <div class="mode-card" onclick="startGame('mixed', 'vocab-jp')">
-                        <div class="torii-pillars"></div>
-                        <div class="card-content">
-                            <span class="mode-title">Mixto</span>
-                            <span class="mode-desc">Combinación de Kana y Kanji.</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- Submenú Números -->
-                <div id="submenu-numbers" class="selection-screen">
-                    <button class="btn-back" onclick="resetToMainMenu()">← Volver</button>
-                    <div class="mode-card" onclick="startGame('hira', 'nums-normal')">
-                        <div class="torii-pillars"></div>
-                        <div class="card-content">
-                            <span class="mode-title">Números Cardinales</span>
-                            <span class="mode-desc">Aprende a contar del 1 al 100.</span>
-                        </div>
-                    </div>
-                    <div class="mode-card" onclick="startGame('hira', 'dates-days')">
-                        <div class="torii-pillars"></div>
-                        <div class="card-content">
-                            <span class="mode-title">Días y Fechas</span>
-                            <span class="mode-desc">Días de la semana, meses y fechas.</span>
-                        </div>
-                    </div>
-                </div>
-                        </div>
-                        <div class="mode-card" onclick="showGrammarSection('sentence')">
-                            <div class="torii-decoration"></div>
-                            <div class="card-content">
-                                <span class="mode-title">Estructuras</span>
-                                <span class="mode-desc">Formación de oraciones</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div id="submenu-frases" class="content-screen">
-                    <h3 class="screen-title">Frases útiles</h3>
-                    <div class="mode-grid">
-                        <div class="mode-card" onclick="showPhrasesSection('greetings')">
-                            <div class="torii-decoration"></div>
-                            <div class="card-content">
-                                <span class="mode-title">Saludos</span>
-                                <span class="mode-desc">Buenos días, gracias, etc.</span>
-                            </div>
-                        </div>
-                        <div class="mode-card" onclick="showPhrasesSection('travel')">
-                            <div class="torii-decoration"></div>
-                            <div class="card-content">
-                                <span class="mode-title">Viajes</span>
-                                <span class="mode-desc">Direcciones, transporte</span>
-                            </div>
-                        </div>
-                        <div class="mode-card" onclick="showPhrasesSection('restaurant')">
-                            <div class="torii-decoration"></div>
-                            <div class="card-content">
-                                <span class="mode-title">Restaurante</span>
-                                <span class="mode-desc">Comida y bebidas</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- Pantalla de juego -->
-                <div id="game-screen" class="content-screen">
-                    <div class="progress-section">
-                        <div class="progress-bar">
-                            <span id="progress-text">1 / 46</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- Pantalla de juego -->
-                <div id="game-screen" class="game-screen">
-                    <div class="word-context" id="word-context"></div>
-                    
-                    <div class="syllables-container" id="cards-container">
-                        <!-- Las tarjetas se generarán dinámicamente -->
-                    </div>
-                    
-                    <div class="controls">
-                        <button id="btn-prev" class="btn" onclick="previousCard()" disabled>
-                            ← Anterior
-                        </button>
-                        <button id="btn-flip" class="btn" onclick="flipCard()">
-                            🔄 Voltear
-                        </button>
-                        <button id="btn-next" class="btn" onclick="nextCard()">
-                            Siguiente →
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </main>
-        
-        <aside class="column right"></aside>
+<header>
+    <div class="top-controls">
+        <button id="btn-reset" class="btn-back" onclick="resetApp()" style="display:none;">← Salir</button>
     </div>
     
-    <!-- Notificación Toast -->
-    <div id="toast" class="toast" role="alert" aria-live="assertive"></div>
-    
-    <!-- Scripts -->
-    <script src="data.js"></script>
-    <script src="app.js"></script>
-    
-    <!-- Script de inicialización -->
-    <script>
-        // Forzar inicialización después de que todo cargue
-        window.addEventListener('load', function() {
-            console.log('Inicializando NihongoApp...');
-            if (window.app) {
-                console.log('App ya existe');
-                // Forzar que solo el main-menu esté visible
-                if (window.app.hideAllScreens) {
-                    window.app.hideAllScreens();
-                }
-                const mainMenu = document.getElementById('main-menu');
-                if (mainMenu) {
-                    mainMenu.classList.add('active');
-                    console.log('Main menu activado');
-                }
-            } else {
-                console.log('App no existe, creando...');
-                window.app = new NihongoApp();
+    <svg class="app-logo" viewBox="0 0 100 60" xmlns="http://www.w3.org/2000/svg">
+        <rect x="10" y="5" width="8" height="50" fill="#BC002D" rx="1"/>
+        <rect x="82" y="5" width="8" height="50" fill="#BC002D" rx="1"/>
+        <path d="M5,10 Q50,-10 95,10 L95,18 Q50,0 5,18 Z" fill="#BC002D"/>
+        <rect x="10" y="22" width="80" height="6" fill="#BC002D"/>
+    </svg>
+
+    <div class="header-title">NihongoApp</div>
+    <div id="progress-container" class="progress-bar" style="display:none;">1 / 100</div>
+</header>
+
+<main>
+    <!-- PANTALLA 1: MENÚ PRINCIPAL -->
+    <section id="main-menu" class="selection-screen active">
+        <div class="mode-card" onclick="showSubmenu('basic')">
+            <div class="torii-pillars"></div>
+            <div class="card-content">
+                <span class="mode-title">Silabario</span>
+                <span class="mode-desc">Aprende una a una las sílabas básicas.</span>
+            </div>
+        </div>
+
+        <div class="mode-card" onclick="showSubmenu('vocab-es')">
+            <div class="torii-pillars"></div>
+            <div class="card-content">
+                <span class="mode-title">Vocabulario (Español)</span>
+                <span class="mode-desc">Practica con palabras comunes escritas en Kana.</span>
+            </div>
+        </div>
+
+        <div class="mode-card" onclick="showSubmenu('vocab-jp')">
+            <div class="torii-pillars"></div>
+            <div class="card-content">
+                <span class="mode-title">Vocabulario (Japonés)</span>
+                <span class="mode-desc">Amplio repertorio de palabras en Kanji y su traducción.</span>
+            </div>
+        </div>
+
+        <div class="mode-card" onclick="showSubmenu('dates')">
+            <div class="torii-pillars"></div>
+            <div class="card-content">
+                <span class="mode-title">Fechas</span>
+                <span class="mode-desc">Días, meses y fechas del calendario.</span>
+            </div>
+        </div>
+
+        <div class="mode-card" onclick="showSubmenu('numbers')">
+            <div class="torii-pillars"></div>
+            <div class="card-content">
+                <span class="mode-title">Números</span>
+                <span class="mode-desc">Del 0 al 10,000 y escalas mayores (Corregido).</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- PANTALLA 2: SUBMENÚS -->
+    <section id="submenu-basic" class="selection-screen">
+        <h2 style="margin-bottom: 2rem; color:var(--ink-black);">Elige el modo de escritura</h2>
+        <div class="mode-card" onclick="startGame('hira', 'basic')">
+            <div class="torii-pillars"></div>
+            <div class="card-content"><span class="mode-title">ひらがな</span></div>
+        </div>
+        <div class="mode-card" onclick="startGame('kata', 'basic')">
+            <div class="torii-pillars"></div>
+            <div class="card-content"><span class="mode-title">カタカナ</span></div>
+        </div>
+    </section>
+
+    <section id="submenu-vocab-es" class="selection-screen">
+        <h2 style="margin-bottom: 2rem; color:var(--ink-black);">Palabras en Español</h2>
+        <div class="mode-card" onclick="startGame('hira', 'vocab-es')">
+            <div class="torii-pillars"></div>
+            <div class="card-content"><span class="mode-title">ひらがな</span></div>
+        </div>
+        <div class="mode-card" onclick="startGame('kata', 'vocab-es')">
+            <div class="torii-pillars"></div>
+            <div class="card-content"><span class="mode-title">カタカナ</span></div>
+        </div>
+    </section>
+
+    <section id="submenu-vocab-jp" class="selection-screen">
+        <h2 style="margin-bottom: 2rem; color:var(--ink-black);">Banco de Vocabulario</h2>
+        <div class="mode-card" onclick="startGame('hira', 'vocab-jp')">
+            <div class="torii-pillars"></div>
+            <div class="card-content"><span class="mode-title">Comenzar Práctica</span></div>
+        </div>
+    </section>
+
+    <section id="submenu-dates" class="selection-screen">
+        <h3 style="margin-bottom: 2rem; color:var(--ink-black);">¿Qué quieres practicar?</h3>
+        <div class="mode-card" onclick="startGame('hira', 'dates-days')">
+            <div class="torii-pillars"></div>
+            <div class="card-content"><span class="mode-title">Días de la semana</span></div>
+        </div>
+        <div class="mode-card" onclick="startGame('hira', 'dates-months')">
+            <div class="torii-pillars"></div>
+            <div class="card-content"><span class="mode-title">Meses del año</span></div>
+        </div>
+        <div class="mode-card" onclick="startGame('hira', 'dates-ordinal')">
+            <div class="torii-pillars"></div>
+            <div class="card-content"><span class="mode-title">Días del mes (1-31)</span></div>
+        </div>
+    </section>
+
+    <section id="submenu-numbers" class="selection-screen">
+        <h3 style="margin-bottom: 2rem; color:var(--ink-black);">¿Qué quieres practicar?</h3>
+        <div class="mode-card" onclick="startGame('hira', 'nums-normal')">
+            <div class="torii-pillars"></div>
+            <div class="card-content">
+                <span class="mode-title">Números Cardinales</span>
+                <span class="mode-desc">Contar cosas generales</span>
+            </div>
+        </div>
+        <div class="mode-card" onclick="startGame('hira', 'nums-ordinal')">
+            <div class="torii-pillars"></div>
+            <div class="card-content">
+                <span class="mode-title">Ordinales</span>
+                <span class="mode-desc">Primero, segundo...</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- PANTALLA 3: JUEGO -->
+    <section id="game-screen">
+        <div id="word-context" class="word-context"></div>
+        <div id="syllables-area" class="syllables-container"></div>
+        <div class="controls">
+            <button id="btn-prev" class="btn" onclick="prevLesson()"><span>← Anterior</span></button>
+            <button id="btn-next" class="btn" onclick="nextLesson()"><span>Siguiente →</span></button>
+        </div>
+    </section>
+</main>
+
+<script>
+    // --- DICCIONARIO Y DATOS (Sin cambios mayores aquí) ---
+    const kanaDictionary = {
+        'a': { hira: 'あ', kata: 'ア' }, 'i': { hira: 'い', kata: 'イ' }, 'u': { hira: 'う', kata: 'ウ' },
+        'e': { hira: 'え', kata: 'エ' }, 'o': { hira: 'お', kata: 'オ' },
+        'ka': { hira: 'か', kata: 'カ' }, 'ki': { hira: 'き', kata: 'キ' }, 'ku': { hira: 'く', kata: 'ク' },
+        'ke': { hira: 'け', kata: 'ケ' }, 'ko': { hira: 'こ', kata: 'コ' },
+        'sa': { hira: 'さ', kata: 'サ' }, 'shi': { hira: 'し', kata: 'シ' }, 'su': { hira: 'す', kata: 'ス' },
+        'se': { hira: 'せ', kata: 'セ' }, 'so': { hira: 'そ', kata: 'ソ' },
+        'ta': { hira: 'た', kata: 'タ' }, 'chi': { hira: 'ち', kata: 'チ' }, 'tsu': { hira: 'つ', kata: 'ツ' },
+        'te': { hira: 'て', kata: 'テ' }, 'to': { hira: 'と', kata: 'ト' },
+        'na': { hira: 'な', kata: 'ナ' }, 'ni': { hira: 'に', kata: 'ニ' }, 'nu': { hira: 'ぬ', kata: 'ヌ' },
+        'ne': { hira: 'ね', kata: 'ネ' }, 'no': { hira: 'の', kata: 'ノ' }, 'n': { hira: 'ん', kata: 'ン' },
+        'ha': { hira: 'は', kata: 'ハ' }, 'hi': { hira: 'ひ', kata: 'ヒ' }, 'fu': { hira: 'ふ', kata: 'フ' },
+        'he': { hira: 'へ', kata: 'ヘ' }, 'ho': { hira: 'ほ', kata: 'ホ' },
+        'ma': { hira: 'ま', kata: 'マ' }, 'mi': { hira: 'み', kata: 'ミ' }, 'mu': { hira: 'む', kata: 'ム' },
+        'me': { hira: 'め', kata: 'メ' }, 'mo': { hira: 'も', kata: 'モ' },
+        'ya': { hira: 'や', kata: 'ヤ' }, 'yu': { hira: 'ゆ', kata: 'ユ' }, 'yo': { hira: 'よ', kata: 'ヨ' },
+        'ra': { hira: 'ら', kata: 'ラ' }, 'ri': { hira: 'り', kata: 'リ' }, 'ru': { hira: 'る', kata: 'ル' },
+        're': { hira: 'れ', kata: 'レ' }, 'ro': { hira: 'ろ', kata: 'ロ' },
+        'wa': { hira: 'わ', kata: 'ワ' }, 'wo': { hira: 'を', kata: 'ヲ' },
+        'ga': { hira: 'が', kata: 'ガ' }, 'gi': { hira: 'ぎ', kata: 'ギ' }, 'gu': { hira: 'ぐ', kata: 'グ' },
+        'ge': { hira: 'げ', kata: 'ゲ' }, 'go': { hira: 'ご', kata: 'ゴ' },
+        'za': { hira: 'ざ', kata: 'ザ' }, 'ji': { hira: 'じ', kata: 'ジ' }, 'zu': { hira: 'ず', kata: 'ズ' },
+        'ze': { hira: 'ぜ', kata: 'ゼ' }, 'zo': { hira: 'ぞ', kata: 'ゾ' },
+        'da': { hira: 'だ', kata: 'ダ' }, 'de': { hira: 'で', kata: 'デ' }, 'do': { hira: 'ど', kata: 'ド' },
+        'ba': { hira: 'ば', kata: 'バ' }, 'bi': { hira: 'び', kata: 'ビ' }, 'bu': { hira: 'ぶ', kata: 'ブ' },
+        'be': { hira: 'べ', kata: 'ベ' }, 'bo': { hira: 'ぼ', kata: 'ボ' },
+        'pa': { hira: 'ぱ', kata: 'パ' }, 'pi': { hira: 'ぴ', kata: 'ピ' }, 'pu': { hira: 'ぷ', kata: 'プ' },
+        'pe': { hira: 'ぺ', kata: 'ペ' }, 'po': { hira: 'ぽ', kata: 'ポ' },
+        'kya': { hira: 'きゃ', kata: 'キャ' }, 'kyu': { hira: 'きゅ', kata: 'キュ' }, 'kyo': { hira: 'きょ', kata: 'キョ' },
+        'sha': { hira: 'しゃ', kata: 'シャ' }, 'shu': { hira: 'しゅ', kata: 'シュ' }, 'sho': { hira: 'しょ', kata: 'ショ' },
+        'cha': { hira: 'ちゃ', kata: 'チャ' }, 'chu': { hira: 'ちゅ', kata: 'チュ' }, 'cho': { hira: 'ちょ', kata: 'チョ' },
+        'nya': { hira: 'にゃ', kata: 'ニャ' }, 'nyu': { hira: 'にゅ', kata: 'ニュ' }, 'nyo': { hira: 'にょ', kata: 'ニョ' },
+        'hya': { hira: 'ひゃ', kata: 'ヒャ' }, 'hyu': { hira: 'ひゅ', kata: 'ヒュ' }, 'hyo': { hira: 'ひょ', kata: 'ヒョ' },
+        'mya': { hira: 'みゃ', kata: 'ミャ' }, 'myu': { hira: 'みゅ', kata: 'ミュ' }, 'myo': { hira: 'みょ', kata: 'ミョ' },
+        'rya': { hira: 'りゃ', kata: 'リャ' }, 'ryu': { hira: 'りゅ', kata: 'リュ' }, 'ryo': { hira: 'りょ', kata: 'リョ' },
+        'gya': { hira: 'ぎゃ', kata: 'ギャ' }, 'gyu': { hira: 'ぎゅ', kata: 'ギュ' }, 'gyo': { hira: 'ぎょ', kata: 'ギョ' },
+        'ja': { hira: 'じゃ', kata: 'ジャ' }, 'ju': { hira: 'じゅ', kata: 'ジュ' }, 'jo': { hira: 'じょ', kata: 'ジョ' }
+    };
+
+    const curriculumBasic = [
+        { romaji: 'a', hira: 'あ', kata: 'ア', word: 'a', breakdown: [{es:'a', romaji:'a'}] },
+        { romaji: 'i', hira: 'い', kata: 'イ', word: 'i', breakdown: [{es:'i', romaji:'i'}] },
+        { romaji: 'u', hira: 'う', kata: 'ウ', word: 'u', breakdown: [{es:'u', romaji:'u'}] },
+        { romaji: 'e', hira: 'え', kata: 'エ', word: 'e', breakdown: [{es:'e', romaji:'e'}] },
+        { romaji: 'o', hira: 'お', kata: 'オ', word: 'o', breakdown: [{es:'o', romaji:'o'}] },
+        { romaji: 'ka', hira: 'か', kata: 'カ', word: 'ka', breakdown: [{es:'ka', romaji:'ka'}] },
+        { romaji: 'ki', hira: 'き', kata: 'キ', word: 'ki', breakdown: [{es:'ki', romaji:'ki'}] },
+        { romaji: 'ku', hira: 'く', kata: 'ク', word: 'ku', breakdown: [{es:'ku', romaji:'ku'}] },
+        { romaji: 'ke', hira: 'け', kata: 'ケ', word: 'ke', breakdown: [{es:'ke', romaji:'ke'}] },
+        { romaji: 'ko', hira: 'こ', kata: 'コ', word: 'ko', breakdown: [{es:'ko', romaji:'ko'}] },
+        { romaji: 'sa', hira: 'さ', kata: 'サ', word: 'sa', breakdown: [{es:'sa', romaji:'sa'}] },
+        { romaji: 'shi', hira: 'し', kata: 'シ', word: 'shi', breakdown: [{es:'shi', romaji:'shi'}] },
+        { romaji: 'su', hira: 'す', kata: 'ス', word: 'su', breakdown: [{es:'su', romaji:'su'}] },
+        { romaji: 'se', hira: 'せ', kata: 'セ', word: 'se', breakdown: [{es:'se', romaji:'se'}] },
+        { romaji: 'so', hira: 'そ', kata: 'ソ', word: 'so', breakdown: [{es:'so', romaji:'so'}] },
+        { romaji: 'ta', hira: 'た', kata: 'タ', word: 'ta', breakdown: [{es:'ta', romaji:'ta'}] },
+        { romaji: 'chi', hira: 'ち', kata: 'チ', word: 'chi', breakdown: [{es:'chi', romaji:'chi'}] },
+        { romaji: 'tsu', hira: 'つ', kata: 'ツ', word: 'tsu', breakdown: [{es:'tsu', romaji:'tsu'}] },
+        { romaji: 'te', hira: 'て', kata: 'テ', word: 'te', breakdown: [{es:'te', romaji:'te'}] },
+        { romaji: 'to', hira: 'と', kata: 'ト', word: 'to', breakdown: [{es:'to', romaji:'to'}] },
+        { romaji: 'na', hira: 'な', kata: 'ナ', word: 'na', breakdown: [{es:'na', romaji:'na'}] },
+        { romaji: 'ni', hira: 'に', kata: 'ニ', word: 'ni', breakdown: [{es:'ni', romaji:'ni'}] },
+        { romaji: 'nu', hira: 'ぬ', kata: 'ヌ', word: 'nu', breakdown: [{es:'nu', romaji:'nu'}] },
+        { romaji: 'ne', hira: 'ね', kata: 'ネ', word: 'ne', breakdown: [{es:'ne', romaji:'ne'}] },
+        { romaji: 'no', hira: 'の', kata: 'ノ', word: 'no', breakdown: [{es:'no', romaji:'no'}] },
+        { romaji: 'ha', hira: 'は', kata: 'ハ', word: 'ha', breakdown: [{es:'ha', romaji:'ha'}] },
+        { romaji: 'hi', hira: 'ひ', kata: 'ヒ', word: 'hi', breakdown: [{es:'hi', romaji:'hi'}] },
+        { romaji: 'fu', hira: 'ふ', kata: 'フ', word: 'fu', breakdown: [{es:'fu', romaji:'fu'}] },
+        { romaji: 'he', hira: 'へ', kata: 'ヘ', word: 'he', breakdown: [{es:'he', romaji:'he'}] },
+        { romaji: 'ho', hira: 'ほ', kata: 'ホ', word: 'ho', breakdown: [{es:'ho', romaji:'ho'}] },
+        { romaji: 'ma', hira: 'ま', kata: 'マ', word: 'ma', breakdown: [{es:'ma', romaji:'ma'}] },
+        { romaji: 'mi', hira: 'み', kata: 'ミ', word: 'mi', breakdown: [{es:'mi', romaji:'mi'}] },
+        { romaji: 'mu', hira: 'む', kata: 'ム', word: 'mu', breakdown: [{es:'mu', romaji:'mu'}] },
+        { romaji: 'me', hira: 'め', kata: 'メ', word: 'me', breakdown: [{es:'me', romaji:'me'}] },
+        { romaji: 'mo', hira: 'も', kata: 'モ', word: 'mo', breakdown: [{es:'mo', romaji:'mo'}] },
+        { romaji: 'ya', hira: 'や', kata: 'ヤ', word: 'ya', breakdown: [{es:'ya', romaji:'ya'}] },
+        { romaji: 'yu', hira: 'ゆ', kata: 'ユ', word: 'yu', breakdown: [{es:'yu', romaji:'yu'}] }, 
+        { romaji: 'yo', hira: 'よ', kata: 'ヨ', word: 'yo', breakdown: [{es:'yo', romaji:'yo'}] },
+        { romaji: 'ra', hira: 'ら', kata: 'ラ', word: 'ra', breakdown: [{es:'ra', romaji:'ra'}] },
+        { romaji: 'ri', hira: 'り', kata: 'リ', word: 'ri', breakdown: [{es:'ri', romaji:'ri'}] },
+        { romaji: 'ru', hira: 'る', kata: 'ル', word: 'ru', breakdown: [{es:'ru', romaji:'ru'}] },
+        { romaji: 're', hira: 'れ', kata: 'レ', word: 're', breakdown: [{es:'re', romaji:'re'}] },
+        { romaji: 'ro', hira: 'ろ', kata: 'ロ', word: 'ro', breakdown: [{es:'ro', romaji:'ro'}] },
+        { romaji: 'wa', hira: 'わ', kata: 'ワ', word: 'wa', breakdown: [{es:'wa', romaji:'wa'}] },
+        { romaji: 'wo', hira: 'を', kata: 'ヲ', word: 'wo', breakdown: [{es:'wo', romaji:'wo'}] },
+        { romaji: 'n', hira: 'ん', kata: 'ン', word: 'n', breakdown: [{es:'n', romaji:'n'}] },
+        { romaji: 'kya', hira: 'きゃ', kata: 'キャ', word: 'kya', breakdown: [{es:'kya', romaji:'kya'}] },
+        { romaji: 'sha', hira: 'しゃ', kata: 'シャ', word: 'sha', breakdown: [{es:'sha', romaji:'sha'}] },
+        { romaji: 'cha', hira: 'ちゃ', kata: 'チャ', word: 'cha', breakdown: [{es:'cha', romaji:'cha'}] }
+    ];
+
+    function transcribeToKanaBreakdown(word) {
+        let s = word.toLowerCase().trim();
+        s = s.replace(/ñ/g, 'ny');
+        s = s.replace(/lle/g, 're'); s = s.replace(/ll/g, 'y');
+        s = s.replace(/ye/g, 'ie'); s = s.replace(/i/g, 'i');
+        s = s.replace(/di/g, 'ri'); s = s.replace(/je/g, 'he'); s = s.replace(/du/g, 'ru');
+        s = s.replace(/l/g, 'r');
+        s = s.replace(/v/g, 'b'); s = s.replace(/x/g, 's');
+        s = s.replace(/ca/g, 'ka'); s = s.replace(/co/g, 'ko'); s = s.replace(/cu/g, 'ku');
+        s = s.replace(/que/g, 'ke'); s = s.replace(/qui/g, 'ki');
+        s = s.replace(/ci/g, 'shi'); s = s.replace(/ce/g, 'se');
+        s = s.replace(/si/g, 'shi'); s = s.replace(/z/g, 's');
+        s = s.replace(/ja/g, 'ha'); s = s.replace('jo', 'ho'); s = s.replace('ju', 'hu');
+        s = s.replace(/ge/g, 'he'); s = s.replace(/gi/g, 'hi');
+
+        let syllables = [];
+        let i = 0;
+        
+        while (i < s.length) {
+            let char = s[i];
+            let nextChar = s[i+1] || '';
+            let nextNextChar = s[i+2] || '';
+
+            if (char === 'c' && nextChar === 'h' && nextNextChar === 'e') {
+                 syllables.push({es: 'che', romaji: 'che'});
+                 i += 3; continue;
             }
+            if (char === 'c' && nextChar === 'h') {
+                if (nextNextChar.match(/[aeiou]/)) {
+                    let chSyl = 'ch' + nextNextChar;
+                    if (chSyl === 'chi') chSyl = 'shi';
+                    syllables.push({es: chSyl, romaji: chSyl});
+                    i += 3; continue;
+                }
+                syllables.push({es: 'chi', romaji: 'chi'});
+                i += 2; continue;
+            }
+            if (char === 'n') {
+                if (nextChar.match(/[aeiou]/)) {
+                     let prevChar = (syllables.length > 0) ? syllables[syllables.length-1].romaji : '';
+                    let endsInVowel = (prevChar.length > 0 && prevChar.match(/[aeiou]$/));
+                    let afterVowel = s[i+2];
+                    if (endsInVowel && afterVowel && afterVowel.match(/[^aeiou]/) && afterVowel !== 'y') {
+                        syllables.push({es: 'n', romaji: 'n'});
+                        i++; continue;
+                    } else {
+                        let k = char + nextChar;
+                        syllables.push({es: k, romaji: k});
+                        i += 2; continue;
+                    }
+                } else {
+                    syllables.push({es: 'n', romaji: 'n'});
+                    i++; continue;
+                }
+            }
+            if (char.match(/[aeiou]/)) {
+                syllables.push({es: char, romaji: char});
+                i++; continue;
+            }
+            if (char.match(/[^aeiou]/)) {
+                if (nextChar.match(/[aeiou]/)) {
+                    let k = char + nextChar;
+                    syllables.push({es: k, romaji: k});
+                    i += 2;
+                } else if (nextChar === 'y' && s[i+2] && s[i+2].match(/[aeiou]/)) {
+                    let k = char + nextChar + s[i+2];
+                    syllables.push({es: k, romaji: k});
+                    i += 3;
+                } else {
+                    if (i + 1 === s.length) {
+                        let k = char + 'u';
+                        syllables.push({es: k, romaji: k});
+                        i++;
+                    } else {
+                        let k = char + 'u';
+                        syllables.push({es: k, romaji: k});
+                        i++;
+                    }
+                }
+            }
+        }
+        return syllables;
+    }
+
+    function generateVocabularyES() {
+        const rawWords = ["hola", "adios", "gracias", "agua", "casa", "mundo", "nada", "cada", "solo", "mesa", "silla", "libro", "niño", "niña", "mujer", "hombre", "gato", "perro", "verde", "negro", "blanco", "azul", "rojo", "grande", "pequeño", "amigo", "amiga", "padre", "madre", "hermano", "hermana", "lunes", "martes", "miercoles", "jueves", "viernes", "enero", "febrero", "marzo", "abril", "mayo", "comer", "beber", "dormir", "hablar", "vivir", "trabajar", "estudiar", "coche", "barco", "playa", "mar", "cielo", "sol", "luna", "estrella", "ciudad", "pueblo", "calle", "plaza", "arbol", "flor", "ciencia", "tecnologia", "computadora", "telefono", "internet"];
+        let vocabList = [];
+        rawWords.forEach(word => {
+            let breakdown = transcribeToKanaBreakdown(word);
+            vocabList.push({ word: word, displayMode: 'syllables', breakdown: breakdown });
         });
-    </script>
+        return vocabList;
+    }
+
+    function generateVocabularyJP() {
+        const vocab = [
+            { kanji: "水", kana: "みず", es: "Agua" }, { kanji: "火", kana: "ひ", es: "Fuego" },
+            { kanji: "木", kana: "き", es: "Árbol" }, { kanji: "金", kana: "きん", es: "Oro" },
+            { kanji: "土", kana: "つち", es: "Tierra" }, { kanji: "空", kana: "そら", es: "Cielo" },
+            { kanji: "雨", kana: "あめ", es: "Lluvia" }, { kanji: "雪", kana: "ゆき", es: "Nieve" },
+            { kanji: "風", kana: "かぜ", es: "Viento" }, { kanji: "山", kana: "やま", es: "Montaña" },
+            { kanji: "川", kana: "かわ", es: "Río" }, { kanji: "海", kana: "うみ", es: "Mar" },
+            { kanji: "花", kana: "はな", es: "Flor" }, { kanji: "草", kana: "くさ", es: "Hierba" },
+            { kanji: "人", kana: "ひと", es: "Persona" }, { kanji: "男", kana: "おとこ", es: "Hombre" },
+            { kanji: "女", kana: "おんな", es: "Mujer" }, { kanji: "子", kana: "こ", es: "Niño" },
+            { kanji: "友", kana: "ともだち", es: "Amigo" }, { kanji: "親", kana: "おや", es: "Padres" },
+            { kanji: "父", kana: "ちち", es: "Padre" }, { kanji: "母", kana: "はは", es: "Madre" },
+            { kanji: "体", kana: "からだ", es: "Cuerpo" }, { kanji: "顔", kana: "かお", es: "Cara" },
+            { kanji: "目", kana: "め", es: "Ojo" }, { kanji: "耳", kana: "みみ", es: "Oído" },
+            { kanji: "口", kana: "くち", es: "Boca" }, { kanji: "手", kana: "て", es: "Mano" },
+            { kanji: "足", kana: "あし", es: "Pie" }, { kanji: "心", kana: "こころ", es: "Corazón" },
+            { kanji: "今", kana: "いま", es: "Ahora" }, { kanji: "明日", kana: "あした", es: "Mañana" },
+            { kanji: "昨日", kana: "きのう", es: "Ayer" }, { kanji: "今日", kana: "きょう", es: "Hoy" },
+            { kanji: "朝", kana: "あさ", es: "Mañana" }, { kanji: "夜", kana: "よる", es: "Noche" },
+            { kanji: "年", kana: "とし", es: "Año" }, { kanji: "時間", kana: "じかん", es: "Tiempo" },
+            { kanji: "家", kana: "いえ", es: "Casa" }, { kanji: "学校", kana: "がっこう", es: "Escuela" },
+            { kanji: "会社", kana: "かいしゃ", es: "Oficina" }, { kanji: "病院", kana: "びょういん", es: "Hospital" },
+            { kanji: "国", kana: "くに", es: "País" }, { kanji: "町", kana: "まち", es: "Ciudad" },
+            { kanji: "駅", kana: "えき", es: "Estación" }, { kanji: "店", kana: "みせ", es: "Tienda" },
+            { kanji: "車", kana: "くるま", es: "Coche" }, { kanji: "電車", kana: "でんしゃ", es: "Tren" },
+            { kanji: "電話", kana: "でんわ", es: "Teléfono" }, { kanji: "傘", kana: "かさ", es: "Paraguas" },
+            { kanji: "鞄", kana: "かばん", es: "Bolso" }, { kanji: "紙", kana: "かみ", es: "Papel" },
+            { kanji: "本", kana: "ほん", es: "Libro" }, { kanji: "ペン", kana: "ペン", es: "Boli" },
+            { kanji: "箸", kana: "はし", es: "Palillos" }, { kanji: "皿", kana: "さら", es: "Plato" },
+            { kanji: "米", kana: "こめ", es: "Arroz" }, { kanji: "ご飯", kana: "ごはん", es: "Comida" },
+            { kanji: "肉", kana: "にく", es: "Carne" }, { kanji: "魚", kana: "さかな", es: "Pescado" },
+            { kanji: "野菜", kana: "やさい", es: "Verdura" }, { kanji: "果物", kana: "くだもの", es: "Fruta" },
+            { kanji: "パン", kana: "パン", es: "Pan" }, { kanji: "卵", kana: "たまご", es: "Huevo" },
+            { kanji: "大", kana: "おおきい", es: "Grande" }, { kanji: "小", kana: "ちいさい", es: "Pequeño" },
+            { kanji: "多", kana: "おおい", es: "Mucho" }, { kanji: "少", kana: "すくない", es: "Poco" },
+            { kanji: "新", kana: "あたらしい", es: "Nuevo" }, { kanji: "古", kana: "ふるい", es: "Viejo" },
+            { kanji: "高", kana: "たかい", es: "Alto" }, { kanji: "安", kana: "やすい", es: "Barato" },
+            { kanji: "難", kana: "むずかしい", es: "Difícil" }, { kanji: "易", kana: "やさしい", es: "Fácil" },
+            { kanji: "好", kana: "すき", es: "Gustar" }, { kanji: "嫌", kana: "きらい", es: "Odiar" },
+            { kanji: "東", kana: "ひがし", es: "Este" }, { kanji: "西", kana: "にし", es: "Oeste" },
+            { kanji: "南", kana: "みなみ", es: "Sur" }, { kanji: "北", kana: "きた", es: "Norte" },
+            { kanji: "犬", kana: "いぬ", es: "Perro" }, { kanji: "猫", kana: "ねこ", es: "Gato" },
+            { kanji: "鳥", kana: "とり", es: "Pájaro" }, { kanji: "馬", kana: "うま", es: "Caballo" }
+        ];
+
+        return vocab.map(item => ({
+            word: item.es,
+            jp: `${item.kanji}<br><span class='kana-text'>${item.kana}</span>`,
+            displayMode: 'whole'
+        }));
+    }
+
+    /**
+     * LÓGICA DE NÚMEROS CORREGIDA
+     * Genera Kanji y Hiragana directamente, sin Romaji.
+     * Maneja irregularidades (sanbyaku, hassen, etc.) correctamente.
+     */
+    function formatJapaneseNumber(n) {
+        if (n === 0) {
+            return { word: "0", jp: "零<br><span class='kana-text'>れい</span>", displayMode: 'whole' }; 
+        }
+
+        const digitsKanji = ["", "一", "二", "三", "四", "五", "六", "七", "八", "九"];
+        const unitsKanji = ["", "十", "百", "千", "万", "億", "兆"];
+        const unitsKana = ["", "まん", "おく", "ちょう"]; // Solo para grupos mayores a 1000
+
+        const digitsKana = ["", "いち", "に", "さん", "よん", "ご", "ろく", "なな", "はち", "きゅう"];
+
+        let resultKanji = "";
+        let resultKana = "";
+
+        let s = n.toString();
+        let groups = [];
+        while (s.length > 0) {
+            groups.unshift(s.slice(-4));
+            s = s.slice(0, -4);
+        }
+
+        groups.forEach((groupStr, groupIndex) => {
+            let val = parseInt(groupStr, 10);
+            if (val === 0) return;
+
+            let groupKanji = "";
+            let groupKana = "";
+            let digits = groupStr.padStart(4, '0').split('');
+            
+            // Miles (Sen)
+            if (digits[0] !== '0') {
+                let d = parseInt(digits[0]);
+                if (d === 1) {
+                    groupKanji += "千"; 
+                    groupKana += "せん"; 
+                } else if (d === 3) {
+                    groupKanji += "三千";
+                    groupKana += "さんぜん";
+                } else if (d === 8) {
+                    groupKanji += "八千";
+                    groupKana += "はっせん";
+                } else {
+                    groupKanji += digitsKanji[d] + "千";
+                    groupKana += digitsKana[d] + "せん";
+                }
+            }
+
+            // Centenas (Hyaku)
+            if (digits[1] !== '0') {
+                let d = parseInt(digits[1]);
+                if (d === 1) {
+                    groupKanji += "百";
+                    groupKana += "ひゃく";
+                } else if (d === 3) {
+                    groupKanji += "三百";
+                    groupKana += "さんびゃく";
+                } else if (d === 6) {
+                    groupKanji += "六百";
+                    groupKana += "ろっぴゃく";
+                } else if (d === 8) {
+                    groupKanji += "八百";
+                    groupKana += "はっぴゃく";
+                } else {
+                    groupKanji += digitsKanji[d] + "百";
+                    groupKana += digitsKana[d] + "ひゃく";
+                }
+            }
+
+            // Decenas (Juu)
+            if (digits[2] !== '0') {
+                let d = parseInt(digits[2]);
+                if (d === 1) {
+                    groupKanji += "十";
+                    groupKana += "じゅう";
+                } else {
+                    groupKanji += digitsKanji[d] + "十";
+                    groupKana += digitsKana[d] + "じゅう";
+                }
+            }
+
+            // Unidades
+            if (digits[3] !== '0') {
+                let d = parseInt(digits[3]);
+                groupKanji += digitsKanji[d];
+                groupKana += digitsKana[d];
+            }
+
+            // Sufijo de Grupo (Man, Oku...)
+            if (groupIndex > 0) {
+                groupKanji += unitsKanji[groupIndex];
+                groupKana += unitsKana[groupIndex - 1]; // Ajuste de índice para el array de kana
+            }
+
+            resultKanji += groupKanji;
+            resultKana += groupKana;
+        });
+
+        return {
+            word: n.toLocaleString('es-ES'),
+            jp: resultKanji + "<br><span class='kana-text'>" + resultKana + "</span>",
+            displayMode: 'whole'
+        };
+    }
+
+    function generateCardinalNumbers() {
+        let list = [];
+        // 0-20
+        for (let n = 0; n <= 20; n++) list.push(formatJapaneseNumber(n));
+        // Decenas hasta 100
+        for (let n = 30; n <= 100; n += 10) list.push(formatJapaneseNumber(n));
+        // Irregulares importantes
+        [300, 600, 800, 3000, 8000, 1000].forEach(n => list.push(formatJapaneseNumber(n)));
+        // Combinaciones
+        [345, 567, 789, 1000, 1234, 2000, 3000, 5678, 10000, 23456, 100000].forEach(n => list.push(formatJapaneseNumber(n)));
+        // Escalas grandes
+        list.push(formatJapaneseNumber(1000000)); 
+        list.push(formatJapaneseNumber(12345678));
+        return list;
+    }
+
+    function generateDaysOfMonth() {
+        const list = [];
+        const irregulars = {
+            1: "ついたち", 2: "ふつか", 3: "みっか", 4: "よっか", 5: "いつか",
+            6: "むいか", 7: "なのか", 8: "ようか", 9: "ここのか", 10: "とおか",
+            14: "じゅうよっか", 20: "はつか", 24: "にじゅうよっか"
+        };
+        const digits = ["", "いち", "に", "さん", "よ", "ご", "ろく", "しち", "はち", "きゅう"];
+
+        for (let i = 1; i <= 31; i++) {
+            let kanji = "", kana = "", label = `${i}日`;
+            
+            if (irregulars[i]) {
+                kana = irregulars[i];
+                if(i <= 10) kanji = ["","一","二","三","四","五","六","七","八","九","十"][i] + "日";
+                else if(i===14) kanji = "十四日";
+                else if(i===20) kanji = "二十日";
+                else if(i===24) kanji = "二十四日";
+            } else {
+                if (i < 20) { kanji = "十" + digits[i%10] + "日"; kana = "じゅう" + digits[i%10] + "にち"; }
+                else if (i < 30) { kanji = "二十" + digits[i%10] + "日"; kana = "にじゅう" + digits[i%10] + "にち"; }
+                else { kanji = "三十" + digits[i%10] + "日"; kana = "さんじゅう" + digits[i%10] + "にち"; }
+            }
+            
+            if(i===14) kana = "じゅうよっか";
+            if(i===24) kana = "にじゅうよっか";
+
+            list.push({
+                word: label,
+                jp: kanji + "<br><span class='kana-text'>" + kana + "</span>",
+                displayMode: 'whole'
+            });
+        }
+        return list;
+    }
+
+    const dataDates = {
+        days: [
+            { word: "Lunes", jp: "月曜日<br><span class='kana-text'>げつようび</span>" },
+            { word: "Martes", jp: "火曜日<br><span class='kana-text'>かようび</span>" },
+            { word: "Miércoles", jp: "水曜日<br><span class='kana-text'>すいようび</span>" },
+            { word: "Jueves", jp: "木曜日<br><span class='kana-text'>もくようび</span>" },
+            { word: "Viernes", jp: "金曜日<br><span class='kana-text'>きんようび</span>" },
+            { word: "Sábado", jp: "土曜日<br><span class='kana-text'>どようび</span>" },
+            { word: "Domingo", jp: "日曜日<br><span class='kana-text'>にちようび</span>" }
+        ],
+        months: [
+            { word: "Enero", jp: "一月<br><span class='kana-text'>いちがつ</span>" },
+            { word: "Febrero", jp: "二月<br><span class='kana-text'>にがつ</span>" },
+            { word: "Marzo", jp: "三月<br><span class='kana-text'>さんがつ</span>" }, 
+            { word: "Abril", jp: "四月<br><span class='kana-text'>しがつ</span>" },
+            { word: "Mayo", jp: "五月<br><span class='kana-text'>ごがつ</span>" },
+            { word: "Junio", jp: "六月<br><span class='kana-text'>ろくがつ</span>" },
+            { word: "Julio", jp: "七月<br><span class='kana-text'>しちがつ</span>" }, 
+            { word: "Agosto", jp: "八月<br><span class='kana-text'>はちがつ</span>" },
+            { word: "Septiembre", jp: "九月<br><span class='kana-text'>くがつ</span>" },
+            { word: "Octubre", jp: "十月<br><span class='kana-text'>じゅうがつ</span>" },
+            { word: "Noviembre", jp: "十一月<br><span class='kana-text'>じゅういちがつ</span>" },
+            { word: "Diciembre", jp: "十二月<br><span class='kana-text'>じゅうにがつ</span>" }
+        ],
+        ordinal: generateDaysOfMonth()
+    };
+
+    function generateOrdinalNumbers() {
+        const list = [];
+        const digits = ["", "いち", "に", "さん", "よ", "ご", "ろく", "なな", "はち", "きゅう", "じゅう"];
+        
+        for(let i=1; i<=10; i++) {
+            list.push({ 
+                word: `${i}º`, 
+                jp: `${i}番目<br><span class='kana-text'>${digits[i]}ばんめ</span>`, 
+                displayMode: 'whole' 
+            });
+        }
+        list.push({ word: "11º", jp: "十一番目<br><span class='kana-text'>じゅういちばんめ</span>", displayMode: 'whole' });
+        list.push({ word: "20º", jp: "二十番目<br><span class='kana-text'>にじゅうばんめ</span>", displayMode: 'whole' });
+        list.push({ word: "100º", jp: "百番目<br><span class='kana-text'>ひゃくばんめ</span>", displayMode: 'whole' });
+        return list;
+    }
+
+    let currentMode = null; 
+    let currentTrack = null; 
+    let currentIndex = 0;
+    let currentData = [];
+    let isSpecialMode = false; 
+
+    const mainMenu = document.getElementById('main-menu');
+    const submenus = document.querySelectorAll('.selection-screen:not(#main-menu)');
+    const gameScreen = document.getElementById('game-screen');
+    const syllablesArea = document.getElementById('syllables-area');
+    const wordContext = document.getElementById('word-context');
+    const progressDisplay = document.getElementById('progress-container');
+    const btnNext = document.getElementById('btn-next');
+    const btnPrev = document.getElementById('btn-prev');
+    const btnReset = document.getElementById('btn-reset');
+
+    function resetApp() {
+        gameScreen.style.display = 'none';
+        submenus.forEach(el => el.classList.remove('active'));
+        mainMenu.classList.add('active');
+        progressDisplay.style.display = 'none';
+        btnReset.style.display = 'none';
+        currentMode = null;
+        currentTrack = null;
+    }
+
+    function showSubmenu(type) {
+        mainMenu.classList.remove('active');
+        let id = '';
+        if(type === 'basic') id = 'submenu-basic';
+        if(type === 'vocab-es') id = 'submenu-vocab-es';
+        if(type === 'vocab-jp') id = 'submenu-vocab-jp';
+        if(type === 'dates') id = 'submenu-dates';
+        if(type === 'numbers') id = 'submenu-numbers';
+        document.getElementById(id).classList.add('active');
+    }
+
+    function startGame(mode, track) {
+        currentMode = mode;
+        currentTrack = track;
+        currentIndex = 0;
+        isSpecialMode = (track.includes('dates') || track.includes('nums'));
+
+        if (track === 'basic') {
+            currentData = curriculumBasic;
+        } else if (track === 'vocab-es') {
+            currentData = generateVocabularyES();
+        } else if (track === 'vocab-jp') {
+            currentData = generateVocabularyJP();
+        } else if (track === 'dates-days') {
+            currentData = dataDates.days.map(x => ({...x, displayMode: 'whole'}));
+        } else if (track === 'dates-months') {
+            currentData = dataDates.months.map(x => ({...x, displayMode: 'whole'}));
+        } else if (track === 'dates-ordinal') {
+            currentData = dataDates.ordinal.map(x => ({...x, displayMode: 'whole'}));
+        } else if (track === 'nums-normal') {
+            currentData = generateCardinalNumbers();
+        } else if (track === 'nums-ordinal') {
+            currentData = generateOrdinalNumbers();
+        }
+
+        submenus.forEach(el => el.classList.remove('active'));
+        gameScreen.style.display = 'block';
+        progressDisplay.style.display = 'block';
+        btnReset.style.display = 'block';
+        loadLesson();
+    }
+
+    function loadLesson() {
+        const item = currentData[currentIndex];
+        
+        progressDisplay.textContent = `${currentIndex + 1} / ${currentData.length}`;
+        btnPrev.disabled = (currentIndex === 0);
+        btnNext.disabled = (currentIndex === currentData.length - 1);
+
+        if (item.displayMode === 'whole') {
+            wordContext.textContent = "";
+        } else {
+            wordContext.textContent = `"${item.word}"`;
+        }
+        
+        syllablesArea.innerHTML = '';
+
+        if (item.displayMode === 'whole') {
+            const card = createWholeCard(item);
+            syllablesArea.appendChild(card);
+        } else {
+            item.breakdown.forEach(part => {
+                const card = createCard(part);
+                syllablesArea.appendChild(card);
+            });
+        }
+    }
+
+    function createCard(part) {
+        const card = document.createElement('div');
+        card.className = 'syllable-card';
+        
+        let kanaChar = '?';
+        const ref = kanaDictionary[part.romaji];
+        if (ref) {
+            kanaChar = currentMode === 'hira' ? ref.hira : ref.kata;
+        }
+
+        card.innerHTML = `
+            <div class="card-face card-front">${part.es}</div>
+            <div class="card-face card-back">${kanaChar}</div>
+        `;
+
+        card.addEventListener('click', function() {
+            if (!this.classList.contains('flipped')) this.classList.add('flipped');
+        });
+        return card;
+    }
+
+    function createWholeCard(item) {
+        const card = document.createElement('div');
+        card.className = 'syllable-card whole-word-card';
+        
+        if (currentTrack === 'vocab-jp') {
+            const parts = item.jp.split('<br>');
+            const kanji = parts[0] || '';
+            const kana = parts[1] || '';
+            
+            card.innerHTML = `
+                <div class="card-face card-front jp-word-front">
+                    <div class="kanji-display">${kanji}</div>
+                    <div class="kana-display">${kana}</div>
+                </div>
+                <div class="card-face card-back es-word-back">${item.word}</div>
+            `;
+        } else {
+            // ESTILO ESPECIAL PARA NÚMEROS: Kanji grande, Hiragana abajo
+            card.innerHTML = `
+                <div class="card-face card-front jp-word-front">
+                    <div class="kanji-display" style="color: var(--ink-black);">${item.word}</div> <!-- Número en arábigo o etiqueta -->
+                    <div class="kana-display" style="font-size:1rem; color:#888;">Español</div>
+                </div>
+                <div class="card-face card-back jp-word-front" style="background: var(--torii-red);">
+                    <div class="kanji-display" style="color: white;">${item.jp.split('<br>')[0]}</div> <!-- Kanji -->
+                    <div class="kana-display" style="color: rgba(255,255,255,0.8);">${item.jp.split('<br>')[1].replace(/<.*?>/g, '')}</div> <!-- Hiragana limpio -->
+                </div>
+            `;
+        }
+
+        card.addEventListener('click', function() {
+            if (!this.classList.contains('flipped')) this.classList.add('flipped');
+        });
+        return card;
+    }
+
+    function nextLesson() {
+        if (currentIndex < currentData.length -1) {
+            currentIndex++;
+            loadLesson();
+        }
+    }
+
+    function prevLesson() {
+        if (currentIndex > 0) {
+            currentIndex--;
+            loadLesson();
+        }
+    }
+</script>
 </body>
-</html><!-- Actualizado: mar 27 ene 2026 06:11:15 -03 -->
+</html>
