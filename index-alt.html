@@ -382,7 +382,7 @@
             <div class="torii-pillars"></div>
             <div class="card-content">
                 <span class="mode-title">Gramática</span>
-                <span class="mode-desc">Partículas, estructuras y patrones gramaticales.</span>
+                <span class="mode-desc">Gramática organizada por niveles JLPT N5-N1 con ejemplos.</span>
             </div>
         </div>
     </section>
@@ -455,26 +455,26 @@
     </section>
 
     <section id="submenu-grammar" class="selection-screen">
-        <h3 style="margin-bottom: 2rem; color:var(--ink-black);">¿Qué quieres estudiar?</h3>
+        <h3 style="margin-bottom: 2rem; color:var(--ink-black);">Selecciona el nivel JLPT</h3>
         <div class="mode-card" onclick="startGame('hira', 'grammar-particles')">
             <div class="torii-pillars"></div>
             <div class="card-content">
-                <span class="mode-title">Partículas</span>
-                <span class="mode-desc">は, が, を, に, で, へ, と, も, の</span>
+                <span class="mode-title">Nivel N5 - Básico</span>
+                <span class="mode-desc">Estructuras fundamentales y partículas esenciales</span>
             </div>
         </div>
         <div class="mode-card" onclick="startGame('hira', 'grammar-basic')">
             <div class="torii-pillars"></div>
             <div class="card-content">
-                <span class="mode-title">Estructuras Básicas</span>
-                <span class="mode-desc">Sustantivo + です, adjetivos, verbos básicos</span>
+                <span class="mode-title">Nivel N4 - Intermedio</span>
+                <span class="mode-desc">Intenciones, potencial y propósito</span>
             </div>
         </div>
         <div class="mode-card" onclick="startGame('hira', 'grammar-advanced')">
             <div class="torii-pillars"></div>
             <div class="card-content">
-                <span class="mode-title">Patrones Avanzados</span>
-                <span class="mode-desc">Conectores, condicionales, pasiva, causativa</span>
+                <span class="mode-title">Nivel N3 - Intermedio Alto</span>
+                <span class="mode-desc">Condicional, simultaneidad y experiencia</span>
             </div>
         </div>
     </section>
@@ -919,30 +919,159 @@
     };
 
     const dataGrammar = {
-        particles: [
-            { word: "は", jp: "は<br><span class='kana-text'>wa</span>", es: "Tema/Marcador de tema" },
-            { word: "が", jp: "が<br><span class='kana-text'>ga</span>", es: "Sujeto/Identificación" },
-            { word: "を", jp: "を<br><span class='kana-text'>o</span>", es: "Objeto directo" },
-            { word: "に", jp: "に<br><span class='kana-text'>ni</span>", es: "Lugar/Tiempo/Destino" },
-            { word: "で", jp: "で<br><span class='kana-text'>de</span>", es: "Lugar de acción/Medio" },
-            { word: "へ", jp: "へ<br><span class='kana-text'>e</span>", es: "Dirección" },
-            { word: "と", jp: "と<br><span class='kana-text'>to</span>", es: "Y/Con" },
-            { word: "も", jp: "も<br><span class='kana-text'>mo</span>", es: "También/Tampoco" },
-            { word: "の", jp: "の<br><span class='kana-text'>no</span>", es: "Posesión/Modificador" }
+        N5: [
+            {
+                topic: "Sujeto + wa + Adjetivo/Verbo + desu",
+                explanation: "Estructura básica de oración afirmativa.",
+                examples: [
+                    { japanese: "私は学生です。", romaji: "Watashi wa gakusei desu.", translation: "Yo soy estudiante." },
+                    { japanese: "今日はいい天気です。", romaji: "Kyou wa ii tenki desu.", translation: "Hoy hace buen tiempo." }
+                ]
+            },
+            {
+                topic: "Sustantivo + wa + Sustantivo + desu (Sustantivo + wa + Sustantivo + ja arimasen)",
+                explanation: "Identificar que algo es algo. Negación usando 'ja arimasen'.",
+                examples: [
+                    { japanese: "これはペンです。", romaji: "Kore wa pen desu.", translation: "Esto es un bolígrafo." },
+                    { japanese: "それはペンじゃありません。", romaji: "Sore wa pen ja arimasen.", translation: "Eso no es un bolígrafo." }
+                ]
+            },
+            {
+                topic: "Sustantivo + wa + Adjetivo-i/na (Sustantivo + wa + Adjetivo-i/na + kute, ja arimasen)",
+                explanation: "Describir sustantivos con adjetivos. Adjetivos-i terminan en -i. Adjetivos-na requieren 'na' antes del sustantivo.",
+                examples: [
+                    { japanese: "この車は高いです。", romaji: "Kono kuruma wa takai desu.", translation: "Este carro es caro." },
+                    { japanese: "この公園は大きくて、きれいです。", romaji: "Kono kouen wa ookikute, kirei desu.", translation: "Este parque es grande y bonito." }
+                ]
+            },
+            {
+                topic: "Verbo + te (verbo + te + kudasai)",
+                explanation: "Solicitar que alguien haga algo usando la forma 'te' del verbo.",
+                examples: [
+                    { japanese: "本を見せてください。", romaji: "Hon o misete kudasai.", translation: "Por favor, muéstrame el libro." }
+                ]
+            },
+            {
+                topic: "Verbo + ta (verbo + ta + koto ga arimasen)",
+                explanation: "Hablar de experiencias pasadas usando la forma 'ta' del verbo.",
+                examples: [
+                    { japanese: "私は富士山に登ったことがあります。", romaji: "Watashi wa Fujisan ni nobotta koto ga arimasu.", translation: "He subido al Monte Fuji." }
+                ]
+            },
+            {
+                topic: "Sustantivo + wa + doko + desu ka (Sustantivo + wa + doko + ni + arimasu/imasu ka)",
+                explanation: "Preguntar dónde está algo. 'Arimasu' para cosas inanimadas, 'imasu' para seres vivos.",
+                examples: [
+                    { japanese: "図書館はどこですか。", romaji: "Toshokan wa doko desu ka.", translation: "¿Dónde está la biblioteca?" },
+                    { japanese: "田中さんはどこにいますか。", romaji: "Tanaka-san wa doko ni imasu ka.", translation: "¿Dónde está el Sr. Tanaka?" }
+                ]
+            },
+            {
+                topic: "Hora + ni + verbo",
+                explanation: "Indicar hora específica cuando ocurre una acción.",
+                examples: [
+                    { japanese: "私は７時に起きます。", romaji: "Watashi wa shichiji ni okimasu.", translation: "Me levanto a las 7." },
+                    { japanese: "昼ご飯は１２時半に食べます。", romaji: "Hirugohan wa juunijihan ni tabemasu.", translation: "Como almuerzo a las 12:30." }
+                ]
+            },
+            {
+                topic: "Sustantivo + wa + Ikura + desu ka",
+                explanation: "Preguntar precio.",
+                examples: [
+                    { japanese: "このノートはいくらですか。", romaji: "Kono noto wa ikura desu ka.", translation: "¿Cuánto cuesta este cuaderno?" },
+                    { japanese: "それは百円です。", romaji: "Sore wa hyaku-en desu.", translation: "Eso cuesta 100 yenes." }
+                ]
+            }
         ],
-        basic: [
-            { word: "Sustantivo + です", jp: "学生です<br><span class='kana-text'>がくせいです</span>", es: "Ser/Estar (forma cortés)" },
-            { word: "Adjetivo -i", jp: "高いです<br><span class='kana-text'>たかいです</span>", es: "Adjetivos terminados en i" },
-            { word: "Adjetivo -na", jp: "静かです<br><span class='kana-text'>しずかです</span>", es: "Adjetivos terminados en na" },
-            { word: "Verbo -masu", jp: "食べます<br><span class='kana-text'>たべます</span>", es: "Forma cortés de verbos" },
-            { word: "Negación -ません", jp: "食べません<br><span class='kana-text'>たべません</span>", es: "Forma negativa cortés" }
+        N4: [
+            {
+                topic: "Voluntativo (Vou-form) + to omoimasu",
+                explanation: "Expresar intención: pienso hacer algo.",
+                examples: [
+                    { japanese: "来年日本に行こうと思います。", romaji: "Rainen Nihon ni ikou to omoimasu.", translation: "Pienso ir a Japón el próximo año." }
+                ]
+            },
+            {
+                topic: "Tsumori + desu",
+                explanation: "Expresar intención o plan: tengo la intención de hacer algo.",
+                examples: [
+                    { japanese: "夏休みに海へ行くつもりです。", romaji: "Natsuyasumi ni umi e iku tsumori desu.", translation: "Tengo intención de ir al mar en las vacaciones de verano." }
+                ]
+            },
+            {
+                topic: "Sustantivo/Na-adj + no + hoshii",
+                explanation: "Quiero algo. Para verbos, se usa 'hoshii' + verbo en forma 'te'.",
+                examples: [
+                    { japanese: "新しいパソコンが欲しいです。", romaji: "Atarashii pasokon ga hoshii desu.", translation: "Quiero una computadora nueva." }
+                ]
+            },
+            {
+                topic: "Verb-dictionary-form + tame + ni + verbo",
+                explanation: "Expresar propósito: hacer algo para lograr un objetivo.",
+                examples: [
+                    { japanese: "日本語を勉強するために日本へ来ました。", romaji: "Nihongo o benkyou suru tame ni Nihon e kimashita.", translation: "Vine a Japón para estudiar japonés." }
+                ]
+            },
+            {
+                topic: "Verb-dictionary-form + koto + ga + dekimasu",
+                explanation: "Poder hacer algo. Se usa para expresar habilidad o posibilidad.",
+                examples: [
+                    { japanese: "私は日本語が話せます。", romaji: "Watashi wa nihongo ga hanasemasu.", translation: "Puedo hablar japonés." },
+                    { japanese: "車の運転ができます。", romaji: "Kuruma no unten ga dekimasu.", translation: "Puedo conducir un carro." }
+                ]
+            },
+            {
+                topic: "Verb-te-form + imasite",
+                explanation: "Acción en progreso: estoy haciendo algo.",
+                examples: [
+                    { japanese: "雨が降っています。", romaji: "Ame ga futte imasu.", translation: "Está lloviendo." },
+                    { japanese: "今、ご飯を食べています。", romaji: "Ima, gohan o tabete imasu.", translation: "Ahora estoy comiendo." }
+                ]
+            },
+            {
+                topic: "Verb-te-form + shimaimashita",
+                explanation: "Lamentación o sorpresa: algo sucedió y no se puede cambiar.",
+                examples: [
+                    { japanese: "財布を忘れてしまいました。", romaji: "Saifu o wasurete shimaimashita.", translation: "¡Olvidé mi billetera!" }
+                ]
+            },
+            {
+                topic: "Verb-dictionary-form + you + ni + narimasu",
+                explanation: "Cambio: algo se vuelve diferente.",
+                examples: [
+                    { japanese: "日本語が上手になりました。", romaji: "Nihongo ga jouzu ni narimashita.", translation: "Me volví mejor en japonés." }
+                ]
+            }
         ],
-        advanced: [
-            { word: "Condicional -たら", jp: "食べたら<br><span class='kana-text'>たべたら</span>", es: "Si/Cuando (condicional)" },
-            { word: "Condicional -ば", jp: "食べれば<br><span class='kana-text'>たべれば</span>", es: "Si (condicional hipotético)" },
-            { word: "Pasiva -られる", jp: "食べられる<br><span class='kana-text'>たべられる</span>", es: "Voz pasiva" },
-            { word: "Causativa -させる", jp: "食べさせる<br><span class='kana-text'>たべさせる</span>", es: "Hacer que alguien haga algo" },
-            { word: "Potencial -える", jp: "食べられる<br><span class='kana-text'>たべられる</span>", es: "Poder hacer algo" }
+        N3: [
+            {
+                topic: "Verb-te-form + miru",
+                explanation: "Intentar hacer algo (ver qué pasa).",
+                examples: [
+                    { japanese: "新しい店に行ってみます。", romaji: "Atarashii mise ni itte mimasu.", translation: "Voy a probar ir a la tienda nueva." }
+                ]
+            },
+            {
+                topic: "Verb-masu-stem + nagara",
+                explanation: "Hacer dos cosas al mismo tiempo (mientras).",
+                examples: [
+                    { japanese: "ご飯を食べながらテレビを見ます。", romaji: "Gohan o tabenagara terebi o mimasu.", translation: "Miro televisión mientras como." }
+                ]
+            },
+            {
+                topic: "I-adj/Na-adj/Verb + nara",
+                explanation: "Si, en caso de que (condicional).",
+                examples: [
+                    { japanese: "雨なら、行きません。", romaji: "Ame nara, ikimasen.", translation: "Si está lloviendo, no voy." }
+                ]
+            },
+            {
+                topic: "Verb-dictionary-form + koto + ga + arimasu",
+                explanation: "He experimentado hacer algo.",
+                examples: [
+                    { japanese: "日本で富士山を見たことがあります。", romaji: "Nihon de Fujisan o mita koto ga arimasu.", translation: "He visto el Monte Fuji en Japón." }
+                ]
+            }
         ]
     };
 
@@ -1029,11 +1158,11 @@
         } else if (track === 'nums-ordinal') {
             currentData = generateOrdinalNumbers();
         } else if (track === 'grammar-particles') {
-            currentData = dataGrammar.particles.map(x => ({...x, displayMode: 'whole'}));
+            currentData = dataGrammar.N5.map(x => ({...x, displayMode: 'grammar'}));
         } else if (track === 'grammar-basic') {
-            currentData = dataGrammar.basic.map(x => ({...x, displayMode: 'whole'}));
+            currentData = dataGrammar.N4.map(x => ({...x, displayMode: 'grammar'}));
         } else if (track === 'grammar-advanced') {
-            currentData = dataGrammar.advanced.map(x => ({...x, displayMode: 'whole'}));
+            currentData = dataGrammar.N3.map(x => ({...x, displayMode: 'grammar'}));
         }
 
         submenus.forEach(el => el.classList.remove('active'));
@@ -1061,6 +1190,9 @@
         if (item.displayMode === 'whole') {
             const card = createWholeCard(item);
             syllablesArea.appendChild(card);
+        } else if (item.displayMode === 'grammar') {
+            const card = createGrammarCard(item);
+            syllablesArea.appendChild(card);
         } else {
             item.breakdown.forEach(part => {
                 const card = createCard(part);
@@ -1083,6 +1215,36 @@
             <div class="torii-pillars-card"></div>
             <div class="card-face card-front">${part.es}</div>
             <div class="card-face card-back">${kanaChar}</div>
+        `;
+
+        card.addEventListener('click', function() {
+            if (!this.classList.contains('flipped')) this.classList.add('flipped');
+        });
+        return card;
+    }
+
+    function createGrammarCard(item) {
+        const card = document.createElement('div');
+        card.className = 'syllable-card whole-word-card';
+        
+        card.innerHTML = `
+            <div class="card-face card-front jp-word-front">
+                <div class="kanji-display">${item.topic}</div>
+                <div class="kana-display" style="font-size:1.2rem; color:#666; text-align:left; padding:10px;">
+                    ${item.explanation}
+                </div>
+            </div>
+            <div class="card-face card-back es-word-back" style="background: var(--torii-red); padding:20px;">
+                <div style="color:white; font-size:1.3rem; line-height:1.6;">
+                    ${item.examples.map(ex => `
+                        <div style="margin-bottom:15px;">
+                            <div style="font-weight:bold; margin-bottom:5px;">${ex.japanese}</div>
+                            <div style="font-size:0.9rem; opacity:0.9; margin-bottom:3px;">${ex.romaji}</div>
+                            <div>${ex.translation}</div>
+                        </div>
+                    `).join('')}
+                </div>
+            </div>
         `;
 
         card.addEventListener('click', function() {
