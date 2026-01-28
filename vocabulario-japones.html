@@ -135,6 +135,50 @@
             border: 1px solid #eee;
         }
 
+        /* Estilo Torii para vocabulario */
+        .vocab-card .card-front::before {
+            content: ''; 
+            position: absolute; 
+            top: -8px; left: -8px; right: -8px; height: 16px; 
+            background: var(--torii-red); 
+            z-index: 2;
+            border-radius: 10px 10px 0 0;
+        }
+
+        .vocab-card .card-front::after {
+            content: ''; 
+            position: absolute; 
+            top: 24px; left: -8px; right: -8px; height: 6px; 
+            background: var(--torii-red); 
+            z-index: 2;
+        }
+
+        .vocab-card .torii-pillars {
+            position: absolute; left: -8px; top: 0; width: calc(100% + 16px); height: 100%;
+            border-left: 8px solid var(--torii-red); 
+            border-right: 8px solid var(--torii-red);
+            pointer-events: none; 
+            z-index: 1;
+            border-bottom: 8px solid var(--torii-red);
+        }
+
+        .vocab-card .card-back::before {
+            content: ''; 
+            position: absolute; 
+            top: -8px; left: -8px; right: -8px; height: 16px; 
+            background: var(--torii-red); 
+            z-index: 2;
+            border-radius: 10px 10px 0 0;
+        }
+
+        .vocab-card .card-back::after {
+            content: ''; 
+            position: absolute; 
+            top: 24px; left: -8px; right: -8px; height: 6px; 
+            background: var(--torii-red); 
+            z-index: 2;
+        }
+
 
         
         .jp-word-front { 
@@ -307,6 +351,7 @@
             
             // Usar la estructura exacta de index.html
             card.innerHTML = `
+                <div class="torii-pillars"></div>
                 <div class="card-face card-front jp-word-front">
                     <div class="kanji-display">${word.kanji}</div>
                     <div class="kana-display">${word.kana}</div>
