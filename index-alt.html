@@ -137,6 +137,24 @@
         }
         .mode-card:hover .mode-title { color: var(--torii-red); }
 
+        /* Diseño Tori Mejorado - consistente con vocabulary */
+        .mode-card .card-content::before {
+            content: ''; 
+            position: absolute; 
+            top: -8px; left: -8px; right: -8px; height: 16px; 
+            background: var(--torii-red); 
+            z-index: 2;
+            border-radius: 10px 10px 0 0;
+        }
+
+        .mode-card .card-content::after {
+            content: ''; 
+            position: absolute; 
+            top: 24px; left: -8px; right: -8px; height: 6px; 
+            background: var(--torii-red); 
+            z-index: 2;
+        }
+
         /* --- ÁREA DE JUEGO --- */
         #game-screen { display: none; width: 100%; text-align: center; padding-top: 1rem; }
         
