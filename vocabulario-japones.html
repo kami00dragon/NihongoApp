@@ -96,13 +96,6 @@
             grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
             gap: 1.5rem;
             width: 100%;
-        }
-
-        .vocabulary-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-            gap: 1.5rem;
-            width: 100%;
             perspective: 1000px;
         }
 
@@ -141,6 +134,8 @@
             transform: rotateY(180deg);
             border: none;
         }
+
+
         
         .jp-word-front { 
             font-size: 1rem; 
@@ -153,49 +148,7 @@
             color: var(--ink-black);
         }
 
-        .card-front {
-            position: relative;
-        }
 
-        .card-front::before {
-            content: '';
-            position: absolute;
-            left: -5px;
-            top: -5px;
-            right: -5px;
-            height: calc(100% + 10px);
-            border-left: 5px solid var(--torii-red);
-            border-right: 5px solid var(--torii-red);
-            border-top: 5px solid var(--torii-red);
-            border-radius: 12px;
-            pointer-events: none;
-            z-index: 2;
-        }
-
-        .card-back {
-            transform: rotateY(180deg);
-            background: linear-gradient(135deg, var(--torii-red) 0%, #8b0020 100%);
-            color: white;
-        }
-
-        .vocab-card:hover .card-face {
-            box-shadow: 0 15px 30px rgba(188, 0, 45, 0.2);
-        }
-
-        .card-back::before {
-            content: '';
-            position: absolute;
-            left: -5px;
-            top: -5px;
-            right: -5px;
-            height: calc(100% + 10px);
-            border-left: 5px solid white;
-            border-right: 5px solid white;
-            border-top: 5px solid white;
-            border-radius: 12px;
-            pointer-events: none;
-            z-index: 2;
-        }
 
         .kanji-display { font-size: 3.5rem; margin-bottom: 15px; line-height: 1; font-family: serif; color: var(--ink-black); }
         .kana-display { font-size: 1.3rem; opacity: 0.8; color: #555; font-weight: normal; }
@@ -293,6 +246,7 @@
             const data = await response.json();
             allVocabulary = data.words;
             console.log(`Cargadas ${allVocabulary.length} palabras de vocabulario`);
+            console.log('Primera palabra:', allVocabulary[0]); // Debug
             
             // Por defectar mostrar N5
             selectLevel('N5');
@@ -347,8 +301,11 @@
         container.innerHTML = '';
         
         filteredVocabulary.forEach(word => {
+            // Crear tarjeta exactamente como en index.html - createWholeCard
             const card = document.createElement('div');
-            card.className = 'vocab-card';
+            card.className = 'vocab-card'; // Mismo estilo que syllable-card
+            
+            // Usar la estructura exacta de index.html
             card.innerHTML = `
                 <div class="card-face card-front jp-word-front">
                     <div class="kanji-display">${word.kanji}</div>
@@ -359,6 +316,7 @@
                 </div>
             `;
             
+            // Usar el mismo event listener que index.html
             card.addEventListener('click', function() {
                 if (!this.classList.contains('flipped')) this.classList.add('flipped');
             });
