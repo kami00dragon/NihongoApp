@@ -198,10 +198,54 @@
         }
 
         .card-back {
-            background-color: var(--torii-red); 
-            color: white;
+            background-color: white; 
+            color: var(--ink-black);
             transform: rotateY(180deg);
-            border: none;
+            border: 1px solid #eee;
+        }
+
+        /* Estilo Torii mejorado para syllable cards */
+        .syllable-card .card-front::before {
+            content: ''; 
+            position: absolute; 
+            top: -8px; left: -8px; right: -8px; height: 16px; 
+            background: var(--torii-red); 
+            z-index: 2;
+            border-radius: 10px 10px 0 0;
+        }
+
+        .syllable-card .card-front::after {
+            content: ''; 
+            position: absolute; 
+            top: 24px; left: -8px; right: -8px; height: 6px; 
+            background: var(--torii-red); 
+            z-index: 2;
+        }
+
+        .syllable-card .torii-pillars-card {
+            position: absolute; left: -8px; top: 0; width: calc(100% + 16px); height: 100%;
+            border-left: 8px solid var(--torii-red); 
+            border-right: 8px solid var(--torii-red);
+            pointer-events: none; 
+            z-index: 1;
+            border-bottom: 8px solid var(--torii-red);
+        }
+
+        .syllable-card .card-back::before {
+            content: ''; 
+            position: absolute; 
+            top: -8px; left: -8px; right: -8px; height: 16px; 
+            background: var(--torii-red); 
+            z-index: 2;
+            border-radius: 10px 10px 0 0;
+        }
+
+        .syllable-card .card-back::after {
+            content: ''; 
+            position: absolute; 
+            top: 24px; left: -8px; right: -8px; height: 6px; 
+            background: var(--torii-red); 
+            z-index: 2;
         }
         
         .jp-word-front { 
@@ -1017,6 +1061,7 @@
         }
 
         card.innerHTML = `
+            <div class="torii-pillars-card"></div>
             <div class="card-face card-front">${part.es}</div>
             <div class="card-face card-back">${kanaChar}</div>
         `;
@@ -1037,6 +1082,7 @@
             const kana = parts[1] || '';
             
             card.innerHTML = `
+                <div class="torii-pillars-card"></div>
                 <div class="card-face card-front jp-word-front">
                     <div class="kanji-display">${kanji}</div>
                     <div class="kana-display">${kana}</div>
@@ -1046,13 +1092,14 @@
         } else {
             // ESTILO ESPECIAL PARA NÚMEROS: Kanji grande, Hiragana abajo
             card.innerHTML = `
+                <div class="torii-pillars-card"></div>
                 <div class="card-face card-front jp-word-front">
                     <div class="kanji-display" style="color: var(--ink-black);">${item.word}</div> <!-- Número en arábigo o etiqueta -->
                     <div class="kana-display" style="font-size:1rem; color:#888;">Español</div>
                 </div>
-                <div class="card-face card-back jp-word-front" style="background: var(--torii-red);">
-                    <div class="kanji-display" style="color: white;">${item.jp.split('<br>')[0]}</div> <!-- Kanji -->
-                    <div class="kana-display" style="color: rgba(255,255,255,0.8);">${item.jp.split('<br>')[1].replace(/<.*?>/g, '')}</div> <!-- Hiragana limpio -->
+                <div class="card-face card-back es-word-back">
+                    <div class="kanji-display">${item.jp.split('<br>')[0]}</div> <!-- Kanji -->
+                    <div class="kana-display">${item.jp.split('<br>')[1].replace(/<.*?>/g, '')}</div> <!-- Hiragana limpio -->
                 </div>
             `;
         }
