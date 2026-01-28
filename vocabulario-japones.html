@@ -105,7 +105,7 @@
             position: relative;
             cursor: pointer;
             transform-style: preserve-3d;
-            transition: transform 0.6s cubic-bezier(0.4, 0.2, 0.2, 1);
+            transition: transform 0.3s ease-in-out;
         }
 
         .vocab-card.flipped { transform: rotateY(180deg); }
@@ -129,10 +129,10 @@
         }
 
         .card-back {
-            background-color: var(--torii-red); 
-            color: white;
+            background-color: white; 
+            color: var(--ink-black);
             transform: rotateY(180deg);
-            border: none;
+            border: 1px solid #eee;
         }
 
 
