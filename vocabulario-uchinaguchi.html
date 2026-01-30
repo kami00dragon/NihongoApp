@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vocabulario Uchinaguchi - Idioma de Okinawa</title>
+    <style>
+        :root {
+            --bg-paper: #ffffff;
+            --bg-pattern: #f9f9f9;
+            --torii-red: #BC002D;
+            --ink-black: #2c3e50;
+            --okinawa-blue: #4169E1;
+            --theme-color: var(--torii-red);
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', 'Hiragino Sans', 'Noto Sans JP', sans-serif; }
+        
+        body { 
+            background-color: var(--bg-pattern);
+            color: var(--ink-black);
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            background: linear-gradient(135deg, var(--torii-red) 0%, var(--okinawa-blue) 100%);
+            padding: 1rem;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border-bottom: 4px solid var(--torii-red);
+            position: sticky; top: 0; z-index: 100;
+            color: white;
+        }
+
+        .app-logo {
+            width: 60px; height: 40px; fill: white; margin-bottom: 0.3rem;
+        }
+
+        .header-title { font-size: 1.4rem; color: white; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; }
+        .header-subtitle { font-size: 0.9rem; color: rgba(255,255,255,0.9); margin-top: 0.2rem; font-style: italic; }
+        
+        .top-controls {
+            width: 100%; display: flex; justify-content: space-between; position: absolute; left: 0; top: 0; padding: 12px 15px; box-sizing: border-box; pointer-events: none; 
+        }
+
+        .btn-back {
+            pointer-events: auto; background: white; color: var(--torii-red); border: 2px solid var(--torii-red);
+            padding: 6px 16px; border-radius: 20px; cursor: pointer; font-size: 0.85rem; font-weight: bold; transition: all 0.3s; box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            text-decoration: none;
+        }
+        .btn-back:hover { background: var(--torii-red); color: white; transform: translateY(-2px); }
+
+        main {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            padding: 2rem 1rem;
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .category-selector {
+            display: flex;
+            justify-content: center;
+            gap: 0.8rem;
+            margin-bottom: 2rem;
+            flex-wrap: wrap;
+        }
+
+        .category-btn {
+            background: white;
+            color: var(--ink-black);
+            border: 2px solid var(--torii-red);
+            padding: 8px 16px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: all 0.3s;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            font-size: 0.9rem;
+        }
+
+        .category-btn.active, .category-btn:hover {
+            background: var(--torii-red);
+            color: white;
+            transform: translateY(-2px);
+        }
+
+        .search-box {
+            width: 100%;
+            max-width: 500px;
+            margin-bottom: 2rem;
+            position: relative;
+        }
+
+        .search-input {
+            width: 100%;
+            padding: 12px 20px;
+            border: 2px solid #ddd;
+            border-radius: 25px;
+            font-size: 1rem;
+            outline: none;
+            transition: all 0.3s;
+        }
+
+        .search-input:focus {
+            border-color: var(--torii-red);
+            box-shadow: 0 0 0 3px rgba(188, 0, 45, 0.1);
+        }
+
+        .vocabulary-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+            gap: 1.5rem;
+            width: 100%;
+            perspective: 1000px;
+        }
+
+        .vocab-card {
+            width: 320px;
+            height: 300px;
+            position: relative;
+            cursor: pointer;
+            transform-style: preserve-3d;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .vocab-card.flipped { transform: rotateY(180deg); }
+
+        .card-face {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            backface-visibility: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            font-weight: bold;
+            user-select: none;
+            padding: 20px;
+            flex-direction: column;
+            border: 1px solid #eee;
+            background: white;
+        }
+
+        .card-back {
+            background-color: linear-gradient(135deg, var(--torii-red) 0%, var(--okinawa-blue) 100%);
+            color: white;
+            transform: rotateY(180deg);
+            border: 1px solid var(--torii-red);
+        }
+
+        /* Estilo Torii para vocabulario */
+        .vocab-card .card-front::before {
+            content: ''; 
+            position: absolute; 
+            top: -8px; left: -8px; right: -8px; height: 16px; 
+            background: var(--torii-red); 
+            z-index: 2;
+            border-radius: 10px 10px 0 0;
+        }
+
+        .vocab-card .card-front::after {
+            content: ''; 
+            position: absolute; 
+            top: 24px; left: -8px; right: -8px; height: 6px; 
+            background: var(--torii-red); 
+            z-index: 2;
+        }
+
+        .vocab-card .torii-pillars {
+            position: absolute; left: -8px; top: 0; width: calc(100% + 16px); height: 100%;
+            border-left: 8px solid var(--torii-red); 
+            border-right: 8px solid var(--torii-red);
+            pointer-events: none; 
+            z-index: 1;
+            border-bottom: 8px solid var(--torii-red);
+        }
+
+        .vocab-card .card-back::before {
+            content: ''; 
+            position: absolute; 
+            top: -8px; left: -8px; right: -8px; height: 16px; 
+            background: var(--okinawa-blue); 
+            z-index: 2;
+            border-radius: 10px 10px 0 0;
+        }
+
+        .vocab-card .card-back::after {
+            content: ''; 
+            position: absolute; 
+            top: 24px; left: -8px; right: -8px; height: 6px; 
+            background: var(--okinawa-blue); 
+            z-index: 2;
+        }
+
+        .jp-word-front { 
+            font-size: 1rem; 
+            display: flex; 
+            flex-direction: column; 
+            justify-content: center; 
+            align-items: center; 
+            height: 100%; 
+            background: #fff;
+            color: var(--ink-black);
+        }
+
+        .kanji-display { font-size: 2.5rem; margin-bottom: 15px; line-height: 1; font-family: serif; color: var(--ink-black); }
+        .kana-display { font-size: 1.5rem; color: var(--torii-red); font-weight: bold; margin-bottom: 10px; }
+        .romaji-display { font-size: 1rem; color: #666; font-style: italic; margin-bottom: 10px; }
+        
+        /* Estilos para la parte posterior con contenido completo */
+        .vocab-back-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            width: 100%;
+            height: 100%;
+            padding: 20px;
+        }
+        
+        .kanji-back {
+            font-size: 2rem;
+            font-family: serif;
+            color: white;
+            font-weight: bold;
+            margin-bottom: 8px;
+            line-height: 1;
+        }
+        
+        .kana-back {
+            font-size: 1.3rem;
+            color: rgba(255,255,255,0.9);
+            font-style: italic;
+            margin-bottom: 10px;
+        }
+
+        .romaji-back {
+            font-size: 1rem;
+            color: rgba(255,255,255,0.8);
+            margin-bottom: 15px;
+        }
+        
+        .spanish-back {
+            font-size: 1.2rem;
+            color: white;
+            font-weight: normal;
+            border-top: 1px solid rgba(255,255,255,0.3);
+            padding-top: 10px;
+            width: 100%;
+        }
+        
+        .category-tag {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: var(--torii-red);
+            color: white;
+            padding: 4px 8px;
+            border-radius: 12px;
+            font-size: 0.7rem;
+            font-weight: bold;
+            z-index: 10;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 2rem;
+            color: #666;
+        }
+
+        .intro-text {
+            text-align: center;
+            max-width: 800px;
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            border-left: 5px solid var(--torii-red);
+        }
+
+        @media (max-width: 768px) {
+            .vocabulary-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .category-selector {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .category-btn {
+                width: 200px;
+            }
+            
+            .kanji-display { font-size: 2rem; }
+            .kana-display { font-size: 1.3rem; }
+            .kanji-back { font-size: 1.8rem; }
+            .kana-back { font-size: 1.2rem; }
+        }
+    </style>
+</head>
+<body>
+<header>
+    <div class="top-controls">
+        <a href="index.html" class="btn-back">← Volver</a>
+    </div>
+    
+    <svg class="app-logo" viewBox="0 0 100 60" xmlns="http://www.w3.org/2000/svg">
+        <rect x="10" y="5" width="8" height="50" fill="white" rx="1"/>
+        <rect x="82" y="5" width="8" height="50" fill="white" rx="1"/>
+        <path d="M5,10 Q50,-10 95,10 L95,18 Q50,0 5,18 Z" fill="white"/>
+        <rect x="10" y="22" width="80" height="6" fill="white"/>
+    </svg>
+
+    <div class="header-title">Vocabulario Uchinaguchi</div>
+    <div class="header-subtitle">El idioma de Okinawa - 200 palabras esenciales</div>
+</header>
+
+<main>
+    <div class="intro-text">
+        <h3>Uchinaaguchi (うちなーぐち)</h3>
+        <p>El Uchinaguchi es el idioma nativo de Okinawa, una lengua Ryukyuan con características únicas. 
+        Aprende vocabulario esencial con estas tarjetas que muestran el japonés estándar, el Uchinaguchi, y su traducción al español.</p>
+    </div>
+
+    <div class="category-selector">
+        <button class="category-btn active" data-category="all">Todas</button>
+        <button class="category-btn" data-category="saludos">Saludos</button>
+        <button class="category-btn" data-category="pronombres">Pronombres</button>
+        <button class="category-btn" data-category="personas">Personas</button>
+        <button class="category-btn" data-category="familia">Familia</button>
+        <button class="category-btn" data-category="números">Números</button>
+        <button class="category-btn" data-category="verbos">Verbos</button>
+        <button class="category-btn" data-category="lugares">Lugares</button>
+        <button class="category-btn" data-category="naturaleza">Naturaleza</button>
+        <button class="category-btn" data-category="comida">Comida</button>
+        <button class="category-btn" data-category="adjetivos">Adjetivos</button>
+        <button class="category-btn" data-category="tiempo">Tiempo</button>
+        <button class="category-btn" data-category="objetos">Objetos</button>
+        <button class="category-btn" data-category="cultura">Cultura</button>
+        <button class="category-btn" data-category="conceptos">Conceptos</button>
+    </div>
+
+    <div class="search-box">
+        <input type="text" class="search-input" placeholder="Buscar por japonés, uchinaguchi, romaji o español...">
+    </div>
+
+    <div id="vocabulary-container" class="vocabulary-grid">
+        <div class="loading">Cargando vocabulario Uchinaguchi...</div>
+    </div>
+</main>
+
+<script>
+    let currentCategory = 'all';
+    let allVocabulary = [];
+    let filteredVocabulary = [];
+
+    async function loadVocabulary() {
+        try {
+            const response = await fetch('vocabulario-uchinaguchi.json');
+            const data = await response.json();
+            allVocabulary = data.words;
+            console.log(`Cargadas ${allVocabulary.length} palabras de vocabulario Uchinaguchi`);
+            
+            filterAndDisplayVocabulary();
+        } catch (error) {
+            console.error('Error al cargar vocabulario:', error);
+            document.getElementById('vocabulary-container').innerHTML = 
+                '<div class="loading">Error al cargar el vocabulario. Por favor, recarga la página.</div>';
+        }
+    }
+
+    function selectCategory(category) {
+        currentCategory = category;
+        
+        document.querySelectorAll('.category-btn').forEach(btn => {
+            btn.classList.remove('active');
+            if (btn.dataset.category === category) {
+                btn.classList.add('active');
+            }
+        });
+        
+        filterAndDisplayVocabulary();
+    }
+
+    function filterAndDisplayVocabulary() {
+        let filtered = currentCategory !== 'all' ? 
+            allVocabulary.filter(word => word.category === currentCategory) : 
+            allVocabulary;
+        
+        const searchTerm = document.querySelector('.search-input').value.toLowerCase().trim();
+        if (searchTerm) {
+            filtered = filtered.filter(word => 
+                word.japanese.toLowerCase().includes(searchTerm) ||
+                word.uchinaguchi.toLowerCase().includes(searchTerm) ||
+                word.romaji.toLowerCase().includes(searchTerm) ||
+                word.español.some(translation => translation.toLowerCase().includes(searchTerm)) ||
+                word.category.toLowerCase().includes(searchTerm)
+            );
+        }
+        
+        filteredVocabulary = filtered;
+        displayVocabulary();
+    }
+
+    function displayVocabulary() {
+        const container = document.getElementById('vocabulary-container');
+        
+        if (filteredVocabulary.length === 0) {
+            container.innerHTML = '<div class="loading">No se encontraron palabras.</div>';
+            return;
+        }
+        
+        container.innerHTML = '';
+        
+        filteredVocabulary.forEach(word => {
+            const card = document.createElement('div');
+            card.className = 'vocab-card';
+            
+            card.innerHTML = `
+                <div class="category-tag">${word.category}</div>
+                <div class="torii-pillars"></div>
+                <div class="card-face card-front jp-word-front">
+                    <div class="kanji-display">${word.japanese}</div>
+                    <div class="kana-display">${word.uchinaguchi}</div>
+                    <div class="romaji-display">[${word.romaji}]</div>
+                </div>
+                <div class="card-face card-back">
+                    <div class="vocab-back-content">
+                        <div class="kanji-back">${word.japanese}</div>
+                        <div class="kana-back">${word.uchinaguchi}</div>
+                        <div class="romaji-back">[${word.romaji}]</div>
+                        <div class="spanish-back">${word.español.join(', ')}</div>
+                    </div>
+                </div>
+            `;
+            
+            card.addEventListener('click', function() {
+                if (!this.classList.contains('flipped')) {
+                    this.classList.add('flipped');
+                }
+            });
+            
+            container.appendChild(card);
+        });
+    }
+
+    // Event listeners
+    document.addEventListener('DOMContentLoaded', function() {
+        loadVocabulary();
+        
+        document.querySelectorAll('.category-btn').forEach(btn => {
+            btn.addEventListener('click', function() {
+                selectCategory(this.dataset.category);
+            });
+        });
+        
+        document.querySelector('.search-input').addEventListener('input', function() {
+            filterAndDisplayVocabulary();
+        });
+    });
+</script>
+</body>
+</html>

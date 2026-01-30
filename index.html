@@ -493,11 +493,19 @@
             </div>
         </div>
 
-<div class="mode-card" onclick="openVocabularyDocument()">
+        <div class="mode-card" onclick="openVocabularyDocument()">
             <div class="torii-pillars"></div>
             <div class="card-content">
                 <span class="mode-title">Vocabulario Japonés</span>
                 <span class="mode-desc">4000 palabras más usadas JLPT N5-N1 con ejemplos.</span>
+            </div>
+        </div>
+
+        <div class="mode-card" onclick="openUchinaguchiDocument()">
+            <div class="torii-pillars"></div>
+            <div class="card-content">
+                <span class="mode-title">Uchinaguchi (Okinawa)</span>
+                <span class="mode-desc">200 palabras esenciales del idioma de Okinawa.</span>
             </div>
         </div>
         </div>
@@ -1348,8 +1356,11 @@
     }
 
     function openVocabularyDocument() {
-        // Abrirá el documento de vocabulario en una nueva sección
         window.location.href = 'vocabulario-japones.html';
+    }
+
+    function openUchinaguchiDocument() {
+        window.location.href = 'vocabulario-uchinaguchi.html';
     }
 
     function startGame(mode, track) {
