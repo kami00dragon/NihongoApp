@@ -196,6 +196,44 @@
 
         .kanji-display { font-size: 3.5rem; margin-bottom: 15px; line-height: 1; font-family: serif; color: var(--ink-black); }
         .kana-display { font-size: 1.3rem; opacity: 0.8; color: #555; font-weight: normal; }
+        
+        /* Estilos para la parte posterior con contenido completo */
+        .vocab-back-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            width: 100%;
+            height: 100%;
+            padding: 20px;
+        }
+        
+        .kanji-back {
+            font-size: 3rem;
+            font-family: serif;
+            color: var(--ink-black);
+            font-weight: bold;
+            margin-bottom: 8px;
+            line-height: 1;
+        }
+        
+        .kana-back {
+            font-size: 1.4rem;
+            color: #666;
+            font-style: italic;
+            margin-bottom: 10px;
+        }
+        
+        .spanish-back {
+            font-size: 1.2rem;
+            color: #888;
+            font-weight: normal;
+            border-top: 1px solid #eee;
+            padding-top: 8px;
+            width: 100%;
+        }
+        
         .es-word-back { font-size: 1.8rem; letter-spacing: 1px; font-weight: 500; }
 
         .search-box {
@@ -238,6 +276,19 @@
             
             .level-btn {
                 width: 200px;
+            }
+            
+            /* Estilos responsivos para la parte posterior */
+            .kanji-back {
+                font-size: 2.5rem;
+            }
+            
+            .kana-back {
+                font-size: 1.3rem;
+            }
+            
+            .spanish-back {
+                font-size: 1.1rem;
             }
         }
     </style>
@@ -357,7 +408,11 @@
                     <div class="kana-display">${word.kana}</div>
                 </div>
                 <div class="card-face card-back es-word-back">
-                    ${word.español.join(', ')}
+                    <div class="vocab-back-content">
+                        <div class="kanji-back">${word.kanji}</div>
+                        <div class="kana-back">${word.kana}</div>
+                        <div class="spanish-back">${word.español.join(', ')}</div>
+                    </div>
                 </div>
             `;
             
