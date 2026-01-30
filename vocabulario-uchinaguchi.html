@@ -154,7 +154,7 @@
         }
 
         .card-back {
-            background-color: linear-gradient(135deg, var(--torii-red) 0%, var(--okinawa-blue) 100%);
+            background: linear-gradient(135deg, var(--torii-red) 0%, var(--okinawa-blue) 100%);
             color: white;
             transform: rotateY(180deg);
             border: 1px solid var(--torii-red);
@@ -247,11 +247,7 @@
             margin-bottom: 10px;
         }
 
-        .romaji-back {
-            font-size: 1rem;
-            color: rgba(255,255,255,0.8);
-            margin-bottom: 15px;
-        }
+
         
         .spanish-back {
             font-size: 1.2rem;
@@ -261,6 +257,8 @@
             padding-top: 10px;
             width: 100%;
         }
+        
+        .es-word-back { font-size: 1.8rem; letter-spacing: 1px; font-weight: 500; }
         
         .category-tag {
             position: absolute;
@@ -439,11 +437,10 @@
                     <div class="kana-display">${word.uchinaguchi}</div>
                     <div class="romaji-display">[${word.romaji}]</div>
                 </div>
-                <div class="card-face card-back">
+                <div class="card-face card-back es-word-back">
                     <div class="vocab-back-content">
                         <div class="kanji-back">${word.japanese}</div>
                         <div class="kana-back">${word.uchinaguchi}</div>
-                        <div class="romaji-back">[${word.romaji}]</div>
                         <div class="spanish-back">${word.español.join(', ')}</div>
                     </div>
                 </div>
